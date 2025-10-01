@@ -8,7 +8,7 @@ const Card = ({ card }) => {
   const imageAreaRef = useRef(null);
 
   // Get theme from CARD_THEMES
-  const theme = CARD_THEMES[card.theme];
+  const theme = CARD_THEMES[card.theme] || CARD_THEMES.cosmicPurple;
 
   useEffect(() => {
     const cardElement = cardRef.current;
@@ -101,7 +101,17 @@ const Card = ({ card }) => {
                 {card.name} {card.subtitle}
               </div>
             </div>
-            <div className="card-level">LVL {card.level}</div>
+            <div
+              className="card-level"
+              style={{
+                background: theme.stat.background,
+                color: theme.stat.color,
+                boxShadow: theme.stat.boxShadow,
+                border: theme.stat.border,
+              }}
+            >
+              LVL {card.level}
+            </div>
           </div>
 
           {/* Image Area */}
