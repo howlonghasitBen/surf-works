@@ -179,7 +179,7 @@
   font-size: 2rem;
   position: absolute;
   top: min(-0.25vw, -2px);
-  left: min(1vw, 8px);
+  left: 0;
   opacity: 0.4;
 }
 
@@ -187,8 +187,8 @@
   content: '"';
   font-size: 2rem;
   position: absolute;
-  bottom: min(-1vw, -8px);
-  right: min(1vw, 8px);
+  bottom: min(-1.2vw, -10px);
+  right: 0.5vw;
   opacity: 0.4;
 }
 
@@ -289,4 +289,74 @@
   letter-spacing: 0.1em;
 }
 
-/* Mobile Responsive */
+/* Mobile Responsive - ADD THIS */
+@media (max-width: 1079px) {
+  .card-container {
+    width: 280px;
+    height: auto;
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  .card-header {
+    padding: 8px 10px;
+  }
+
+  .card-title {
+    font-size: 0.7rem;
+  }
+
+  .card-level {
+    font-size: 0.7rem;
+    padding: 3px 6px;
+  }
+
+  .mana-orb {
+    width: 20px;
+    height: 20px;
+    font-size: 0.45rem;
+  }
+
+  .image-area {
+    margin: 6px;
+    height: 35%;
+  }
+
+  .type-power-section {
+    padding: 8px 12px;
+    font-size: 0.6rem;
+  }
+
+  .power-stats {
+    font-size: 0.45rem;
+  }
+
+  .flavor-text {
+    font-size: 0.65rem;
+    padding: 0 12px;
+  }
+
+  .bottom-section {
+    padding: 8px 12px;
+  }
+
+  .artist-info,
+  .rarity-indicator {
+    font-size: 0.65rem;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .card-container {
+    width: 240px;
+  }
+
+  .card-title {
+    font-size: 0.65rem;
+  }
+
+  .flavor-text {
+    font-size: 0.6rem;
+  }
+}
