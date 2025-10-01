@@ -128,8 +128,8 @@
 }
 
 .image-area img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
   transform: scale(1.2);
 }
 
