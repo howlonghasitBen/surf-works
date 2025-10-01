@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Home, Code, DollarSign, PenTool, Wallet } from "lucide-react";
+import { Home, Code, DollarSign, PenTool, Wallet, Layers } from "lucide-react";
 import { useWeb3Manager } from "../hooks/useWeb3Manager";
 import "./Navigation.css";
 
@@ -17,6 +17,12 @@ const Navigation = ({ onNavigate, currentPage }) => {
       icon: <Home size={24} />,
       label: "Home",
       action: () => onNavigate("home"),
+    },
+    {
+      id: "deck",
+      icon: <Layers size={24} />,
+      label: "Card Deck",
+      action: () => onNavigate("deck"),
     },
     {
       id: "github",
