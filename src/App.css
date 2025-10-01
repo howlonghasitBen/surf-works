@@ -178,18 +178,18 @@ body {
 @media (max-width: 1079px) {
   .bodyContent {
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
   }
 
   #leftContent {
     width: 100%;
     height: auto;
-    max-height: 300px;
+    aspect-ratio: 8 / 6;
   }
 
   #frontSvg {
     width: 100%;
     height: auto;
+    aspect-ratio: 8 / 6;
   }
 
   .rightContentWrapper {

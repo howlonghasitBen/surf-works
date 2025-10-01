@@ -42,10 +42,15 @@ const Navigation = ({ onNavigate, currentPage }) => {
         window.open("https://substack.com/@howlonghasitben", "_blank"),
     },
     {
-      id: "whirlpool",
-      icon: "🌊",
-      label: "Whirlpool",
-      action: () => onNavigate("whirlpool"),
+      id: "harpoon",
+      icon: (
+        <img
+          src="/images/harpoon.png"
+          style={{ width: "65%", height: "65%", zIndex: "1" }}
+        />
+      ),
+      label: "harpoon",
+      action: () => onNavigate("harpoon"),
     },
   ];
 
