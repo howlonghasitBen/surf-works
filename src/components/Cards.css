@@ -22,11 +22,15 @@
 }
 
 .card.flipped {
-  transform: rotateY(180deg) !important;
+  transform: rotateY(180deg);
 }
 
-.card:active {
-  cursor: grabbing;
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card.flipped:hover {
+  transform: rotateY(180deg) scale(1.02);
 }
 
 /* Card Faces */
@@ -41,7 +45,6 @@
   -moz-backface-visibility: hidden;
   border-radius: min(1.8vw, 14px);
   overflow: hidden;
-  transform-style: preserve-3d;
   display: flex;
   flex-direction: column;
   top: 0;
@@ -99,8 +102,8 @@
 }
 
 .mana-orb {
-  width: min(3vw, 24px);
-  height: min(3vw, 24px);
+  width: 1rem;
+  height: 1rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -118,9 +121,6 @@
   border-radius: min(1vw, 8px);
   position: relative;
   overflow: hidden;
-  transform-style: preserve-3d;
-  perspective: -1000px;
-  transition: transform 0.1s ease-out;
   flex-shrink: 0;
   display: flex;
   align-items: center;
@@ -170,7 +170,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transform-style: preserve-3d;
   position: relative;
 }
 
@@ -233,7 +232,7 @@
 }
 
 .back-title {
-  font-size: min(12vw, 64px);
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: min(2vw, 20px);
   color: #00bfff;
@@ -252,7 +251,6 @@
   position: relative;
   width: 100%;
   height: 100%;
-  animation: rotate 12s linear infinite;
 }
 
 .nav-cog {
@@ -289,7 +287,7 @@
   letter-spacing: 0.1em;
 }
 
-/* Mobile Responsive - ADD THIS */
+/* Mobile Responsive */
 @media (max-width: 1079px) {
   .card-container {
     width: 280px;
@@ -312,8 +310,6 @@
   }
 
   .mana-orb {
-    width: 20px;
-    height: 20px;
     font-size: 0.45rem;
   }
 
