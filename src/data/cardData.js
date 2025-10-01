@@ -87,6 +87,12 @@ export const CARD_THEMES = {
       color: "#2f4f4f",
       boxShadow: "0 0 min(1vw, 8px) rgba(135, 206, 235, 0.4)",
     },
+    rarity: {
+      background: "linear-gradient(135deg, #ffffff, #f0f8ff)",
+      color: "#2f4f4f",
+      border: "min(0.25vw, 2px) solid #4682b4",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(240, 248, 255, 0.5)",
+    },
   },
   steelSky: {
     background: `radial-gradient(circle at 20% 30%, rgba(192, 192, 192, 0.4) 0%, transparent 50%),
@@ -135,6 +141,12 @@ export const CARD_THEMES = {
       color: "#2f4f4f",
       boxShadow: "0 0 min(1vw, 8px) rgba(135, 206, 235, 0.4)",
     },
+    rarity: {
+      background: "linear-gradient(135deg, #ffffff, #f0f8ff)",
+      color: "#2f4f4f",
+      border: "min(0.25vw, 2px) solid #4682b4",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(240, 248, 255, 0.5)",
+    },
   },
   sunsetFire: {
     background: `radial-gradient(circle at 20% 30%, rgba(255, 140, 0, 0.5) 0%, transparent 50%),
@@ -182,6 +194,12 @@ export const CARD_THEMES = {
       color: "#fff8dc",
       boxShadow: "0 0 min(1vw, 8px) rgba(255, 215, 0, 0.5)",
     },
+    rarity: {
+      background: "linear-gradient(135deg, #ffd700, #ff8c00)",
+      color: "#4a1a00",
+      border: "min(0.25vw, 2px) solid #1a1a1a",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(255, 215, 0, 0.6)",
+    },
   },
   alchemicalRed: {
     background: `radial-gradient(circle at 20% 30%, rgba(220, 20, 60, 0.4) 0%, transparent 50%),
@@ -224,6 +242,12 @@ export const CARD_THEMES = {
       border: "min(0.25vw, 2px) solid #ffd700",
       color: "#ffd700",
       boxShadow: "0 0 min(1vw, 8px) rgba(255, 215, 0, 0.4)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #ffd700, #daa520)",
+      color: "#2c1810",
+      border: "min(0.25vw, 2px) solid #1a1a1a",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(255, 215, 0, 0.5)",
     },
   },
   steelPsychic: {
@@ -268,6 +292,12 @@ export const CARD_THEMES = {
       color: "#dda0dd",
       boxShadow: "0 0 min(1vw, 8px) rgba(221, 160, 221, 0.4)",
     },
+    rarity: {
+      background: "linear-gradient(135deg, #dda0dd, #ba55d3)",
+      color: "#1a252f",
+      border: "min(0.25vw, 2px) solid #1a1a1a",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(221, 160, 221, 0.5)",
+    },
   },
   airyWhite: {
     background: `linear-gradient(145deg, #f8fbff, #e8f4f8, #d8eef5)`,
@@ -303,6 +333,12 @@ export const CARD_THEMES = {
       border: "min(0.25vw, 2px) solid #87ceeb",
       color: "#4a6b82",
       boxShadow: "0 0 min(1vw, 8px) rgba(135, 206, 235, 0.4)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #87ceeb, #b0e0e6)",
+      color: "#2f4f4f",
+      border: "min(0.25vw, 2px) solid #4a6b82",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(135, 206, 235, 0.5)",
     },
   },
   stoneMoss: {
@@ -341,6 +377,12 @@ export const CARD_THEMES = {
       border: "1px solid #3c3c3c",
       color: "#98fb98",
       boxShadow: "0 0 min(1vw, 8px) rgba(221, 160, 221, 0.4)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #666, #444)",
+      color: "#f5f5f5",
+      border: "1px solid #111",
+      boxShadow: "0 0 6px rgba(34, 139, 34, 0.4)",
     },
   },
   darkForest: {
@@ -390,6 +432,12 @@ export const CARD_THEMES = {
       color: "#708070",
       boxShadow: "0 0 min(1vw, 8px) rgba(112, 128, 112, 0.3)",
     },
+    rarity: {
+      background: "linear-gradient(135deg, #708070, #556b55)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #1a1a1a",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(112, 128, 112, 0.4)",
+    },
   },
   moonlight: {
     background: `radial-gradient(circle at 20% 30%, rgba(176, 196, 222, 0.3) 0%, transparent 50%),
@@ -437,6 +485,12 @@ export const CARD_THEMES = {
       border: "min(0.25vw, 2px) solid #b0c4de",
       color: "#b0c4de",
       boxShadow: "0 0 min(1vw, 8px) rgba(176, 196, 222, 0.3)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #e6e6fa, #d3d3d3)",
+      color: "#2f4f4f",
+      border: "min(0.25vw, 2px) solid #4682b4",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(230, 230, 250, 0.4)",
     },
   },
 };

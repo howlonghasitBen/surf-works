@@ -201,7 +201,22 @@ const Card = ({ card }) => {
             >
               ◆ {card.artist} ◆
             </div>
-            <div className="rarity-indicator">★ {card.rarity} ★</div>
+            <div
+              className="rarity-indicator"
+              style={{
+                background:
+                  theme.rarity?.background ||
+                  "linear-gradient(135deg, #dda0dd, #ba55d3)",
+                color: theme.rarity?.color || "#1a1a2e",
+                border:
+                  theme.rarity?.border || "min(0.25vw, 2px) solid #1a1a1a",
+                boxShadow:
+                  theme.rarity?.boxShadow ||
+                  "0 0 min(1.2vw, 10px) rgba(221, 160, 221, 0.5)",
+              }}
+            >
+              ★ {card.rarity} ★
+            </div>
           </div>
         </div>
 
