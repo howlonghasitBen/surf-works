@@ -1,72 +1,23 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import { CARD_THEMES } from "../data/cardData";
 import "./Cards.css";
 
 const Card = ({ card }) => {
   const [isFlipped, setIsFlipped] = useState(false);
-  const cardRef = useRef(null);
-  const imageAreaRef = useRef(null);
 
   // Get theme from CARD_THEMES
   const theme = CARD_THEMES[card.theme] || CARD_THEMES.cosmicPurple;
 
-  useEffect(() => {
-    const cardElement = cardRef.current;
-    const imageArea = imageAreaRef.current;
-
-    if (!cardElement || !imageArea) return;
-
-    let isMoving = false;
-
-    const handleMouseMove = (e) => {
-      if (isFlipped) return;
-
-      const rect = cardElement.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
-
-      const centerX = rect.width / 2;
-      const centerY = rect.height / 2;
-
-      const rotateX = ((y - centerY) / centerY) * -15;
-      const rotateY = ((x - centerX) / centerX) * 15;
-
-      cardElement.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-
-      const imageRotateX = ((y - centerY) / centerY) * 5;
-      const imageRotateY = ((x - centerX) / centerX) * 5;
-      imageArea.style.transform = `translateZ(20px) rotateX(${imageRotateX}deg) rotateY(${imageRotateY}deg)`;
-
-      isMoving = true;
-    };
-
-    const handleMouseLeave = () => {
-      cardElement.style.transform =
-        "perspective(1000px) rotateX(0deg) rotateY(0deg)";
-      imageArea.style.transform = "translateZ(0px) rotateX(0deg) rotateY(0deg)";
-      isMoving = false;
-    };
-
-    const handleClick = () => {
-      if (!isMoving) {
-        setIsFlipped(!isFlipped);
-      }
-    };
-
-    cardElement.addEventListener("mousemove", handleMouseMove);
-    cardElement.addEventListener("mouseleave", handleMouseLeave);
-    cardElement.addEventListener("click", handleClick);
-
-    return () => {
-      cardElement.removeEventListener("mousemove", handleMouseMove);
-      cardElement.removeEventListener("mouseleave", handleMouseLeave);
-      cardElement.removeEventListener("click", handleClick);
-    };
-  }, [isFlipped]);
+  const handleClick = () => {
+    setIsFlipped(!isFlipped);
+  };
 
   return (
     <div className="card-container">
-      <div className={`card ${isFlipped ? "flipped" : ""}`} ref={cardRef}>
+      <div
+        className={`card ${isFlipped ? "flipped" : ""}`}
+        onClick={handleClick}
+      >
         {/* Front Face */}
         <div
           className="card-face card-front"
@@ -117,7 +68,6 @@ const Card = ({ card }) => {
           {/* Image Area */}
           <div
             className="image-area"
-            ref={imageAreaRef}
             style={{
               background: theme.imageArea.background,
               border: theme.imageArea.border,
