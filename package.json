@@ -2,7 +2,7 @@
   "homepage": "https://howlonghasitben.github.io/surf-works",
   "name": "surf-works",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "lucide-react": "^0.263.1",
     "react": "^18.2.0",
