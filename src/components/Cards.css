@@ -5,7 +5,7 @@
 /* Card Container */
 .card-container {
   letter-spacing: 0.1px;
-  width: 330px;
+  width: 100%;
   height: auto;
   aspect-ratio: 3 / 4;
   perspective: 1000px;
@@ -292,7 +292,7 @@
 /* Mobile Responsive */
 @media (max-width: 1079px) {
   .card-container {
-    width: 280px;
+    width: 350px;
     height: auto;
     margin: 0;
     flex-shrink: 0;
@@ -347,7 +347,7 @@
 /* Extra small screens */
 @media (max-width: 480px) {
   .card-container {
-    width: 240px;
+    width: 300px;
   }
 
   .card-title {

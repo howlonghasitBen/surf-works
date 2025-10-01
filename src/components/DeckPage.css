@@ -29,11 +29,14 @@
 
 .deck-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 330px));
-  gap: 40px;
-  max-width: 1400px;
-  margin: 0 auto;
-  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 33%));
+  max-width: 100%;
+  place-content: center;
+  border: 1px solid blue;
+}
+
+.deck-grid * {
+  border: 1px solid red;
 }
 
 @keyframes fadeInDown {
@@ -50,7 +53,7 @@
 /* Desktop: 3 columns */
 @media (min-width: 1400px) {
   .deck-grid {
-    grid-template-columns: repeat(3, 330px);
+    grid-template-columns: repeat(auto-fill, minmax(400px, 33%));
     max-width: 1600px;
   }
 }
@@ -58,7 +61,7 @@
 /* Tablet: 2 columns */
 @media (max-width: 1399px) and (min-width: 768px) {
   .deck-grid {
-    grid-template-columns: repeat(2, 330px);
+    grid-template-columns: repeat(auto-fill, minmax(400px, 33%));
   }
 }
 
@@ -87,6 +90,6 @@
   }
 
   .mint-card-display {
-    max-width: 280px;
+    max-width: 350px;
   }
 }
