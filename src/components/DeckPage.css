@@ -2,6 +2,8 @@
   min-height: 100vh;
   background: linear-gradient(145deg, #0a1a2e, #1a2a40, #0f1f35);
   padding-top: 120px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .deck-header {
@@ -29,7 +31,7 @@
 
 .deck-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 30vw));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 20vw));
   gap: 1rem;
   max-width: 100%;
   place-content: space-evenly;

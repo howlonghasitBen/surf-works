@@ -179,7 +179,7 @@
   content: '"';
   font-size: 2rem;
   position: absolute;
-  top: min(-0.25vw, -2px);
+  top: 0;
   left: 0;
   opacity: 0.4;
 }
@@ -188,7 +188,7 @@
   content: '"';
   font-size: 2rem;
   position: absolute;
-  bottom: min(-1.2vw, -10px);
+  bottom: 0;
   right: 0.5vw;
   opacity: 0.4;
 }
