@@ -4,6 +4,7 @@
 
 /* Card Container */
 .card-container {
+  letter-spacing: 0.1px;
   width: 330px;
   height: auto;
   aspect-ratio: 3 / 4;
@@ -151,6 +152,7 @@
   font-size: 0.5rem;
   display: flex;
   gap: min(1vw, 8px);
+  text-wrap: nowrap;
 }
 
 .stat {
@@ -352,7 +354,18 @@
     font-size: 0.65rem;
   }
 
+  .type-power-section {
+    padding: 8px 12px;
+    font-size: 0.5rem;
+    letter-spacing: 0.1px;
+  }
+
   .flavor-text {
     font-size: 0.6rem;
+  }
+
+  .artist-info,
+  .rarity-indicator {
+    font-size: 0.4rem;
   }
 }
