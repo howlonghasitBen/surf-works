@@ -53,12 +53,6 @@
   }
 }
 
-/* Tablet: 2 columns */
-@media (max-width: 1399px) and (min-width: 768px) {
-  .deck-grid {
-  }
-}
-
 /* Mobile: 1 column */
 @media (max-width: 767px) {
   .deck-title {
