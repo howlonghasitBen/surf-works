@@ -2,28 +2,10 @@ import React, { useRef, useEffect, useState } from "react";
 import Card from "./Card";
 import { CARD_DATA } from "../data/cardData";
 
-const CardCarousel = () => {
+const CardCarousel = ({ isPaused = false }) => {
   const carouselRef = useRef(null);
-  const [isPaused, setIsPaused] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
   const scrollPosRef = useRef(0);
-
-  useEffect(() => {
-    // Debug: Log card data
-    console.log("=== CARD CAROUSEL DEBUG ===");
-    console.log("CARD_DATA imported:", CARD_DATA);
-    console.log("Number of cards:", CARD_DATA.length);
-
-    CARD_DATA.forEach((card, i) => {
-      console.log(`Card ${i}:`, {
-        id: card.id,
-        name: card.name,
-        theme: card.theme,
-        hasImage: !!card.image,
-        imagePath: card.image,
-      });
-    });
-    console.log("==========================");
-  }, []);
 
   useEffect(() => {
     const wrapper = carouselRef.current;
@@ -34,7 +16,8 @@ const CardCarousel = () => {
     let animationId;
 
     const autoScroll = () => {
-      if (!isPaused) {
+      // Pause if navigation is open or card is hovered
+      if (!isPaused && !isHovered) {
         if (isMobile) {
           scrollPosRef.current += scrollSpeed;
           wrapper.scrollLeft = scrollPosRef.current;
@@ -65,30 +48,21 @@ const CardCarousel = () => {
       clearTimeout(timeoutId);
       if (animationId) cancelAnimationFrame(animationId);
     };
-  }, [isPaused]);
+  }, [isPaused, isHovered]);
 
-  // Duplicate cards for seamless loop
   const displayCards = [...CARD_DATA, ...CARD_DATA];
-
-  console.log("Rendering cards, count:", displayCards.length);
 
   return (
     <div
       className="rightContentWrapper"
       ref={carouselRef}
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => setIsPaused(false)}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
     >
       <div className="carousel-content">
-        {displayCards.map((card, index) => {
-          console.log(
-            `Rendering card ${index}:`,
-            card.name,
-            "theme:",
-            card.theme
-          );
-          return <Card key={`${card.id}-${index}`} card={card} />;
-        })}
+        {displayCards.map((card, index) => (
+          <Card key={`${card.id}-${index}`} card={card} />
+        ))}
       </div>
     </div>
   );

@@ -83,9 +83,9 @@
   z-index: 1;
 }
 
-/* Nav buttons - hidden by default, auto-fill when expanded */
+/* Nav buttons - hidden by default using opacity */
 .navButton {
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
   color: rgb(219, 241, 248);
@@ -98,11 +98,12 @@
   max-height: 75px;
   position: relative;
   overflow: visible;
-  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-  pointer-events: auto;
+  pointer-events: none;
   background: transparent;
   border: none;
   cursor: pointer;
+  opacity: 0;
+  transform: scale(0.8);
 }
 
 .navButton svg,
@@ -115,12 +116,13 @@
   font-size: 32px;
 }
 
-.nav-grid-overlay.expanded .navButton {
-  display: flex;
+.nav-grid-overlay.expanded .navButton,
+.nav-grid-overlay.fading .navButton {
+  pointer-events: auto;
 }
 
 .navButton:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) !important;
 }
 
 .mini-cog {
@@ -133,13 +135,18 @@
   object-fit: contain;
   position: absolute;
   border-radius: 50%;
-  transition: transform 1s;
   z-index: 1;
   background: radial-gradient(
     circle,
     rgba(25, 98, 155, 0.8) 50%,
     rgba(25, 98, 155, 0) 50%
   );
+  opacity: 0;
+}
+
+.nav-grid-overlay.expanded .mini-cog,
+.nav-grid-overlay.fading .mini-cog {
+  opacity: 1;
 }
 
 /* Blur overlay */
@@ -206,6 +213,125 @@
 
 .wallet-popup button:hover {
   background: #ff4545;
+}
+
+.mini-cog {
+  scale: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+  background: radial-gradient(
+    circle,
+    rgba(25, 98, 155, 0.8) 50%,
+    rgba(25, 98, 155, 0) 50%
+  );
+}
+
+/* Opening ripple animation */
+.nav-grid-overlay.expanded:not(.fading) .navButton {
+  animation: buttonFadeIn 0.6s ease-out forwards;
+  animation-delay: var(--ripple-delay, 0s);
+}
+
+.nav-grid-overlay.expanded:not(.fading) .mini-cog {
+  animation: cogRippleSpinIn 0.8s ease-out forwards;
+  animation-delay: var(--ripple-delay, 0s);
+}
+
+/* Fade out animation - reversed order */
+.nav-grid-overlay.fading .blur-overlay {
+  animation: blurFadeOut 0.8s ease-out forwards;
+}
+
+/* Only fade out nav buttons during fading state */
+.nav-grid-overlay.fading .navButton {
+  opacity: 1;
+  transform: scale(1);
+  animation: buttonFadeOut 0.6s ease-out forwards;
+  animation-delay: var(--ripple-delay-reverse, 0s);
+}
+
+/* Ripple spin effect on nav button cogs - reversed order */
+.nav-grid-overlay.fading .mini-cog {
+  opacity: 1;
+  transform: rotate(0deg);
+  animation: cogRippleSpinOut 0.8s ease-out forwards;
+  animation-delay: var(--ripple-delay-reverse, 0s);
+}
+
+/* Explicitly prevent toggle and wallet buttons from fading */
+.nav-grid-overlay.fading .toggle-button,
+.nav-grid-overlay.fading .wallet-button {
+  opacity: 1 !important;
+  animation: none !important;
+}
+
+.nav-grid-overlay.fading .toggle-button .nav-vector-cog,
+.nav-grid-overlay.fading .toggle-button .nav-vector-innard,
+.nav-grid-overlay.fading .wallet-button .nav-vector-cog {
+  animation: none !important;
+  transition: transform 1s;
+}
+
+/* Opening animations */
+@keyframes buttonFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes cogRippleSpinIn {
+  0% {
+    transform: rotate(calc(-180deg * var(--cog-direction, 1)));
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+/* Closing animations */
+@keyframes blurFadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes buttonFadeOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+
+@keyframes cogRippleSpinOut {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(calc(180deg * var(--cog-direction, 1)));
+    opacity: 0;
+  }
 }
 
 /* Mobile adjustments */

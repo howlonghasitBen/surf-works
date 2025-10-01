@@ -7,6 +7,7 @@ import "./App.css";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("home");
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   const renderPage = () => {
     switch (currentPage) {
@@ -27,7 +28,7 @@ function App() {
               </div>
 
               <div className="rightContentWrapper">
-                <CardCarousel />
+                <CardCarousel isPaused={isNavExpanded} />
               </div>
             </div>
 
@@ -44,7 +45,12 @@ function App() {
       <div className="header-bar"></div>
 
       {/* Navigation system */}
-      <Navigation onNavigate={setCurrentPage} currentPage={currentPage} />
+      <Navigation
+        onNavigate={setCurrentPage}
+        currentPage={currentPage}
+        isExpanded={isNavExpanded}
+        setIsExpanded={setIsNavExpanded}
+      />
 
       {/* Page content */}
       {renderPage()}

@@ -1,14 +1,13 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import { Home, Code, DollarSign, PenTool, Wallet, Layers } from "lucide-react";
 import { useWeb3Manager } from "../hooks/useWeb3Manager";
 import "./Navigation.css";
 
-const Navigation = ({ onNavigate, currentPage }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
+const Navigation = ({ onNavigate, currentPage, isExpanded, setIsExpanded }) => {
+  const [isFading, setIsFading] = useState(false);
   const [showWallet, setShowWallet] = useState(false);
   const { isConnected, connect, disconnect, getShortAddress } =
     useWeb3Manager();
-  const navRef = useRef(null);
   const toggleRef = useRef(null);
 
   const navItems = [
@@ -62,7 +61,28 @@ const Navigation = ({ onNavigate, currentPage }) => {
   ];
 
   const toggleExpanded = () => {
-    setIsExpanded(!isExpanded);
+    if (isExpanded && !isFading) {
+      // Start fade out
+      setIsFading(true);
+      const longestDelay = (navItems.length - 1) * 0.1 * 1000;
+      setTimeout(() => {
+        setIsExpanded(false);
+        setIsFading(false);
+      }, 800 + longestDelay);
+    } else if (!isExpanded) {
+      setIsExpanded(true);
+    }
+  };
+
+  const handleNavClick = (action) => {
+    setIsFading(true);
+    const longestDelay = (navItems.length - 1) * 0.1 * 1000;
+
+    setTimeout(() => {
+      action();
+      setIsExpanded(false);
+      setIsFading(false);
+    }, 800 + longestDelay);
   };
 
   const handleWalletClick = async () => {
@@ -75,12 +95,13 @@ const Navigation = ({ onNavigate, currentPage }) => {
 
   return (
     <>
-      {/* Blur overlay */}
       {isExpanded && <div className="blur-overlay" onClick={toggleExpanded} />}
 
-      {/* Navigation grid overlay */}
-      <div className={`nav-grid-overlay ${isExpanded ? "expanded" : ""}`}>
-        {/* Toggle button */}
+      <div
+        className={`nav-grid-overlay ${isExpanded ? "expanded" : ""} ${
+          isFading ? "fading" : ""
+        }`}
+      >
         <div
           ref={toggleRef}
           className="nav-vector-container toggle-button"
@@ -99,15 +120,18 @@ const Navigation = ({ onNavigate, currentPage }) => {
           />
         </div>
 
-        {/* Nav buttons - only visible when expanded */}
-        {isExpanded &&
+        {(isExpanded || isFading) &&
           navItems.map((item, index) => (
             <button
               key={item.id}
               className="navButton"
-              onClick={() => {
-                item.action();
-                setIsExpanded(false);
+              onClick={() => handleNavClick(item.action)}
+              style={{
+                "--ripple-delay": `${index * 0.1}s`,
+                "--ripple-delay-reverse": `${
+                  (navItems.length - 1 - index) * 0.1
+                }s`,
+                "--cog-direction": index % 2 === 0 ? "1" : "-1",
               }}
             >
               <img
@@ -123,7 +147,6 @@ const Navigation = ({ onNavigate, currentPage }) => {
             </button>
           ))}
 
-        {/* Wallet button */}
         <div
           className="nav-vector-container wallet-button"
           onClick={handleWalletClick}
@@ -141,7 +164,6 @@ const Navigation = ({ onNavigate, currentPage }) => {
         </div>
       </div>
 
-      {/* Wallet info popup */}
       {showWallet && isConnected && (
         <div className="wallet-popup">
           <div className="wallet-address">{getShortAddress()}</div>
