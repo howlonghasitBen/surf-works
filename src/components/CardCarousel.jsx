@@ -1,11 +1,29 @@
-import React, { useRef, useEffect, useState } from 'react';
-import Card from './Card';
-import { CARD_DATA } from '../data/cardData';
+import React, { useRef, useEffect, useState } from "react";
+import Card from "./Card";
+import { CARD_DATA } from "../data/cardData";
 
 const CardCarousel = () => {
   const carouselRef = useRef(null);
   const [isPaused, setIsPaused] = useState(false);
   const scrollPosRef = useRef(0);
+
+  useEffect(() => {
+    // Debug: Log card data
+    console.log("=== CARD CAROUSEL DEBUG ===");
+    console.log("CARD_DATA imported:", CARD_DATA);
+    console.log("Number of cards:", CARD_DATA.length);
+
+    CARD_DATA.forEach((card, i) => {
+      console.log(`Card ${i}:`, {
+        id: card.id,
+        name: card.name,
+        theme: card.theme,
+        hasImage: !!card.image,
+        imagePath: card.image,
+      });
+    });
+    console.log("==========================");
+  }, []);
 
   useEffect(() => {
     const wrapper = carouselRef.current;
@@ -20,7 +38,7 @@ const CardCarousel = () => {
         if (isMobile) {
           scrollPosRef.current += scrollSpeed;
           wrapper.scrollLeft = scrollPosRef.current;
-          
+
           if (scrollPosRef.current >= wrapper.scrollWidth / 2) {
             scrollPosRef.current = 0;
             wrapper.scrollLeft = 0;
@@ -28,7 +46,7 @@ const CardCarousel = () => {
         } else {
           scrollPosRef.current += scrollSpeed;
           wrapper.scrollTop = scrollPosRef.current;
-          
+
           if (scrollPosRef.current >= wrapper.scrollHeight / 2) {
             scrollPosRef.current = 0;
             wrapper.scrollTop = 0;
@@ -52,19 +70,27 @@ const CardCarousel = () => {
   // Duplicate cards for seamless loop
   const displayCards = [...CARD_DATA, ...CARD_DATA];
 
+  console.log("Rendering cards, count:", displayCards.length);
+
   return (
-    <div 
-      className="carousel-wrapper" 
+    <div
+      className="rightContentWrapper"
       ref={carouselRef}
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
-      
-        {displayCards.map((card, index) => (
-          
-        ))}
-      
-    
+      <div className="carousel-content">
+        {displayCards.map((card, index) => {
+          console.log(
+            `Rendering card ${index}:`,
+            card.name,
+            "theme:",
+            card.theme
+          );
+          return <Card key={`${card.id}-${index}`} card={card} />;
+        })}
+      </div>
+    </div>
   );
 };
 

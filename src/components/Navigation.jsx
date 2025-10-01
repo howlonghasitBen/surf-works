@@ -1,52 +1,143 @@
-import React, { useState } from 'react';
-import { Home, Code, DollarSign, PenTool, Wallet } from 'lucide-react';
-import { useWeb3Manager } from '../hooks/useWeb3Manager';
+import React, { useState, useEffect, useRef } from "react";
+import { Home, Code, DollarSign, PenTool, Wallet } from "lucide-react";
+import { useWeb3Manager } from "../hooks/useWeb3Manager";
+import "./Navigation.css";
 
 const Navigation = ({ onNavigate, currentPage }) => {
   const [isExpanded, setIsExpanded] = useState(false);
-  const { isConnected, connect, disconnect, getShortAddress } = useWeb3Manager();
   const [showWallet, setShowWallet] = useState(false);
+  const { isConnected, connect, disconnect, getShortAddress } =
+    useWeb3Manager();
+  const navRef = useRef(null);
+  const toggleRef = useRef(null);
+
+  const navItems = [
+    {
+      id: "home",
+      icon: <Home size={24} />,
+      label: "Home",
+      action: () => onNavigate("home"),
+    },
+    {
+      id: "github",
+      icon: <Code size={24} />,
+      label: "GitHub",
+      action: () => window.open("https://github.com/howlonghasitBen", "_blank"),
+    },
+    {
+      id: "portfolio",
+      icon: <DollarSign size={24} />,
+      label: "Portfolio",
+      action: () =>
+        window.open(
+          "https://app.gmx.io/#/accounts/0x2cfC8747593f77f3dDf92E55b296d3B6307361D7?network=arbitrum&v=2",
+          "_blank"
+        ),
+    },
+    {
+      id: "writing",
+      icon: <PenTool size={24} />,
+      label: "Writing",
+      action: () =>
+        window.open("https://substack.com/@howlonghasitben", "_blank"),
+    },
+    {
+      id: "whirlpool",
+      icon: "🌊",
+      label: "Whirlpool",
+      action: () => onNavigate("whirlpool"),
+    },
+  ];
+
+  const toggleExpanded = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  const handleWalletClick = async () => {
+    if (isConnected) {
+      setShowWallet(!showWallet);
+    } else {
+      await connect();
+    }
+  };
 
   return (
     <>
-      
-      {isExpanded && <div className="blur-overlay" onClick={() => setIsExpanded(false)} />}
-      
-      
-        <button className="nav-btn toggle" onClick={() => setIsExpanded(!isExpanded)}>
-          ⚙️
-        
-        
-        {isExpanded && (
-          <>
-            <button className="nav-btn" onClick={() => { onNavigate('home'); setIsExpanded(false); }}>
-              
-            
-            
-              
-            
-            <button className="nav-btn" onClick={() => { onNavigate('whirlpool'); setIsExpanded(false); }}>
-              🌊
-            
-          </>
-        )}
+      {/* Blur overlay */}
+      {isExpanded && <div className="blur-overlay" onClick={toggleExpanded} />}
 
-        <button 
-          className="nav-btn wallet" 
-          onClick={() => isConnected ? setShowWallet(!showWallet) : connect()}
-          style={{ color: isConnected ? '#05c46b' : '#ff5e57' }}
+      {/* Navigation grid overlay */}
+      <div className={`nav-grid-overlay ${isExpanded ? "expanded" : ""}`}>
+        {/* Toggle button */}
+        <div
+          ref={toggleRef}
+          className="nav-vector-container toggle-button"
+          onClick={toggleExpanded}
         >
-          
-        
-      
+          <img
+            className="nav-vector-innard"
+            src="/images/nav_cog_innard.png"
+            alt="toggle"
+          />
+          <img
+            className="nav-vector-cog"
+            src="/images/nav_cog.svg"
+            alt="toggle"
+            style={{ transform: isExpanded ? "rotate(90deg)" : "rotate(0deg)" }}
+          />
+        </div>
 
+        {/* Nav buttons - only visible when expanded */}
+        {isExpanded &&
+          navItems.map((item, index) => (
+            <button
+              key={item.id}
+              className="navButton"
+              onClick={() => {
+                item.action();
+                setIsExpanded(false);
+              }}
+            >
+              <img className="mini-cog" src="/images/nav_cog.svg" alt="" />
+              {typeof item.icon === "string" ? (
+                <span className="navIcon-emoji">{item.icon}</span>
+              ) : (
+                item.icon
+              )}
+            </button>
+          ))}
+
+        {/* Wallet button */}
+        <div
+          className="nav-vector-container wallet-button"
+          onClick={handleWalletClick}
+          style={{ color: isConnected ? "#05c46b" : "#ff5e57" }}
+        >
+          <Wallet size={24} />
+          <img
+            className="nav-vector-cog"
+            src="/images/nav_cog.svg"
+            alt="wallet"
+            style={{
+              transform: isExpanded ? "rotate(-90deg)" : "rotate(0deg)",
+            }}
+          />
+        </div>
+      </div>
+
+      {/* Wallet info popup */}
       {showWallet && isConnected && (
-        
-          {getShortAddress()}
-          <button onClick={() => { disconnect(); setShowWallet(false); }}>
+        <div className="wallet-popup">
+          <div className="wallet-address">{getShortAddress()}</div>
+          <button
+            onClick={() => {
+              disconnect();
+              setShowWallet(false);
+            }}
+          >
             Disconnect
-          
-        
+          </button>
+        </div>
       )}
     </>
   );

@@ -1,157 +1,35 @@
 import React, { useState, useRef, useEffect } from "react";
-
-// Card Themes with original gradient definitions
-const CARD_THEMES = {
-  cosmicPurple: {
-    background: `radial-gradient(circle at 20% 30%, rgba(75, 0, 130, 0.4) 0%, transparent 50%),
-                 radial-gradient(circle at 80% 70%, rgba(25, 25, 112, 0.5) 0%, transparent 40%),
-                 radial-gradient(circle at 60% 10%, rgba(138, 43, 226, 0.3) 0%, transparent 45%),
-                 linear-gradient(145deg, #0f0f23, #191970, #1a1a2e)`,
-    header: {
-      background: `radial-gradient(circle at 25% 50%, rgba(138, 43, 226, 0.6) 0%, transparent 60%),
-                   linear-gradient(135deg, #4b0082, #663399, #8a2be2, #4b0082, #301934)`,
-      color: "#e6e6fa",
-      textShadow: "1px 1px 2px rgba(138, 43, 226, 0.8)",
-      boxShadow:
-        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(138, 43, 226, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(255, 255, 255, 0.2)",
-    },
-    imageArea: {
-      background: `radial-gradient(circle at 30% 20%, rgba(75, 0, 130, 0.5) 0%, transparent 45%),
-                   radial-gradient(circle at 70% 80%, rgba(25, 25, 112, 0.4) 0%, transparent 50%),
-                   linear-gradient(145deg, #191970, #0f0f23)`,
-      border: "min(0.25vw, 2px) solid #4b0082",
-      boxShadow: "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6)",
-    },
-    typeSection: {
-      background: `radial-gradient(circle at 30% 60%, rgba(138, 43, 226, 0.6) 0%, transparent 55%),
-                   linear-gradient(135deg, #4b0082, #663399, #8a2be2, #4b0082, #301934)`,
-      color: "#e6e6fa",
-      textShadow: "1px 1px 2px rgba(138, 43, 226, 0.8)",
-    },
-    flavorText: {
-      background: `radial-gradient(circle at 40% 30%, rgba(75, 0, 130, 0.4) 0%, transparent 50%),
-                   linear-gradient(145deg, #191970, #0f0f23)`,
-      color: "#d8bfd8",
-      accentColor: "#8a2be2",
-      border: "min(0.25vw, 2px) solid #4b0082",
-    },
-    bottomSection: {
-      background: "linear-gradient(135deg, #301934, #4b0082)",
-    },
-    stat: {
-      background: "rgba(0, 0, 0, 0.7)",
-      border: "min(0.25vw, 2px) solid #dda0dd",
-      color: "#dda0dd",
-      boxShadow: "0 0 min(1vw, 8px) rgba(221, 160, 221, 0.4)",
-    },
-  },
-  skyBlue: {
-    background: `radial-gradient(circle at 20% 30%, rgba(135, 206, 235, 0.4) 0%, transparent 50%),
-                 radial-gradient(circle at 80% 70%, rgba(173, 216, 230, 0.5) 0%, transparent 40%),
-                 radial-gradient(circle at 60% 10%, rgba(240, 248, 255, 0.3) 0%, transparent 45%),
-                 linear-gradient(145deg, #e6f3ff, #b8dff0, #d6ebf5)`,
-    header: {
-      background: `radial-gradient(circle at 25% 50%, rgba(135, 206, 235, 0.6) 0%, transparent 60%),
-                   linear-gradient(135deg, #ffffff, #f0f8ff, #87ceeb, #b0e0e6, #e0f6ff)`,
-      color: "#2f4f4f",
-      textShadow: "1px 1px 2px rgba(255, 255, 255, 0.8)",
-      boxShadow:
-        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(135, 206, 235, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(255, 255, 255, 0.6)",
-    },
-    imageArea: {
-      background: `radial-gradient(circle at 30% 20%, rgba(135, 206, 235, 0.5) 0%, transparent 45%),
-                   radial-gradient(circle at 70% 80%, rgba(173, 216, 230, 0.4) 0%, transparent 50%),
-                   linear-gradient(145deg, #f0f8ff, #e6f3ff)`,
-      border: "min(0.25vw, 2px) solid #87ceeb",
-      boxShadow:
-        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(135, 206, 235, 0.2)",
-    },
-    typeSection: {
-      background: `radial-gradient(circle at 30% 60%, rgba(135, 206, 235, 0.6) 0%, transparent 55%),
-                   linear-gradient(135deg, #ffffff, #f0f8ff, #87ceeb, #b0e0e6, #e0f6ff)`,
-      color: "#2f4f4f",
-      textShadow: "1px 1px 2px rgba(255, 255, 255, 0.8)",
-    },
-    flavorText: {
-      background: `radial-gradient(circle at 40% 30%, rgba(135, 206, 235, 0.4) 0%, transparent 50%),
-                   linear-gradient(145deg, #f0f8ff, #e6f3ff)`,
-      color: "#4682b4",
-      accentColor: "#87ceeb",
-      border: "min(0.25vw, 2px) solid #87ceeb",
-    },
-    bottomSection: {
-      background: "linear-gradient(135deg, #e0f6ff, #b0e0e6)",
-    },
-    stat: {
-      background: "rgba(255, 255, 255, 0.8)",
-      border: "min(0.25vw, 2px) solid #4682b4",
-      color: "#2f4f4f",
-      boxShadow: "0 0 min(1vw, 8px) rgba(135, 206, 235, 0.4)",
-    },
-  },
-  alchemicalRed: {
-    background: `radial-gradient(circle at 20% 30%, rgba(220, 20, 60, 0.4) 0%, transparent 50%),
-                 radial-gradient(circle at 80% 70%, rgba(139, 0, 0, 0.5) 0%, transparent 40%),
-                 radial-gradient(circle at 60% 10%, rgba(255, 140, 0, 0.3) 0%, transparent 45%),
-                 linear-gradient(145deg, #2c1810, #8b0000, #1a0e0a)`,
-    header: {
-      background: `radial-gradient(circle at 25% 50%, rgba(220, 20, 60, 0.6) 0%, transparent 60%),
-                   linear-gradient(135deg, #8b0000, #dc143c, #ff8c00, #8b0000, #4a0e0e)`,
-      color: "#ffd700",
-      textShadow: "1px 1px 2px rgba(220, 20, 60, 0.8)",
-      boxShadow:
-        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(220, 20, 60, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(255, 215, 0, 0.2)",
-    },
-    imageArea: {
-      background: `radial-gradient(circle at 30% 20%, rgba(220, 20, 60, 0.5) 0%, transparent 45%),
-                   radial-gradient(circle at 70% 80%, rgba(139, 0, 0, 0.4) 0%, transparent 50%),
-                   linear-gradient(145deg, #8b0000, #2c1810)`,
-      border: "min(0.25vw, 2px) solid #dc143c",
-      boxShadow: "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6)",
-    },
-    typeSection: {
-      background: `radial-gradient(circle at 30% 60%, rgba(220, 20, 60, 0.6) 0%, transparent 55%),
-                   linear-gradient(135deg, #8b0000, #dc143c, #ff8c00, #8b0000, #4a0e0e)`,
-      color: "#ffd700",
-      textShadow: "1px 1px 2px rgba(220, 20, 60, 0.8)",
-    },
-    flavorText: {
-      background: `radial-gradient(circle at 40% 30%, rgba(220, 20, 60, 0.4) 0%, transparent 50%),
-                   linear-gradient(145deg, #8b0000, #2c1810)`,
-      color: "#ffb347",
-      accentColor: "#dc143c",
-      border: "min(0.25vw, 2px) solid #dc143c",
-    },
-    bottomSection: {
-      background: "linear-gradient(135deg, #4a0e0e, #8b0000)",
-    },
-    stat: {
-      background: "rgba(0, 0, 0, 0.7)",
-      border: "min(0.25vw, 2px) solid #ffd700",
-      color: "#ffd700",
-      boxShadow: "0 0 min(1vw, 8px) rgba(255, 215, 0, 0.4)",
-    },
-  },
-};
+import { CARD_THEMES } from "../data/cardData";
 
 const Card = ({ card }) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const cardRef = useRef(null);
   const imageAreaRef = useRef(null);
+
+  // Get theme from CARD_THEMES using the card's theme property
   const theme = CARD_THEMES[card.theme] || CARD_THEMES.cosmicPurple;
 
+  // Debug: Log what we received
   useEffect(() => {
-    const card = cardRef.current;
+    console.log("Card component received:", {
+      name: card.name,
+      theme: card.theme,
+      themeExists: !!CARD_THEMES[card.theme],
+    });
+  }, [card]);
+
+  useEffect(() => {
+    const cardElement = cardRef.current;
     const imageArea = imageAreaRef.current;
 
-    if (!card || !imageArea) return;
+    if (!cardElement || !imageArea) return;
 
     let isMoving = false;
 
     const handleMouseMove = (e) => {
       if (isFlipped) return;
 
-      const rect = card.getBoundingClientRect();
+      const rect = cardElement.getBoundingClientRect();
       const x = e.clientX - rect.left;
       const y = e.clientY - rect.top;
 
@@ -161,9 +39,8 @@ const Card = ({ card }) => {
       const rotateX = ((y - centerY) / centerY) * -15;
       const rotateY = ((x - centerX) / centerX) * 15;
 
-      card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+      cardElement.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
 
-      // Image area parallax
       const imageRotateX = ((y - centerY) / centerY) * 5;
       const imageRotateY = ((x - centerX) / centerX) * 5;
       imageArea.style.transform = `translateZ(20px) rotateX(${imageRotateX}deg) rotateY(${imageRotateY}deg)`;
@@ -172,7 +49,8 @@ const Card = ({ card }) => {
     };
 
     const handleMouseLeave = () => {
-      card.style.transform = "perspective(1000px) rotateX(0deg) rotateY(0deg)";
+      cardElement.style.transform =
+        "perspective(1000px) rotateX(0deg) rotateY(0deg)";
       imageArea.style.transform = "translateZ(0px) rotateX(0deg) rotateY(0deg)";
       isMoving = false;
     };
@@ -183,14 +61,14 @@ const Card = ({ card }) => {
       }
     };
 
-    card.addEventListener("mousemove", handleMouseMove);
-    card.addEventListener("mouseleave", handleMouseLeave);
-    card.addEventListener("click", handleClick);
+    cardElement.addEventListener("mousemove", handleMouseMove);
+    cardElement.addEventListener("mouseleave", handleMouseLeave);
+    cardElement.addEventListener("click", handleClick);
 
     return () => {
-      card.removeEventListener("mousemove", handleMouseMove);
-      card.removeEventListener("mouseleave", handleMouseLeave);
-      card.removeEventListener("click", handleClick);
+      cardElement.removeEventListener("mousemove", handleMouseMove);
+      cardElement.removeEventListener("mouseleave", handleMouseLeave);
+      cardElement.removeEventListener("click", handleClick);
     };
   }, [isFlipped]);
 
@@ -473,33 +351,6 @@ const Card = ({ card }) => {
           opacity: 0.9;
           letter-spacing: 0.1em;
         }
-        
-        @media (max-width: 600px) {
-          .card-container {
-            width: 95vw;
-            height: calc(95vw * 4 / 3);
-          }
-        }
-        
-        @media (max-width: 400px) {
-          .card-container {
-            width: 95vw;
-            height: calc(95vw * 4 / 3);
-          }
-          
-          .flavor-text {
-            font-size: 3.5vw;
-            line-height: 1.3;
-          }
-          
-          .card-title {
-            font-size: 4.5vw;
-          }
-          
-          .back-title {
-            font-size: 8vw;
-          }
-        }
       `}</style>
 
       <div className="card-container">
@@ -568,30 +419,32 @@ const Card = ({ card }) => {
               }}
             >
               <div>{card.type}</div>
-              <div className="power-stats">
-                <div
-                  className="stat"
-                  style={{
-                    background: theme.stat.background,
-                    border: theme.stat.border,
-                    color: theme.stat.color,
-                    boxShadow: theme.stat.boxShadow,
-                  }}
-                >
-                  ATK: {card.stats.attack}
+              {card.stats && (
+                <div className="power-stats">
+                  <div
+                    className="stat"
+                    style={{
+                      background: theme.stat.background,
+                      border: theme.stat.border,
+                      color: theme.stat.color,
+                      boxShadow: theme.stat.boxShadow,
+                    }}
+                  >
+                    ATK: {card.stats.attack}
+                  </div>
+                  <div
+                    className="stat"
+                    style={{
+                      background: theme.stat.background,
+                      border: theme.stat.border,
+                      color: theme.stat.color,
+                      boxShadow: theme.stat.boxShadow,
+                    }}
+                  >
+                    DEF: {card.stats.defense}
+                  </div>
                 </div>
-                <div
-                  className="stat"
-                  style={{
-                    background: theme.stat.background,
-                    border: theme.stat.border,
-                    color: theme.stat.color,
-                    boxShadow: theme.stat.boxShadow,
-                  }}
-                >
-                  DEF: {card.stats.defense}
-                </div>
-              </div>
+              )}
             </div>
 
             <div
@@ -655,55 +508,4 @@ const Card = ({ card }) => {
   );
 };
 
-// Demo
-const sampleCard = {
-  id: "ben",
-  name: "Ben",
-  subtitle: "⟨MEME KING⟩",
-  level: "∞",
-  theme: "alchemicalRed",
-  manaCost: [
-    {
-      type: "red",
-      value: "3",
-      color: "radial-gradient(circle, #dc143c, #8b0000)",
-      textColor: "#ffd700",
-    },
-    {
-      type: "artifact",
-      value: "1",
-      color: "radial-gradient(circle, #b8860b, #daa520)",
-      textColor: "#2c1810",
-    },
-    {
-      type: "special",
-      value: "E",
-      color: "radial-gradient(circle, #ff8c00, #ff4500)",
-      textColor: "#2c1810",
-    },
-  ],
-  image: "/images/card-images/ben.png",
-  type: "Legendary Creature — Artist",
-  stats: { attack: "∞", defense: "∞" },
-  flavorText:
-    "Humankind cannot gain anything without first giving something in return. To obtain something, something of equal value must be lost. That is alchemy's first law of Equivalent Exchange.",
-  artist: "SURF FINANCE STUDIOS",
-  rarity: "1/1",
-};
-
-export default function CardDemo() {
-  return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        minHeight: "100vh",
-        background: "linear-gradient(135deg, #1a1a2e, #16213e)",
-        padding: "20px",
-      }}
-    >
-      <Card card={sampleCard} />
-    </div>
-  );
-}
+export default Card;
