@@ -45,7 +45,8 @@ const Navigation = ({ onNavigate, currentPage }) => {
       id: "harpoon",
       icon: (
         <img
-          src="/images/harpoon.png"
+          src={`${process.env.PUBLIC_URL}/images/harpoon.png`}
+          alt="harpoon"
           style={{ width: "65%", height: "65%", zIndex: "1" }}
         />
       ),
@@ -81,12 +82,12 @@ const Navigation = ({ onNavigate, currentPage }) => {
         >
           <img
             className="nav-vector-innard"
-            src="/images/nav_cog_innard.png"
+            src={`${process.env.PUBLIC_URL}/images/nav_cog_innard.png`}
             alt="toggle"
           />
           <img
             className="nav-vector-cog"
-            src="/images/nav_cog.svg"
+            src={`${process.env.PUBLIC_URL}/images/nav_cog.svg`}
             alt="toggle"
             style={{ transform: isExpanded ? "rotate(90deg)" : "rotate(0deg)" }}
           />
@@ -103,7 +104,11 @@ const Navigation = ({ onNavigate, currentPage }) => {
                 setIsExpanded(false);
               }}
             >
-              <img className="mini-cog" src="/images/nav_cog.svg" alt="" />
+              <img
+                className="mini-cog"
+                src={`${process.env.PUBLIC_URL}/images/nav_cog.svg`}
+                alt=""
+              />
               {typeof item.icon === "string" ? (
                 <span className="navIcon-emoji">{item.icon}</span>
               ) : (
@@ -121,7 +126,7 @@ const Navigation = ({ onNavigate, currentPage }) => {
           <Wallet size={24} />
           <img
             className="nav-vector-cog"
-            src="/images/nav_cog.svg"
+            src={`${process.env.PUBLIC_URL}/images/nav_cog.svg`}
             alt="wallet"
             style={{
               transform: isExpanded ? "rotate(-90deg)" : "rotate(0deg)",

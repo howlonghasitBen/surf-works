@@ -20,7 +20,7 @@ function App() {
         <div id="leftContent">
           <img
             id="frontSvg"
-            src="/images/pepe-beach/gifs/input.gif"
+            src={`${process.env.PUBLIC_URL}/images/pepe-beach/gifs/input.gif`}
             alt="Beach Scene"
           />
         </div>

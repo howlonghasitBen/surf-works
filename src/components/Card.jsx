@@ -125,7 +125,7 @@ const Card = ({ card }) => {
             }}
           >
             <img
-              src={card.image}
+              src={`${process.env.PUBLIC_URL}${card.image}`}
               alt={card.name}
               onError={(e) => {
                 e.target.style.display = "none";
@@ -227,12 +227,12 @@ const Card = ({ card }) => {
             <div className="back-pattern">
               <div className="cog-container">
                 <img
-                  src="/images/nav_cog.svg"
+                  src={`${process.env.PUBLIC_URL}/images/nav_cog.svg`}
                   alt="Spinning Cog"
                   className="nav-cog"
                 />
                 <img
-                  src="/images/nav_cog_innard.png"
+                  src={`${process.env.PUBLIC_URL}/images/nav_cog_innard.png`}
                   alt="Cog Center"
                   className="nav-cog-innard"
                 />
