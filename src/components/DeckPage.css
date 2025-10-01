@@ -1,7 +1,7 @@
 .deck-page {
   min-height: 100vh;
   background: linear-gradient(145deg, #0a1a2e, #1a2a40, #0f1f35);
-  padding: 120px 40px 80px;
+  padding-top: 120px;
 }
 
 .deck-header {
@@ -29,14 +29,10 @@
 
 .deck-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 33%));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 30vw));
+  gap: 1rem;
   max-width: 100%;
-  place-content: center;
-  border: 1px solid blue;
-}
-
-.deck-grid * {
-  border: 1px solid red;
+  place-content: space-evenly;
 }
 
 @keyframes fadeInDown {
@@ -53,43 +49,23 @@
 /* Desktop: 3 columns */
 @media (min-width: 1400px) {
   .deck-grid {
-    grid-template-columns: repeat(auto-fill, minmax(400px, 33%));
-    max-width: 1600px;
+    max-width: 100%;
   }
 }
 
 /* Tablet: 2 columns */
 @media (max-width: 1399px) and (min-width: 768px) {
   .deck-grid {
-    grid-template-columns: repeat(auto-fill, minmax(400px, 33%));
   }
 }
 
 /* Mobile: 1 column */
 @media (max-width: 767px) {
-  .deck-page {
-    padding: 100px 20px 60px;
-  }
-
   .deck-title {
     font-size: 2rem;
   }
 
   .deck-subtitle {
     font-size: 1rem;
-  }
-
-  .deck-grid {
-    grid-template-columns: 1fr;
-    gap: 30px;
-    padding: 0 20px;
-  }
-
-  .mint-card-container {
-    max-width: 100%;
-  }
-
-  .mint-card-display {
-    max-width: 350px;
   }
 }
