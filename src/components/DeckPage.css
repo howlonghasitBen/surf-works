@@ -1,0 +1,92 @@
+.deck-page {
+  min-height: 100vh;
+  background: linear-gradient(145deg, #0a1a2e, #1a2a40, #0f1f35);
+  padding: 120px 40px 80px;
+}
+
+.deck-header {
+  text-align: center;
+  margin-bottom: 60px;
+  animation: fadeInDown 0.8s ease;
+}
+
+.deck-title {
+  font-family: "Cinzel", serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #00bfff;
+  text-shadow: 0 0 20px rgba(0, 191, 255, 0.5), 0 0 40px rgba(0, 191, 255, 0.3);
+  margin-bottom: 20px;
+  letter-spacing: 0.15em;
+}
+
+.deck-subtitle {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1.2rem;
+  color: #87ceeb;
+  opacity: 0.9;
+}
+
+.deck-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 330px));
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Desktop: 3 columns */
+@media (min-width: 1400px) {
+  .deck-grid {
+    grid-template-columns: repeat(3, 330px);
+    max-width: 1600px;
+  }
+}
+
+/* Tablet: 2 columns */
+@media (max-width: 1399px) and (min-width: 768px) {
+  .deck-grid {
+    grid-template-columns: repeat(2, 330px);
+  }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 767px) {
+  .deck-page {
+    padding: 100px 20px 60px;
+  }
+
+  .deck-title {
+    font-size: 2rem;
+  }
+
+  .deck-subtitle {
+    font-size: 1rem;
+  }
+
+  .deck-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .mint-card-container {
+    max-width: 100%;
+  }
+
+  .mint-card-display {
+    max-width: 280px;
+  }
+}
