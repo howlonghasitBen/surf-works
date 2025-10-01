@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WAVES Collection: Mr. F</title>
+    <link rel="stylesheet" href="cardBackStyles.css" />
+    <script src="tiltAndFlip.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap");
+
+      .card.flipped {
+        transform: rotateY(180deg);
+      }
+
+      .card:active {
+        cursor: grabbing;
+      }
+
+      .card-face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        border-radius: min(1.8vw, 14px);
+        overflow: hidden;
+        transform-style: preserve-3d;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+      }
+
+      .card-front {
+        background: linear-gradient(145deg, #1a1a2e, #16213e, #0f0f23);
+        transform: rotateY(0deg);
+        z-index: 2;
+      }
+
+      .card-back {
+        background: radial-gradient(circle at center, #1a2a40, #0a1a2e),
+          conic-gradient(from 45deg, #00bfff, #4682b4, #87ceeb, #00bfff);
+        transform: rotateY(180deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+      }
+
+      /* Ethereum Purple header */
+      .card-header {
+        background: linear-gradient(
+          135deg,
+          #627eea,
+          #5a67d8,
+          #805ad5,
+          #627eea,
+          #4c51bf
+        );
+        border-bottom: min(0.4vw, 3px) solid #2d3748;
+        padding: min(1vw, 8px) min(1.5vw, 12px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Cinzel", serif;
+        color: #ffffff;
+        text-shadow: 1px 1px 2px rgba(98, 126, 234, 0.8);
+        flex-shrink: 0;
+        position: relative;
+        box-shadow: 0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(98, 126, 234, 0.4),
+          inset 0 min(0.25vw, 2px) 0 rgba(255, 255, 255, 0.3);
+      }
+
+      .card-title {
+        font-size: min(1rem, 20px);
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+
+      .card-level {
+        background: linear-gradient(135deg, #ffd700, #e6cc00, #ccb800);
+        color: #2d3748;
+        padding: min(0.5vw, 4px) min(1vw, 8px);
+        border-radius: min(1.5vw, 12px);
+        font-size: min(1rem, 16px);
+        font-weight: 700;
+        border: min(0.25vw, 2px) solid #2d3748;
+        box-shadow: 0 0 min(1.5vw, 12px) rgba(255, 215, 0, 0.6);
+      }
+
+      .mana-cost {
+        display: flex;
+        gap: min(0.5vw, 4px);
+        margin-bottom: min(0.5vw, 4px);
+      }
+
+      .mana-orb {
+        width: min(3vw, 24px);
+        height: min(3vw, 24px);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: min(0.65rem, 16px);
+        font-weight: bold;
+        border: min(0.25vw, 2px) solid #1a1a1a;
+        box-shadow: 0 min(0.25vw, 2px) min(0.5vw, 4px) rgba(0, 0, 0, 0.3);
+      }
+
+      .mana-ethereum {
+        background: radial-gradient(circle, #627eea, #4c51bf);
+        color: white;
+      }
+
+      .mana-artifact {
+        background: radial-gradient(circle, #c0c0c0, #708090);
+        color: #1a1a1a;
+      }
+
+      .mana-special {
+        background: radial-gradient(circle, #9f7aea, #805ad5);
+        color: white;
+      }
+
+      /* Image section */
+      .image-area {
+        height: 40%; /* 40% of card height for responsive scaling */
+        margin: min(1.2vw, 10px);
+        background: linear-gradient(145deg, #2d3748, #1a202c);
+        border: min(0.25vw, 2px) solid #627eea;
+        border-radius: min(1vw, 8px);
+        position: relative;
+        overflow: hidden;
+        box-shadow: inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.5);
+        transform-style: preserve-3d;
+        perspective: -1000px;
+        transition: transform 0.1s ease-out;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .image-area img {
+        width: 100%;
+        height: auto;
+        scale: 1.2;
+      }
+
+      /* Ethereum Purple type section */
+      .type-power-section {
+        background: linear-gradient(
+          135deg,
+          #627eea,
+          #5a67d8,
+          #805ad5,
+          #627eea,
+          #4c51bf
+        );
+        color: #ffffff;
+        padding: min(1.2vw, 10px) min(2vw, 16px);
+        font-family: "Cinzel", serif;
+        font-size: min(2rem, 12px);
+        font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(98, 126, 234, 0.8);
+        border-top: min(0.25vw, 2px) solid #2d3748;
+        border-bottom: min(0.25vw, 2px) solid #2d3748;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(98, 126, 234, 0.4),
+          inset 0 min(0.25vw, 2px) 0 rgba(255, 255, 255, 0.3);
+      }
+
+      .power-stats {
+        font-size: min(2rem, 8px);
+        display: flex;
+        gap: min(1.5vw, 12px);
+      }
+
+      .stat {
+        background: rgba(0, 0, 0, 0.7);
+        padding: min(0.5vw, 4px) min(1vw, 8px);
+        border-radius: min(0.5vw, 4px);
+        border: min(0.25vw, 2px) solid #ffd700;
+        color: #ffd700;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+        box-shadow: 0 0 min(1vw, 8px) rgba(255, 215, 0, 0.4);
+      }
+
+      /* Flavor text */
+      .flavor-text {
+        background: linear-gradient(145deg, #1a1a2e, #16213e);
+        padding: 0 min(2vw, 16px);
+        font-size: min(2rem, 18px);
+        line-height: 1.4;
+        color: #e2e8f0;
+        text-align: center;
+        font-style: italic;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform-style: preserve-3d;
+        border-bottom: min(0.25vw, 2px) solid #627eea;
+        position: relative;
+      }
+
+      .flavor-text::before {
+        content: '"';
+        font-size: min(2rem, 24px);
+        color: #627eea;
+        position: absolute;
+        top: min(-0.25vw, -2px);
+        left: min(1vw, 8px);
+        opacity: 0.3;
+      }
+
+      .flavor-text::after {
+        content: '"';
+        font-size: min(2rem, 24px);
+        color: #627eea;
+        position: absolute;
+        bottom: min(-1vw, -8px);
+        right: min(1vw, 8px);
+        opacity: 0.3;
+      }
+
+      /* Bottom section */
+      .bottom-section {
+        background: linear-gradient(135deg, #1a202c, #2d3748);
+        padding: min(1.2vw, 10px) min(2vw, 16px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+      }
+
+      .artist-info {
+        font-size: min(1rem, 12px);
+        color: #a0aec0;
+        font-family: "Cinzel", serif;
+        opacity: 0.8;
+      }
+
+      .rarity-indicator {
+        background: linear-gradient(135deg, #ffd700, #e6cc00);
+        color: #2d3748;
+        padding: min(0.5vw, 4px) min(1vw, 8px);
+        border-radius: min(1vw, 8px);
+        font-size: min(1.2vw, 14px);
+        font-weight: 700;
+        border: min(0.25vw, 2px) solid #1a1a1a;
+        box-shadow: 0 0 min(1.2vw, 10px) rgba(255, 215, 0, 0.5);
+        font-family: "Cinzel", serif;
+        letter-spacing: 0.1em;
+      }
+
+      @media (max-width: 600px) {
+        .card-container {
+          width: 95vw;
+          height: calc(95vw * 4 / 3);
+        }
+      }
+
+      @media (max-width: 400px) {
+        .card-container {
+          width: 95vw;
+          height: calc(95vw * 4 / 3);
+        }
+
+        .flavor-text {
+          font-size: 3.5vw;
+          line-height: 1.3;
+        }
+
+        .card-title {
+          font-size: 4.5vw;
+        }
+
+        .back-title {
+          font-size: 8vw;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card" id="card">
+        <!-- Front Face -->
+        <div class="card-face card-front">
+          <div class="card-header">
+            <div>
+              <div class="mana-cost">
+                <div class="mana-orb mana-ethereum">0</div>
+                <div class="mana-orb mana-artifact">3</div>
+                <div class="mana-orb mana-special">V</div>
+              </div>
+              <div class="card-title">Mr. F 〈GENESIS〉</div>
+            </div>
+            <div class="card-level">LVL ∞</div>
+          </div>
+
+          <div class="image-area" id="imageArea">
+            <img src="../images/card-images/mrf.png" alt="" />
+          </div>
+
+          <div class="type-power-section">
+            <div>Legendary Creature – Genesis Validator</div>
+            <div class="power-stats">
+              <div class="stat">ATK: ∞</div>
+              <div class="stat">DEF: ∞</div>
+            </div>
+          </div>
+
+          <div class="flavor-text" id="flavorText">
+            <div class="flavor-text-content">
+              From the first block forged in digital fire. Guardian of
+              consensus, keeper of the protocol's promise, forever bound to the
+              network's beating heart.
+            </div>
+          </div>
+
+          <div class="bottom-section">
+            <div class="artist-info">◆ SURF FINANCE STUDIOS ◆</div>
+            <div class="rarity-indicator">★ 1/1 ★</div>
+          </div>
+        </div>
+
+        <!-- Back Face - SURF Theme -->
+        <div class="card-face card-back">
+          <div class="back-content">
+            <div class="back-title">SURF</div>
+            <div class="back-pattern">
+              <div class="cog-container">
+                <img
+                  src="../images/nav_cog.svg"
+                  alt="Spinning Cog"
+                  class="nav-cog"
+                />
+                <img
+                  src="../images/nav_cog_innard.png"
+                  alt="Cog Center"
+                  class="nav-cog-innard"
+                />
+              </div>
+            </div>
+            <div class="back-subtitle">
+              LEGENDARY TCG<br />◆ WAVES COLLECTION ◆
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
