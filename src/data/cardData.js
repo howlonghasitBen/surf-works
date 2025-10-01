@@ -523,7 +523,7 @@ export const CARD_DATA = [
       },
     ],
     image: "/images/card-images/40till5.png",
-    type: "Legendary Creature – OG Memer",
+    type: "Creature – OG Memer",
     stats: { attack: "∞", defense: "∞" },
     flavorText:
       "Every wave between you and I, recieved. The cosmos, interpreted by waves, through waves. If we can perceive, can we not also impact?",
@@ -659,7 +659,7 @@ export const CARD_DATA = [
       },
     ],
     image: "/images/card-images/ben.png",
-    type: "Legendary Creature — Artist",
+    type: "Creature — Artist",
     stats: { attack: "∞", defense: "∞" },
     flavorText:
       "Humankind cannot gain anything without first giving something in return. To obtain something, something of equal value must be lost. That is alchemy's first law of Equivalent Exchange.",
@@ -693,7 +693,7 @@ export const CARD_DATA = [
       },
     ],
     image: "/images/card-images/bliddo.png",
-    type: "Legendary Creature — COPYCAT",
+    type: "Creature — COPYCAT",
     stats: { attack: "∞", defense: "∞" },
     flavorText: "Saw what you did there, glad I thought of it.",
     artist: "SURF FINANCE STUDIOS",
@@ -726,7 +726,7 @@ export const CARD_DATA = [
       },
     ],
     image: "/images/card-images/cag.png",
-    type: "Legendary Creature – Wanderer",
+    type: "Creature – Wanderer",
     stats: { attack: "∞", defense: "∞" },
     flavorText:
       "Empty the mind, release the self, become one with the infinite void. In detachment from material bonds, true freedom is found.",
@@ -760,7 +760,7 @@ export const CARD_DATA = [
       },
     ],
     image: "/images/card-images/cyclops.png",
-    type: "Legendary Creature – Cyclops",
+    type: "Creature – Cyclops",
     stats: { attack: "4", defense: "5" },
     flavorText:
       "Big Stick Swinging〈4D : 30% SE : 1TR〉\n(30% chance for tree to fracture causing bleed effect. 1 turn conditional recharge)",
