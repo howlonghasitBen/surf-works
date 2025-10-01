@@ -55,8 +55,7 @@ body {
 /* Carousel container */
 .rightContentWrapper {
   position: relative;
-  width: calc(100% - 2rem);
-  margin: 0 auto;
+  width: 100%;
   height: calc(100vh - 95px);
   overflow-y: auto;
   overflow-x: hidden;
@@ -72,13 +71,13 @@ body {
   -ms-overflow-style: none;
 }
 
-/* Carousel content grid */
+/* Carousel content grid - Desktop: 2 columns */
 .carousel-content {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-  gap: 20px;
-  padding: 20px;
+  grid-template-columns: repeat(2, 1fr);
+
   justify-items: center;
+  max-width: 100%;
 }
 
 /* Footer Styles */
@@ -175,54 +174,6 @@ body {
   margin-top: 10px;
 }
 
-/* Card Size Overrides - Add to bottom of App.css */
-
-/* Make cards larger for desktop 2-column layout */
-.card-container {
-  width: 330px !important;
-  height: auto;
-  aspect-ratio: 3 / 4;
-  border: min(0.8vw, 6px) solid #1a1a1a;
-  border-radius: min(2.5vw, 20px);
-}
-
-/* Scale font sizes proportionally */
-.card-container .card-title {
-  font-size: min(1rem, 20px);
-}
-
-.card-container .card-level {
-  font-size: min(1rem, 16px);
-  font-weight: 700;
-}
-
-.card-container .mana-orb {
-  font-size: min(1rem, 10px);
-}
-
-.card-container .type-power-section {
-  font-size: min(2rem, 12px);
-  font-weight: 600;
-  padding: min(1.2vw, 10px) min(2vw, 16px);
-}
-
-.card-container .stat {
-  font-size: min(2rem, 8px);
-  display: flex;
-  gap: min(1.5vw, 12px);
-}
-
-.card-container .flavor-text {
-  padding: 0 min(2vw, 16px);
-  font-size: min(1rem, 12px);
-  line-height: 1.4;
-}
-
-.card-container .artist-info,
-.card-container .rarity-indicator {
-  font-size: min(1rem, 12px);
-}
-
 /* Mobile adjustments */
 @media (max-width: 1079px) {
   .bodyContent {
@@ -265,5 +216,12 @@ body {
 
   .social-links {
     justify-content: center;
+  }
+}
+
+/* Tablet - show 1 column */
+@media (max-width: 1400px) and (min-width: 1080px) {
+  .carousel-content {
+    grid-template-columns: 1fr;
   }
 }
