@@ -4,6 +4,7 @@ import CardCarousel from "./components/CardCarousel";
 import Footer from "./components/Footer";
 import DeckPage from "./components/DeckPage";
 import HarpoonPage from "./components/HarpoonPage";
+import WavesPage from "./components/WavesPage";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
         return <DeckPage />;
       case "harpoon":
         return <HarpoonPage />;
+      case "waves":
+        return <WavesPage />;
       case "home":
       default:
         return (
