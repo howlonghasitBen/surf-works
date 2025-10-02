@@ -5,7 +5,9 @@ import { CARD_DATA } from "../data/cardData";
 const CardCarousel = ({ isPaused = false }) => {
   const carouselRef = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
+  const [isTouching, setIsTouching] = useState(false);
   const scrollPosRef = useRef(0);
+  const touchTimeoutRef = useRef(null);
 
   useEffect(() => {
     const wrapper = carouselRef.current;
@@ -16,8 +18,8 @@ const CardCarousel = ({ isPaused = false }) => {
     let animationId;
 
     const autoScroll = () => {
-      // Pause if navigation is open or card is hovered
-      if (!isPaused && !isHovered) {
+      // Pause if navigation is open, card is hovered, or user is touching
+      if (!isPaused && !isHovered && !isTouching) {
         if (isMobile) {
           scrollPosRef.current += scrollSpeed;
           wrapper.scrollLeft = scrollPosRef.current;
@@ -48,7 +50,30 @@ const CardCarousel = ({ isPaused = false }) => {
       clearTimeout(timeoutId);
       if (animationId) cancelAnimationFrame(animationId);
     };
-  }, [isPaused, isHovered]);
+  }, [isPaused, isHovered, isTouching]);
+
+  const handleTouchStart = () => {
+    setIsTouching(true);
+    if (touchTimeoutRef.current) {
+      clearTimeout(touchTimeoutRef.current);
+    }
+  };
+
+  const handleTouchEnd = () => {
+    // Keep touch state active for a brief moment after touch ends
+    // to prevent auto-scroll from immediately resuming
+    touchTimeoutRef.current = setTimeout(() => {
+      setIsTouching(false);
+    }, 500);
+  };
+
+  useEffect(() => {
+    return () => {
+      if (touchTimeoutRef.current) {
+        clearTimeout(touchTimeoutRef.current);
+      }
+    };
+  }, []);
 
   const displayCards = [...CARD_DATA, ...CARD_DATA];
 
@@ -58,6 +83,9 @@ const CardCarousel = ({ isPaused = false }) => {
       ref={carouselRef}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+      onTouchCancel={handleTouchEnd}
     >
       <div className="carousel-content">
         {displayCards.map((card, index) => (
