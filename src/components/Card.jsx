@@ -182,7 +182,7 @@ const Card = ({ card }) => {
                   className="nav-cog"
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/nav_cog_innard.png`}
+                  src={`${process.env.PUBLIC_URL}/images/waves-collection-logo.png`}
                   alt="Cog Center"
                   className="nav-cog-innard"
                 />
