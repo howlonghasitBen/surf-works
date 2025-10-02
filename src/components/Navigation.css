@@ -293,7 +293,7 @@
 
 @keyframes cogRippleSpinIn {
   0% {
-    transform: rotate(calc(-180deg * var(--cog-direction, 1)));
+    transform: rotate(calc(180deg * var(--cog-direction, 1)));
     opacity: 0;
   }
   100% {
