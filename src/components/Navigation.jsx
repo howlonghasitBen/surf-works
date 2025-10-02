@@ -58,6 +58,18 @@ const Navigation = ({ onNavigate, currentPage, isExpanded, setIsExpanded }) => {
       label: "harpoon",
       action: () => onNavigate("harpoon"),
     },
+    {
+      id: "waves",
+      icon: (
+        <img
+          src={`${process.env.PUBLIC_URL}/images/waves-collection-logo.png`}
+          alt="waves"
+          style={{ width: "70%", height: "70%", zIndex: "1" }}
+        />
+      ),
+      label: "waves",
+      action: () => onNavigate("waves"),
+    },
   ];
 
   const toggleExpanded = () => {
