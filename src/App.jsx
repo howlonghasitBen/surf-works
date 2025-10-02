@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import CardCarousel from "./components/CardCarousel";
 import Footer from "./components/Footer";
 import DeckPage from "./components/DeckPage";
+import HarpoonPage from "./components/HarpoonPage";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
     switch (currentPage) {
       case "deck":
         return <DeckPage />;
+      case "harpoon":
+        return <HarpoonPage />;
       case "home":
       default:
         return (
