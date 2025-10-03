@@ -1,0 +1,53 @@
+{
+  "name": "Getri ⟨ANCIENT⟩",
+  "description": "Common Card from the SURF Waves Collection. Tri Attack ⟨6D : 3TD⟩\nPassive: Upon death, spawn a Wyrm",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/hydra.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=getri2&showRarity=false",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Level",
+      "value": "2"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "6"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "2"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Ancient Earth"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Hydra Beast"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Mana 1",
+      "value": "earth: 5"
+    },
+    {
+      "trait_type": "Mana 2",
+      "value": "green: 3"
+    },
+    {
+      "trait_type": "Mana 3",
+      "value": "special: H"
+    }
+  ]
+}

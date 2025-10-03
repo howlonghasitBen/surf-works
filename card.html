@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SURF Card NFT</title>
+
+    <!-- CDN Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "IBM Plex Mono", monospace;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: #0a1a2e;
+        overflow: hidden;
+      }
+
+      .card-container {
+        width: 350px;
+        height: 467px;
+        perspective: 1000px;
+        cursor: pointer;
+        letter-spacing: 0.1px;
+      }
+
+      .card {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .card.flipped {
+        transform: rotateY(180deg);
+      }
+
+      .card:hover {
+        transform: scale(1.02);
+      }
+
+      .card.flipped:hover {
+        transform: rotateY(180deg) scale(1.02);
+      }
+
+      .card-face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        border: 6px solid #1a1a1a;
+        border-radius: 14px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card-front {
+        transform: rotateY(0deg);
+        z-index: 2;
+      }
+
+      .card-back {
+        background: radial-gradient(circle at center, #1a2a40, #0a1a2e),
+          conic-gradient(from 45deg, #00bfff, #4682b4, #87ceeb, #00bfff);
+        transform: rotateY(180deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+      }
+
+      /* Header */
+      .card-header {
+        border-bottom: 3px solid #1a1a2e;
+        padding: 8px 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Cinzel", serif;
+        flex-shrink: 0;
+      }
+
+      .card-title {
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+
+      .card-level {
+        padding: 4px 8px;
+        border-radius: 12px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+
+      .mana-cost {
+        display: flex;
+        gap: 4px;
+        margin-bottom: 4px;
+      }
+
+      .mana-orb {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.5rem;
+        font-weight: bold;
+        border: 2px solid #1a1a1a;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      /* Image Area */
+      .image-area {
+        height: 40%;
+        margin: 8px;
+        border-radius: 8px;
+        position: relative;
+        overflow: hidden;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .image-area img {
+        width: auto;
+        height: 100%;
+        transform: scale(1.2);
+      }
+
+      /* Type Section */
+      .type-power-section {
+        padding: 10px 16px;
+        font-family: "Cinzel", serif;
+        font-size: 0.65rem;
+        font-weight: 600;
+        border-top: 2px solid #1a1a2e;
+        border-bottom: 2px solid #1a1a2e;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .power-stats {
+        font-size: 0.5rem;
+        display: flex;
+        gap: 8px;
+        white-space: nowrap;
+      }
+
+      .stat {
+        padding: 4px 8px;
+        border-radius: 4px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+      }
+
+      /* Flavor Text */
+      .flavor-text {
+        padding: 0 16px;
+        font-size: 0.7rem;
+        line-height: 1.1;
+        text-align: center;
+        font-style: italic;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+
+      .flavor-text::before {
+        content: '"';
+        font-size: 2rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.4;
+      }
+
+      .flavor-text::after {
+        content: '"';
+        font-size: 2rem;
+        position: absolute;
+        bottom: 0;
+        right: 8px;
+        opacity: 0.4;
+      }
+
+      .flavor-text-content {
+        white-space: pre-line;
+      }
+
+      /* Bottom Section */
+      .bottom-section {
+        padding: 10px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+      }
+
+      .artist-info {
+        font-size: 0.7rem;
+        font-family: "Cinzel", serif;
+        opacity: 0.8;
+      }
+
+      .rarity-indicator {
+        padding: 4px 8px;
+        border-radius: 8px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        border: 2px solid #1a1a1a;
+        font-family: "Cinzel", serif;
+        letter-spacing: 0.1em;
+      }
+
+      /* Card Back */
+      .back-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        color: white;
+      }
+
+      .back-title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #00bfff;
+        font-family: "Cinzel", serif;
+        text-shadow: 0 0 20px rgba(0, 191, 255, 0.5);
+      }
+
+      .back-pattern {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        margin: 20px 0;
+      }
+
+      .cog-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+
+      .nav-cog {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        animation: rotate 12s linear infinite;
+      }
+
+      .nav-cog-innard {
+        position: absolute;
+        width: 75%;
+        height: 75%;
+        top: 12.5%;
+        left: 12.5%;
+        border-radius: 50%;
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .back-subtitle {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+        font-family: "Cinzel", serif;
+        opacity: 0.9;
+        letter-spacing: 0.1em;
+      }
+
+      .loading {
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+      }
+
+      .error {
+        color: #ff4444;
+        font-size: 1rem;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="loading">Loading card...</div>
+    </div>
+
+    <script>
+      // Parse URL parameters
+      function getURLParams() {
+        const params = new URLSearchParams(window.location.search);
+        return {
+          id: params.get("id") || "ben",
+          showRarity: params.get("showRarity") !== "false",
+        };
+      }
+
+      // Fetch card data
+      async function loadCardData() {
+        try {
+          const response = await fetch("./cardData.json");
+          if (!response.ok) throw new Error("Failed to load card data");
+          return await response.json();
+        } catch (error) {
+          console.error("Error loading card data:", error);
+          throw error;
+        }
+      }
+
+      // Apply theme styles to element
+      function applyStyles(element, styles) {
+        Object.keys(styles).forEach((key) => {
+          if (key === "background") {
+            element.style.background = styles[key];
+          } else if (key === "color") {
+            element.style.color = styles[key];
+          } else if (key === "textShadow") {
+            element.style.textShadow = styles[key];
+          } else if (key === "boxShadow") {
+            element.style.boxShadow = styles[key];
+          } else if (key === "border") {
+            element.style.border = styles[key];
+          } else if (key === "borderBottom") {
+            element.style.borderBottom = styles[key];
+          }
+        });
+      }
+
+      // Render card
+      function renderCard(card, theme, showRarity) {
+        const container = document.createElement("div");
+        container.className = "card-container";
+
+        const cardDiv = document.createElement("div");
+        cardDiv.className = "card";
+
+        // Front face
+        const front = document.createElement("div");
+        front.className = "card-face card-front";
+        front.style.background = theme.background;
+
+        // Header
+        const header = document.createElement("div");
+        header.className = "card-header";
+        applyStyles(header, theme.header);
+
+        const headerLeft = document.createElement("div");
+
+        // Mana cost
+        const manaCost = document.createElement("div");
+        manaCost.className = "mana-cost";
+        card.manaCost.forEach((mana) => {
+          const orb = document.createElement("div");
+          orb.className = "mana-orb";
+          orb.style.background = mana.color;
+          orb.style.color = mana.textColor || "#fff";
+          orb.textContent = mana.value;
+          manaCost.appendChild(orb);
+        });
+        headerLeft.appendChild(manaCost);
+
+        // Title
+        const title = document.createElement("div");
+        title.className = "card-title";
+        title.textContent = `${card.name} ${card.subtitle}`;
+        headerLeft.appendChild(title);
+
+        header.appendChild(headerLeft);
+
+        // Level
+        const level = document.createElement("div");
+        level.className = "card-level";
+        applyStyles(level, theme.stat);
+        level.textContent = `LVL ${card.level}`;
+        header.appendChild(level);
+
+        front.appendChild(header);
+
+        // Image area
+        const imageArea = document.createElement("div");
+        imageArea.className = "image-area";
+        applyStyles(imageArea, theme.imageArea);
+
+        const img = document.createElement("img");
+        img.src = `.${card.image}`;
+        img.alt = card.name;
+        img.onerror = () => {
+          img.style.display = "none";
+        };
+        imageArea.appendChild(img);
+
+        front.appendChild(imageArea);
+
+        // Type section
+        const typeSection = document.createElement("div");
+        typeSection.className = "type-power-section";
+        applyStyles(typeSection, theme.typeSection);
+
+        const typeText = document.createElement("div");
+        typeText.textContent = card.type;
+        typeSection.appendChild(typeText);
+
+        if (card.stats) {
+          const powerStats = document.createElement("div");
+          powerStats.className = "power-stats";
+
+          const atk = document.createElement("div");
+          atk.className = "stat";
+          applyStyles(atk, theme.stat);
+          atk.textContent = `ATK: ${card.stats.attack}`;
+          powerStats.appendChild(atk);
+
+          const def = document.createElement("div");
+          def.className = "stat";
+          applyStyles(def, theme.stat);
+          def.textContent = `DEF: ${card.stats.defense}`;
+          powerStats.appendChild(def);
+
+          typeSection.appendChild(powerStats);
+        }
+
+        front.appendChild(typeSection);
+
+        // Flavor text
+        const flavorText = document.createElement("div");
+        flavorText.className = "flavor-text";
+        applyStyles(flavorText, theme.flavorText);
+
+        // Add dynamic accent color for quotes
+        const style = document.createElement("style");
+        style.textContent = `
+        .flavor-text::before,
+        .flavor-text::after {
+          color: ${theme.flavorText.accentColor};
+        }
+      `;
+        document.head.appendChild(style);
+
+        const flavorContent = document.createElement("div");
+        flavorContent.className = "flavor-text-content";
+        flavorContent.textContent = card.flavorText;
+        flavorText.appendChild(flavorContent);
+
+        front.appendChild(flavorText);
+
+        // Bottom section
+        const bottomSection = document.createElement("div");
+        bottomSection.className = "bottom-section";
+        bottomSection.style.background = theme.bottomSection.background;
+
+        const artist = document.createElement("div");
+        artist.className = "artist-info";
+        artist.style.color = theme.flavorText.color;
+        artist.textContent = `◆ ${card.artist} ◆`;
+        bottomSection.appendChild(artist);
+
+        // Rarity (only if showRarity is true)
+        if (showRarity) {
+          const rarity = document.createElement("div");
+          rarity.className = "rarity-indicator";
+          if (theme.rarity) {
+            applyStyles(rarity, theme.rarity);
+          } else {
+            rarity.style.background =
+              "linear-gradient(135deg, #dda0dd, #ba55d3)";
+            rarity.style.color = "#1a1a2e";
+            rarity.style.border = "2px solid #1a1a1a";
+            rarity.style.boxShadow = "0 0 10px rgba(221, 160, 221, 0.5)";
+          }
+          rarity.textContent = `★ ${card.rarity} ★`;
+          bottomSection.appendChild(rarity);
+        }
+
+        front.appendChild(bottomSection);
+
+        // Back face
+        const back = document.createElement("div");
+        back.className = "card-face card-back";
+        back.innerHTML = `
+        <div class="back-content">
+          <div class="back-title">SURF</div>
+          <div class="back-pattern">
+            <div class="cog-container">
+              <svg class="nav-cog" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 10 L55 35 L65 30 L60 40 L75 45 L65 50 L75 55 L60 60 L65 70 L55 65 L50 90 L45 65 L35 70 L40 60 L25 55 L35 50 L25 45 L40 40 L35 30 L45 35 Z" fill="#00bfff" stroke="#1a1a1a" stroke-width="2"/>
+              </svg>
+              <img class="nav-cog-innard" src="https://howlonghasitben.github.io/surf-works/images/waves-collection-logo.png" alt="Logo">
+            </div>
+          </div>
+          <div class="back-subtitle">
+            LEGENDARY TCG
+            <br>◆ WAVES COLLECTION ◆
+          </div>
+        </div>
+      `;
+
+        cardDiv.appendChild(front);
+        cardDiv.appendChild(back);
+        container.appendChild(cardDiv);
+
+        // Click to flip
+        container.addEventListener("click", () => {
+          cardDiv.classList.toggle("flipped");
+        });
+
+        return container;
+      }
+
+      // Main execution
+      async function init() {
+        try {
+          const { id, showRarity } = getURLParams();
+          const data = await loadCardData();
+
+          const card = data.cards.find((c) => c.id === id);
+          if (!card) {
+            throw new Error(`Card with id "${id}" not found`);
+          }
+
+          const theme = data.themes[card.theme] || data.themes.cosmicPurple;
+
+          const root = document.getElementById("root");
+          root.innerHTML = "";
+          root.appendChild(renderCard(card, theme, showRarity));
+        } catch (error) {
+          console.error("Error initializing card:", error);
+          document.getElementById("root").innerHTML = `
+          <div class="error">
+            <p>Error loading card: ${error.message}</p>
+            <p>Please check the console for details.</p>
+          </div>
+        `;
+        }
+      }
+
+      // Start when DOM is ready
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", init);
+      } else {
+        init();
+      }
+    </script>
+  </body>
+</html>

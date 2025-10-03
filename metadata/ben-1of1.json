@@ -1,0 +1,53 @@
+{
+  "name": "Ben ⟨MEME KING⟩",
+  "description": "1/1 Legendary Card from the SURF Waves Collection. Humankind cannot gain anything without first giving something in return. To obtain something, something of equal value must be lost. That is alchemy's first law of Equivalent Exchange.",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/ben.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=ben&showRarity=true",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "1/1"
+    },
+    {
+      "trait_type": "Level",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Alchemical Red"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Artist"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Mana 1",
+      "value": "red: 3"
+    },
+    {
+      "trait_type": "Mana 2",
+      "value": "artifact: 1"
+    },
+    {
+      "trait_type": "Mana 3",
+      "value": "special: E"
+    }
+  ]
+}
