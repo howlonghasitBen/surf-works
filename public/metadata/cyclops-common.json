@@ -1,0 +1,53 @@
+{
+  "name": "Rampage 〈Ogrid〉",
+  "description": "Common Card from the SURF Waves Collection. Big Stick Swinging〈4D : 30% SE : 1TR〉\n(30% chance for tree to fracture causing bleed effect. 1 turn conditional recharge)",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/cyclops.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=cyclops&showRarity=false",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Level",
+      "value": "2"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "4"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "5"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Stone Moss"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature – Cyclops"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Mana 1",
+      "value": "stone: 2"
+    },
+    {
+      "trait_type": "Mana 2",
+      "value": "moss: 3"
+    },
+    {
+      "trait_type": "Mana 3",
+      "value": "special: S"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Sasquepe 〈CRYPTID〉",
+  "description": "1/1 Legendary Card from the SURF Waves Collection. Hammer Fist ⟨5D : 3TD⟩\nRush: This card can attack the same turn it's fielded",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/sasquepe.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=sasquepe&showRarity=true",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "1/1"
+    },
+    {
+      "trait_type": "Level",
+      "value": "1"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "5"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "3"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Woodland Brown"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Great Ape"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Mana 1",
+      "value": "earth: 4"
+    },
+    {
+      "trait_type": "Mana 2",
+      "value": "forest: 3"
+    },
+    {
+      "trait_type": "Mana 3",
+      "value": "special: 🦍"
+    }
+  ]
+}

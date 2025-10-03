@@ -1,0 +1,45 @@
+{
+  "name": "Slight of Hand",
+  "description": "1/1 Legendary Card from the SURF Waves Collection. Slight of Hand ⟨Draw two addition cards⟩\nWhere fortunes rise and fall with the turn of a card, luck favors the bold.",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/soh.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=slightofhand&showRarity=true",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "1/1"
+    },
+    {
+      "trait_type": "Level",
+      "value": "★"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Casino Gold"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Consumable — Cards"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Mana 1",
+      "value": "gold: 4"
+    },
+    {
+      "trait_type": "Mana 2",
+      "value": "luck: 2"
+    },
+    {
+      "trait_type": "Mana 3",
+      "value": "special: C"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Proof 〈SURF〉",
+  "description": "Common Card from the SURF Waves Collection. Where liquidity meets innovation, riding the waves of DeFi protocols with unmatched precision. Master of automated market makers, guardian of yield strategies, architect of the next financial tide.",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/proof.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=proof&showRarity=false",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Level",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Ocean Blue"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — DeFi Innovator"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Mana 1",
+      "value": "blue: 2"
+    },
+    {
+      "trait_type": "Mana 2",
+      "value": "artifact: 3"
+    },
+    {
+      "trait_type": "Mana 3",
+      "value": "special: W"
+    }
+  ]
+}
