@@ -1,0 +1,53 @@
+{
+  "name": "Forest Spirit ⟨VOID⟩",
+  "description": "Common Card from the SURF Waves Collection. Void Strike ⟨2D : 2TD⟩\nSpirit Rend ⟨Sleeping targets take 50% HP as TD⟩",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/forestspirit.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=forestspirit&showRarity=false",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Level",
+      "value": "1"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "2"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "2"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Shadow Void"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Nightmare Beast"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "3"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "1"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}

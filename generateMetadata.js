@@ -85,13 +85,23 @@ function generateMetadata(card, is1of1 = true) {
     }
   );
 
-  // Add mana cost traits
-  card.manaCost.forEach((mana, index) => {
-    metadata.attributes.push({
-      trait_type: `Mana ${index + 1}`,
-      value: `${mana.type}: ${mana.value}`,
-    });
-  });
+  // Add NEW mana orb system traits
+  if (card.manaCost && card.manaCost.length === 3) {
+    metadata.attributes.push(
+      {
+        trait_type: "Health Points",
+        value: card.manaCost[0].value,
+      },
+      {
+        trait_type: "Mana Cost",
+        value: card.manaCost[1].value,
+      },
+      {
+        trait_type: "Terrain",
+        value: card.manaCost[2].value,
+      }
+    );
+  }
 
   return metadata;
 }
@@ -170,6 +180,10 @@ function main() {
 
   console.log(`\n✅ Generated ${cards.length * 2} metadata files!`);
   console.log(`📍 Output directory: ${CONFIG.outputDir}`);
+  console.log("\n📝 Metadata includes new mana orb system:");
+  console.log("  - Health Points (HP)");
+  console.log("  - Mana Cost");
+  console.log("  - Terrain Alignment");
   console.log("\n📝 Next steps:");
   console.log("1. Upload metadata/ folder to your GitHub repo");
   console.log("2. Update smart contract with baseURI");

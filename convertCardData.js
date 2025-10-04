@@ -4,7 +4,7 @@ const path = require("path");
 
 /**
  * This script converts your React cardData.js file to cardData.json
- * Run this in your src/data/ directory:
+ * Run this in your project root:
  *
  * node convertCardData.js
  */
@@ -101,7 +101,7 @@ function main() {
 
     console.log("\n📝 Next steps:");
     console.log("1. Review cardData.json for accuracy");
-    console.log("2. Upload to your GitHub repo");
+    console.log("2. Run updateManaOrbs.js to update mana orb system");
     console.log("3. Run generateMetadata.js to create NFT metadata");
   } catch (error) {
     console.error("\n❌ Conversion failed:", error.message);
@@ -115,30 +115,9 @@ function main() {
   }
 }
 
-// Alternative: Manual copy-paste method
-function showManualInstructions() {
-  console.log("\n📋 Manual Conversion Method:");
-  console.log("\n1. Open src/data/cardData.js");
-  console.log("2. Copy CARD_DATA and CARD_THEMES");
-  console.log("3. Create cardData.json with this structure:");
-  console.log(`
-{
-  "cards": [...paste CARD_DATA here...],
-  "themes": {...paste CARD_THEMES here...}
-}
-  `);
-  console.log("4. Save and validate JSON syntax");
-}
-
 // Run if executed directly
 if (require.main === module) {
-  try {
-    main();
-  } catch (error) {
-    console.error("\n" + "=".repeat(50));
-    showManualInstructions();
-    console.error("=".repeat(50) + "\n");
-  }
+  main();
 }
 
 module.exports = { extractDataFromJS, convertToJSON };

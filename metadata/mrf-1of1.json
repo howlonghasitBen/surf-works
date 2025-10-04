@@ -1,0 +1,53 @@
+{
+  "name": "Mr. F 〈GENESIS〉",
+  "description": "1/1 Legendary Card from the SURF Waves Collection. From the first block forged in digital fire. Guardian of consensus, keeper of the protocol's promise, forever bound to the network's beating heart.",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/mrf.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=mrf&showRarity=true",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "1/1"
+    },
+    {
+      "trait_type": "Level",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Ethereum Purple"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature – Genesis Validator"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "6"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}

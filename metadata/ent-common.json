@@ -1,0 +1,53 @@
+{
+  "name": "Ent ⟨Woodland⟩",
+  "description": "Common Card from the SURF Waves Collection. Passive: While this card is fielded, all ally cards on the field get +1 DEF every turn.\n'Wood, Water, Sapling, Iceberg.'",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/ent.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=ent&showRarity=false",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Level",
+      "value": "2"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "0"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "4"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Dark Forest"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Living Forest"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "5"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "3"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}

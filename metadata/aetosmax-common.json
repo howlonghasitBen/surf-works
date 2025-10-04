@@ -1,0 +1,53 @@
+{
+  "name": "Aetos ⟨Soverign⟩",
+  "description": "Common Card from the SURF Waves Collection. Atmospheric Assault ⟨8D : 6TD⟩\nSteel, Blood, Feathers, Screams and Screeches.",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/aetos.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=aetosmax&showRarity=false",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Level",
+      "value": "3"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "8"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "5"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Sunset Fire"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Armored Eagle"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "10"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "5"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}

@@ -95,7 +95,7 @@
   text-wrap: nowrap;
 }
 
-/* Mana Cost */
+/* Mana Cost - Updated for new orb system */
 .mana-cost {
   display: flex;
   gap: min(0.5vw, 4px);
@@ -103,16 +103,64 @@
 }
 
 .mana-orb {
-  width: 1rem;
-  height: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 0.5rem;
   font-weight: bold;
   border: min(0.25vw, 2px) solid #1a1a1a;
   box-shadow: 0 min(0.25vw, 2px) min(0.5vw, 4px) rgba(0, 0, 0, 0.3);
+  position: relative;
+  cursor: help;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mana-orb:hover {
+  transform: scale(1.1);
+  box-shadow: 0 min(0.4vw, 3px) min(0.8vw, 6px) rgba(0, 0, 0, 0.4);
+}
+
+.orb-label {
+  font-size: 0.35rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  opacity: 0.9;
+  line-height: 1;
+  margin-bottom: 0.1rem;
+}
+
+.orb-value {
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Tooltip on hover */
+.mana-orb::after {
+  content: attr(title);
+  position: absolute;
+  bottom: calc(100% + 0.5rem);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.3rem;
+  font-size: 0.5rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 10;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.mana-orb:hover::after {
+  opacity: 1;
 }
 
 /* Image Area */
@@ -312,7 +360,21 @@
   }
 
   .mana-orb {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .orb-label {
+    font-size: 0.3rem;
+  }
+
+  .orb-value {
+    font-size: 0.6rem;
+  }
+
+  .mana-orb::after {
     font-size: 0.45rem;
+    padding: 0.25rem 0.5rem;
   }
 
   .image-area {
@@ -358,6 +420,19 @@
     padding: 8px 12px;
     font-size: 0.5rem;
     letter-spacing: 0.1px;
+  }
+
+  .mana-orb {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .orb-label {
+    font-size: 0.28rem;
+  }
+
+  .orb-value {
+    font-size: 0.55rem;
   }
 
   .flavor-text {

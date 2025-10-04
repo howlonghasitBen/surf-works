@@ -1,3 +1,4 @@
+// src/components/Card.jsx
 import React, { useState } from "react";
 import { CARD_THEMES } from "../data/cardData";
 import "./Cards.css";
@@ -10,6 +11,21 @@ const Card = ({ card }) => {
 
   const handleClick = () => {
     setIsFlipped(!isFlipped);
+  };
+
+  // Orb labels and tooltips
+  const getOrbLabel = (index) => {
+    const labels = ["HP", "MANA", "TERRAIN"];
+    return labels[index] || "";
+  };
+
+  const getOrbTooltip = (index) => {
+    const tooltips = [
+      "Health Points",
+      "Mana Cost to Play",
+      "Terrain Alignment",
+    ];
+    return tooltips[index] || "";
   };
 
   return (
@@ -43,8 +59,10 @@ const Card = ({ card }) => {
                       background: mana.color,
                       color: mana.textColor || "#fff",
                     }}
+                    title={getOrbTooltip(idx)}
                   >
-                    {mana.value}
+                    <div className="orb-label">{getOrbLabel(idx)}</div>
+                    <div className="orb-value">{mana.value}</div>
                   </div>
                 ))}
               </div>
