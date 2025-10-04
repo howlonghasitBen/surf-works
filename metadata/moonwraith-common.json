@@ -38,16 +38,16 @@
       "value": "Waves Collection"
     },
     {
-      "trait_type": "Mana 1",
-      "value": "spirit: 3"
+      "trait_type": "Health Points",
+      "value": "5"
     },
     {
-      "trait_type": "Mana 2",
-      "value": "ethereal: 2"
+      "trait_type": "Mana Cost",
+      "value": "3"
     },
     {
-      "trait_type": "Mana 3",
-      "value": "special: 👻"
+      "trait_type": "Terrain",
+      "value": "?"
     }
   ]
 }

@@ -8,22 +8,22 @@
       "theme": "cosmicPurple",
       "manaCost": [
         {
-          "type": "cosmic",
-          "value": "2",
-          "color": "radial-gradient(circle, #4b0082, #301934)",
-          "textColor": "#e6e6fa"
+          "type": "hp",
+          "value": "∞",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "artifact",
-          "value": "3",
-          "color": "radial-gradient(circle, #9370db, #663399)",
-          "textColor": "#e6e6fa"
+          "type": "mana",
+          "value": "6",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "S",
-          "color": "radial-gradient(circle, #dda0dd, #ba55d3)",
-          "textColor": "#1a1a2e"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/40till5.png",
@@ -44,22 +44,22 @@
       "theme": "skyBlue",
       "manaCost": [
         {
-          "type": "sky",
-          "value": "2",
-          "color": "radial-gradient(circle, #87ceeb, #4682b4)",
+          "type": "hp",
+          "value": "3",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
           "textColor": "#ffffff"
         },
         {
-          "type": "wind",
+          "type": "mana",
           "value": "1",
-          "color": "radial-gradient(circle, #f0f8ff, #e6f3ff)",
-          "textColor": "#2f4f4f"
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "E",
-          "color": "radial-gradient(circle, #b0e0e6, #87ceeb)",
-          "textColor": "#2f4f4f"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/fledgling_eagle.png",
@@ -80,22 +80,22 @@
       "theme": "steelSky",
       "manaCost": [
         {
-          "type": "steel",
-          "value": "4",
-          "color": "radial-gradient(circle, #c0c0c0, #808080)",
-          "textColor": "#2f2f2f"
-        },
-        {
-          "type": "sky",
-          "value": "3",
-          "color": "radial-gradient(circle, #87ceeb, #4682b4)",
+          "type": "hp",
+          "value": "5",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
           "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "A",
-          "color": "radial-gradient(circle, #dda0dd, #ba55d3)",
-          "textColor": "#2f2f2f"
+          "type": "mana",
+          "value": "3",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
+        },
+        {
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/ya_eagle.png",
@@ -116,22 +116,22 @@
       "theme": "sunsetFire",
       "manaCost": [
         {
-          "type": "fire",
-          "value": "6",
-          "color": "radial-gradient(circle, #ff6347, #dc143c)",
-          "textColor": "#fff8dc"
+          "type": "hp",
+          "value": "10",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "sun",
-          "value": "4",
-          "color": "radial-gradient(circle, #ffd700, #ff8c00)",
-          "textColor": "#4a1a00"
+          "type": "mana",
+          "value": "5",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "Σ",
-          "color": "radial-gradient(circle, #ff4500, #8b0000)",
-          "textColor": "#fff8dc"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/aetos.png",
@@ -152,22 +152,22 @@
       "theme": "alchemicalRed",
       "manaCost": [
         {
-          "type": "red",
-          "value": "3",
+          "type": "hp",
+          "value": "∞",
           "color": "radial-gradient(circle, #dc143c, #8b0000)",
-          "textColor": "#ffd700"
+          "textColor": "#ffffff"
         },
         {
-          "type": "artifact",
-          "value": "1",
-          "color": "radial-gradient(circle, #b8860b, #daa520)",
-          "textColor": "#2c1810"
+          "type": "mana",
+          "value": "6",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "E",
-          "color": "radial-gradient(circle, #ff8c00, #ff4500)",
-          "textColor": "#2c1810"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/ben.png",
@@ -188,22 +188,22 @@
       "theme": "steelPsychic",
       "manaCost": [
         {
-          "type": "steel",
-          "value": "4",
-          "color": "radial-gradient(circle, #c0c0c0, #708090)",
-          "textColor": "#1a252f"
+          "type": "hp",
+          "value": "∞",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "psychic",
-          "value": "2",
-          "color": "radial-gradient(circle, #8a2be2, #4b0082)",
-          "textColor": "#e6e6fa"
+          "type": "mana",
+          "value": "6",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "M",
-          "color": "radial-gradient(circle, #4682b4, #5f9ea0)",
-          "textColor": "#e6e6fa"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/bliddo.png",
@@ -224,22 +224,22 @@
       "theme": "airyWhite",
       "manaCost": [
         {
-          "type": "white",
-          "value": "1",
-          "color": "radial-gradient(circle, #ffffff, #f0f8ff)",
-          "textColor": "#4a6b82"
+          "type": "hp",
+          "value": "∞",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "artifact",
-          "value": "2",
-          "color": "radial-gradient(circle, #e6f3ff, #d0e8f5)",
-          "textColor": "#2f4f4f"
+          "type": "mana",
+          "value": "6",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "Z",
-          "color": "radial-gradient(circle, #87ceeb, #b0e0e6)",
-          "textColor": "#2f4f4f"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/cag.png",
@@ -260,22 +260,22 @@
       "theme": "stoneMoss",
       "manaCost": [
         {
-          "type": "stone",
-          "value": "2",
-          "color": "linear-gradient(145deg, #6a6a6a, #4d4d4d)",
-          "textColor": "#e0e0e0"
+          "type": "hp",
+          "value": "5",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "moss",
+          "type": "mana",
           "value": "3",
-          "color": "linear-gradient(145deg, #6a6a6a, #4d4d4d)",
-          "textColor": "#e0e0e0"
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "S",
-          "color": "linear-gradient(145deg, #6a6a6a, #4d4d4d)",
-          "textColor": "#e0e0e0"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/cyclops.png",
@@ -296,22 +296,22 @@
       "theme": "darkForest",
       "manaCost": [
         {
-          "type": "dark",
-          "value": "4",
-          "color": "radial-gradient(circle, #2f2f2f, #1a1a1a)",
-          "textColor": "#d3d3d3"
+          "type": "hp",
+          "value": "5",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "poison",
-          "value": "2",
-          "color": "radial-gradient(circle, #465945, #2f3f2f)",
-          "textColor": "#d3d3d3"
+          "type": "mana",
+          "value": "3",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "S",
-          "color": "radial-gradient(circle, #708070, #556b55)",
-          "textColor": "#1a1a1a"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/ent.png",
@@ -332,22 +332,22 @@
       "theme": "moonlight",
       "manaCost": [
         {
-          "type": "moon",
-          "value": "3",
-          "color": "radial-gradient(circle, #e6e6fa, #d3d3d3)",
-          "textColor": "#2f4f4f"
+          "type": "hp",
+          "value": "★",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "nature",
+          "type": "mana",
           "value": "1",
-          "color": "radial-gradient(circle, #778899, #556b73)",
-          "textColor": "#f8f8ff"
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "F",
-          "color": "radial-gradient(circle, #b0c4de, #87ceeb)",
-          "textColor": "#2f4f4f"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/fairy fountain.png",
@@ -365,22 +365,22 @@
       "theme": "beachOcean",
       "manaCost": [
         {
-          "type": "water",
-          "value": "2",
-          "color": "radial-gradient(circle, #40e0d0, #20b2aa)",
+          "type": "hp",
+          "value": "∞",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
           "textColor": "#ffffff"
         },
         {
-          "type": "earth",
-          "value": "1",
-          "color": "radial-gradient(circle, #deb887, #cd853f)",
-          "textColor": "#2f4f4f"
+          "type": "mana",
+          "value": "6",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "F",
-          "color": "radial-gradient(circle, #90ee90, #32cd32)",
-          "textColor": "#2f4f4f"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/fisherman.png",
@@ -401,21 +401,21 @@
       "theme": "shadowVoid",
       "manaCost": [
         {
-          "type": "shadow",
+          "type": "hp",
           "value": "3",
-          "color": "radial-gradient(circle, #4b0082, #1a0033)",
-          "textColor": "#e6d5ff"
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "void",
-          "value": "2",
-          "color": "radial-gradient(circle, #2d1b3d, #0f0519)",
-          "textColor": "#ba55d3"
+          "type": "mana",
+          "value": "1",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "D",
-          "color": "radial-gradient(circle, #8b008b, #663399)",
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
           "textColor": "#ffffff"
         }
       ],
@@ -437,22 +437,22 @@
       "theme": "earthGreen",
       "manaCost": [
         {
-          "type": "earth",
-          "value": "2",
-          "color": "radial-gradient(circle, #9acd32, #6b8e23)",
-          "textColor": "#2d3d1f"
+          "type": "hp",
+          "value": "3",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "green",
+          "type": "mana",
           "value": "1",
-          "color": "radial-gradient(circle, #7cfc00, #32cd32)",
-          "textColor": "#2d3d1f"
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "W",
-          "color": "radial-gradient(circle, #8fbc8f, #66cdaa)",
-          "textColor": "#2d3d1f"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/wyrm.png",
@@ -473,22 +473,22 @@
       "theme": "ancientEarth",
       "manaCost": [
         {
-          "type": "earth",
+          "type": "hp",
           "value": "5",
-          "color": "radial-gradient(circle, #8b4513, #654321)",
-          "textColor": "#f5deb3"
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "green",
+          "type": "mana",
           "value": "3",
-          "color": "radial-gradient(circle, #556b2f, #2e4016)",
-          "textColor": "#f5deb3"
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "H",
-          "color": "radial-gradient(circle, #daa520, #b8860b)",
-          "textColor": "#2d2016"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/hydra.png",
@@ -509,22 +509,22 @@
       "theme": "stoneGuardian",
       "manaCost": [
         {
-          "type": "earth",
+          "type": "hp",
+          "value": "10",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
+        },
+        {
+          "type": "mana",
           "value": "5",
-          "color": "radial-gradient(circle, #556b2f, #355e3b)",
-          "textColor": "#f5deb3"
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "stone",
-          "value": "3",
-          "color": "radial-gradient(circle, #696969, #2f2f2f)",
-          "textColor": "#f5f5dc"
-        },
-        {
-          "type": "special",
-          "value": "G",
-          "color": "radial-gradient(circle, #daa520, #b8860b)",
-          "textColor": "#2f2f2f"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/golem.png",
@@ -545,22 +545,22 @@
       "theme": "federalNavy",
       "manaCost": [
         {
-          "type": "federal",
-          "value": "3",
-          "color": "radial-gradient(circle, #14356c, #0f2749)",
-          "textColor": "white"
+          "type": "hp",
+          "value": "∞",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "artifact",
-          "value": "2",
-          "color": "radial-gradient(circle, #c0c0c0, #708090)",
-          "textColor": "#1a1a1a"
+          "type": "mana",
+          "value": "6",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "A",
-          "color": "radial-gradient(circle, #ffd700, #daa520)",
-          "textColor": "#0f2749"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/hol.png",
@@ -581,22 +581,22 @@
       "theme": "retroGaming",
       "manaCost": [
         {
-          "type": "red",
-          "value": "3",
-          "color": "radial-gradient(circle, #ff0000, #cc0000)",
-          "textColor": "white"
+          "type": "hp",
+          "value": "∞",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "blue",
-          "value": "2",
-          "color": "radial-gradient(circle, #007bff, #0056b3)",
-          "textColor": "white"
+          "type": "mana",
+          "value": "6",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "★",
-          "color": "radial-gradient(circle, #ffc107, #ff9800)",
-          "textColor": "#2c3034"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/albinoApe.png",
@@ -617,22 +617,22 @@
       "theme": "purpleJustice",
       "manaCost": [
         {
-          "type": "white",
-          "value": "3",
-          "color": "radial-gradient(circle, #fffaf0, #f5f5dc)",
-          "textColor": "#4b0082"
+          "type": "hp",
+          "value": "∞",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "artifact",
-          "value": "2",
-          "color": "radial-gradient(circle, #c0c0c0, #708090)",
-          "textColor": "#1a1a1a"
+          "type": "mana",
+          "value": "6",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "K",
-          "color": "radial-gradient(circle, #8a2be2, #6a1b9a)",
-          "textColor": "white"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/pinakion.png",
@@ -653,22 +653,22 @@
       "theme": "steelOcean",
       "manaCost": [
         {
-          "type": "water",
-          "value": "6",
-          "color": "radial-gradient(circle, #4682b4, #1e3a5f)",
-          "textColor": "#e6f3ff"
+          "type": "hp",
+          "value": "10",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "steel",
-          "value": "4",
-          "color": "radial-gradient(circle, #708090, #2f4f4f)",
-          "textColor": "#e6f3ff"
+          "type": "mana",
+          "value": "5",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "K",
-          "color": "radial-gradient(circle, #5f6a6a, #36454f)",
-          "textColor": "#b0c4de"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/kraken.png",
@@ -689,22 +689,22 @@
       "theme": "necromantic",
       "manaCost": [
         {
-          "type": "death",
+          "type": "hp",
           "value": "5",
-          "color": "radial-gradient(circle, #1a0a1a, #000000)",
-          "textColor": "#d8bfd8"
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "necro",
-          "value": "4",
-          "color": "radial-gradient(circle, #6a0dad, #4b0082)",
-          "textColor": "#e6e6fa"
+          "type": "mana",
+          "value": "3",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "☠",
-          "color": "radial-gradient(circle, #228b22, #006400)",
-          "textColor": "#98fb98"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/lich.png",
@@ -725,22 +725,22 @@
       "theme": "silverAgent",
       "manaCost": [
         {
-          "type": "black",
-          "value": "2",
-          "color": "radial-gradient(circle, #2f2f2f, #000000)",
-          "textColor": "white"
+          "type": "hp",
+          "value": "∞",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "artifact",
-          "value": "4",
-          "color": "radial-gradient(circle, #c0c0c0, #708090)",
-          "textColor": "#1a1a1a"
+          "type": "mana",
+          "value": "6",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "S",
-          "color": "radial-gradient(circle, #ff0000, #8b0000)",
-          "textColor": "white"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/Lillie007.png",
@@ -761,22 +761,22 @@
       "theme": "ethereumPurple",
       "manaCost": [
         {
-          "type": "ethereum",
-          "value": "0",
-          "color": "radial-gradient(circle, #627eea, #4c51bf)",
-          "textColor": "white"
+          "type": "hp",
+          "value": "∞",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "artifact",
-          "value": "3",
-          "color": "radial-gradient(circle, #c0c0c0, #708090)",
-          "textColor": "#1a1a1a"
+          "type": "mana",
+          "value": "6",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "V",
-          "color": "radial-gradient(circle, #9f7aea, #805ad5)",
-          "textColor": "white"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/mrf.png",
@@ -797,22 +797,22 @@
       "theme": "beachLuxury",
       "manaCost": [
         {
-          "type": "sun",
-          "value": "3",
-          "color": "radial-gradient(circle, #f0e68c, #d4c86a)",
-          "textColor": "#2f4f4f"
-        },
-        {
-          "type": "water",
-          "value": "2",
-          "color": "radial-gradient(circle, #48d1cc, #20b2aa)",
+          "type": "hp",
+          "value": "∞",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
           "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "L",
-          "color": "radial-gradient(circle, #90ee90, #66cdaa)",
-          "textColor": "#2f4f4f"
+          "type": "mana",
+          "value": "6",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
+        },
+        {
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/Nitro.png",
@@ -833,22 +833,22 @@
       "theme": "pureGold",
       "manaCost": [
         {
-          "type": "blue",
-          "value": "3",
+          "type": "hp",
+          "value": "∞",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
+        },
+        {
+          "type": "mana",
+          "value": "6",
           "color": "radial-gradient(circle, #4169e1, #0000cd)",
-          "textColor": "white"
+          "textColor": "#ffffff"
         },
         {
-          "type": "artifact",
-          "value": "2",
-          "color": "radial-gradient(circle, #c0c0c0, #708090)",
-          "textColor": "#1a1a1a"
-        },
-        {
-          "type": "special",
-          "value": "X",
-          "color": "radial-gradient(circle, #9370db, #4b0082)",
-          "textColor": "white"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/pep.jpg",
@@ -869,22 +869,22 @@
       "theme": "darkForest",
       "manaCost": [
         {
-          "type": "dark",
-          "value": "4",
-          "color": "radial-gradient(circle, #2f2f2f, #1a1a1a)",
-          "textColor": "#d3d3d3"
+          "type": "hp",
+          "value": "5",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "poison",
-          "value": "2",
-          "color": "radial-gradient(circle, #465945, #2f3f2f)",
-          "textColor": "#d3d3d3"
+          "type": "mana",
+          "value": "3",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "S",
-          "color": "radial-gradient(circle, #708070, #556b55)",
-          "textColor": "#1a1a1a"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/Phelob.png",
@@ -905,22 +905,22 @@
       "theme": "phoenixFire",
       "manaCost": [
         {
-          "type": "fire",
-          "value": "6",
-          "color": "radial-gradient(circle, #ff4500, #dc143c)",
-          "textColor": "#fff8dc"
+          "type": "hp",
+          "value": "10",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "phoenix",
-          "value": "3",
-          "color": "radial-gradient(circle, #ffd700, #ff8c00)",
-          "textColor": "#8b0000"
+          "type": "mana",
+          "value": "5",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "P",
-          "color": "radial-gradient(circle, #ff6347, #ff0000)",
-          "textColor": "#fff8dc"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/phoenix.png",
@@ -941,22 +941,22 @@
       "theme": "oceanBlue",
       "manaCost": [
         {
-          "type": "blue",
-          "value": "2",
+          "type": "hp",
+          "value": "∞",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
+        },
+        {
+          "type": "mana",
+          "value": "6",
           "color": "radial-gradient(circle, #4169e1, #0000cd)",
-          "textColor": "white"
+          "textColor": "#ffffff"
         },
         {
-          "type": "artifact",
-          "value": "3",
-          "color": "radial-gradient(circle, #87ceeb, #4682b4)",
-          "textColor": "#1a1a1a"
-        },
-        {
-          "type": "special",
-          "value": "W",
-          "color": "radial-gradient(circle, #20b2aa, #008b8b)",
-          "textColor": "white"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/proof.png",
@@ -977,22 +977,22 @@
       "theme": "woodlandBrown",
       "manaCost": [
         {
-          "type": "earth",
-          "value": "4",
-          "color": "radial-gradient(circle, #654321, #4a3728)",
-          "textColor": "#d4a574"
-        },
-        {
-          "type": "forest",
+          "type": "hp",
           "value": "3",
-          "color": "radial-gradient(circle, #556b2f, #3d4d3d)",
-          "textColor": "#c8d4b8"
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "🦍",
-          "color": "radial-gradient(circle, #8b5a2b, #6b4423)",
-          "textColor": "#f5deb3"
+          "type": "mana",
+          "value": "1",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
+        },
+        {
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/sasquepe.png",
@@ -1013,22 +1013,22 @@
       "theme": "mysticalForest",
       "manaCost": [
         {
-          "type": "nature",
-          "value": "3",
-          "color": "radial-gradient(circle, #90ee90, #228b22)",
-          "textColor": "#1c2b1f"
-        },
-        {
-          "type": "spirit",
-          "value": "3",
-          "color": "radial-gradient(circle, #dda0dd, #8a2be2)",
+          "type": "hp",
+          "value": "5",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
           "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "S",
-          "color": "radial-gradient(circle, #8b4513, #654321)",
-          "textColor": "#e6e6fa"
+          "type": "mana",
+          "value": "3",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
+        },
+        {
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/warlock.png",
@@ -1049,22 +1049,22 @@
       "theme": "casinoGold",
       "manaCost": [
         {
-          "type": "gold",
-          "value": "4",
-          "color": "radial-gradient(circle, #c9a961, #8b7534)",
-          "textColor": "#1a1a1a"
+          "type": "hp",
+          "value": "★",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "luck",
-          "value": "2",
-          "color": "radial-gradient(circle, #4a0000, #2d0000)",
-          "textColor": "#c9a961"
+          "type": "mana",
+          "value": "1",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "C",
-          "color": "radial-gradient(circle, #2a4a2a, #1a3a1a)",
-          "textColor": "#c9a961"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/soh.png",
@@ -1082,22 +1082,22 @@
       "theme": "spectralPurple",
       "manaCost": [
         {
-          "type": "spirit",
+          "type": "hp",
+          "value": "5",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
+        },
+        {
+          "type": "mana",
           "value": "3",
-          "color": "radial-gradient(circle, #9370db, #6a5acd)",
-          "textColor": "#f0e68c"
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "ethereal",
-          "value": "2",
-          "color": "radial-gradient(circle, #dda0dd, #ba55d3)",
-          "textColor": "#2f1b69"
-        },
-        {
-          "type": "special",
-          "value": "👻",
-          "color": "radial-gradient(circle, #483d8b, #4b0082)",
-          "textColor": "#f0e68c"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/specter.png",
@@ -1118,22 +1118,22 @@
       "theme": "earthVolcanic",
       "manaCost": [
         {
-          "type": "earth",
+          "type": "hp",
+          "value": "5",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
+        },
+        {
+          "type": "mana",
           "value": "3",
-          "color": "radial-gradient(circle, #7a8471, #556b2f)",
-          "textColor": "#e6e6e6"
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "rock",
-          "value": "2",
-          "color": "radial-gradient(circle, #5a5a5a, #2f2f2f)",
-          "textColor": "#e6e6e6"
-        },
-        {
-          "type": "special",
-          "value": "T",
-          "color": "radial-gradient(circle, #b8860b, #8b6914)",
-          "textColor": "#2f2f2f"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/tokiru.png",
@@ -1154,22 +1154,22 @@
       "theme": "deepSeaTeal",
       "manaCost": [
         {
-          "type": "steel",
-          "value": "1",
-          "color": "radial-gradient(circle, #c5c5c5, #808080)",
-          "textColor": "white"
-        },
-        {
-          "type": "sky",
-          "value": "1",
-          "color": "radial-gradient(circle, #20b2aa, #006666)",
+          "type": "hp",
+          "value": "3",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
           "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "V",
-          "color": "radial-gradient(circle, #2e8b57, #004d40)",
-          "textColor": "#e0f6ff"
+          "type": "mana",
+          "value": "1",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
+        },
+        {
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/vanpe.png",
@@ -1190,22 +1190,22 @@
       "theme": "steelTech",
       "manaCost": [
         {
-          "type": "steel",
-          "value": "2",
-          "color": "radial-gradient(circle, #c5c5c5, #808080)",
-          "textColor": "white"
+          "type": "hp",
+          "value": "∞",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "artifact",
-          "value": "4",
-          "color": "radial-gradient(circle, #e0e0e0, #a0a0a0)",
-          "textColor": "#1a1a1a"
+          "type": "mana",
+          "value": "6",
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "B",
-          "color": "radial-gradient(circle, #4682b4, #5a9fd4)",
-          "textColor": "white"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/yostari.png",
@@ -1226,22 +1226,22 @@
       "theme": "graveyardGreen",
       "manaCost": [
         {
-          "type": "death",
-          "value": "2",
-          "color": "radial-gradient(circle, #2f4f4f, #1a1a1a)",
-          "textColor": "#98d98e"
+          "type": "hp",
+          "value": "3",
+          "color": "radial-gradient(circle, #dc143c, #8b0000)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "earth",
+          "type": "mana",
           "value": "1",
-          "color": "radial-gradient(circle, #556b2f, #3d4d3d)",
-          "textColor": "#c8d4b8"
+          "color": "radial-gradient(circle, #4169e1, #0000cd)",
+          "textColor": "#ffffff"
         },
         {
-          "type": "special",
-          "value": "†",
-          "color": "radial-gradient(circle, #696969, #505050)",
-          "textColor": "#b8b8b8"
+          "type": "terrain",
+          "value": "?",
+          "color": "radial-gradient(circle, #32cd32, #228b22)",
+          "textColor": "#ffffff"
         }
       ],
       "image": "/images/card-images/zombie.png",
