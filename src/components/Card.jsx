@@ -13,19 +13,23 @@ const Card = ({ card }) => {
     setIsFlipped(!isFlipped);
   };
 
-  // Orb labels and tooltips
-  const getOrbLabel = (index) => {
-    const labels = ["HP", "MANA", "TERRAIN"];
-    return labels[index] || "";
+  // Orb labels and tooltips from metadata
+  const getOrbLabel = (type) => {
+    const labels = {
+      hp: "HP",
+      mana: "MANA",
+      terrain: "TERRAIN",
+    };
+    return labels[type] || type.toUpperCase();
   };
 
-  const getOrbTooltip = (index) => {
-    const tooltips = [
-      "Health Points",
-      "Mana Cost to Play",
-      "Terrain Alignment",
-    ];
-    return tooltips[index] || "";
+  const getOrbTooltip = (type) => {
+    const tooltips = {
+      hp: "Health Points",
+      mana: "Mana Cost to Play",
+      terrain: "Terrain Alignment",
+    };
+    return tooltips[type] || type;
   };
 
   return (
@@ -59,7 +63,7 @@ const Card = ({ card }) => {
                       background: mana.color,
                       color: mana.textColor || "#fff",
                     }}
-                    title={getOrbTooltip(idx)}
+                    title={getOrbTooltip(mana.type)}
                   >
                     <div className="orb-value">{mana.value}</div>
                   </div>
