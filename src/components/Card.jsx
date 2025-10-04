@@ -61,7 +61,6 @@ const Card = ({ card }) => {
                     }}
                     title={getOrbTooltip(idx)}
                   >
-                    <div className="orb-label">{getOrbLabel(idx)}</div>
                     <div className="orb-value">{mana.value}</div>
                   </div>
                 ))}

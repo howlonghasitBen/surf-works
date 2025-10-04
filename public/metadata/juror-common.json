@@ -38,16 +38,16 @@
       "value": "Waves Collection"
     },
     {
-      "trait_type": "Mana 1",
-      "value": "white: 3"
+      "trait_type": "Health Points",
+      "value": "∞"
     },
     {
-      "trait_type": "Mana 2",
-      "value": "artifact: 2"
+      "trait_type": "Mana Cost",
+      "value": "6"
     },
     {
-      "trait_type": "Mana 3",
-      "value": "special: K"
+      "trait_type": "Terrain",
+      "value": "?"
     }
   ]
 }
