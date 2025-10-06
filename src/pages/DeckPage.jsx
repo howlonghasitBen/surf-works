@@ -1,6 +1,6 @@
 import React from "react";
 import { CARD_DATA } from "../data/cardData";
-import MintCard from "./MintCard";
+import MintCard from "../components/MintCard";
 import "../styles/DeckPage.css";
 
 const DeckPage = () => {

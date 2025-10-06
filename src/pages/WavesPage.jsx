@@ -1,5 +1,5 @@
 import React from "react";
-import WavesPlayField from "./WavesPlayField";
+import WavesPlayField from "../components/WavesPlayField";
 
 const WavesPage = () => {
   return <WavesPlayField />;

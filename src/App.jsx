@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Navigation from "./components/Navigation";
 import CardCarousel from "./components/CardCarousel";
 import Footer from "./components/Footer";
-import DeckPage from "./components/DeckPage";
-import HarpoonPage from "./components/HarpoonPage";
-import WavesPage from "./components/WavesPage";
+import DeckPage from "./pages/DeckPage";
+import HarpoonPage from "./pages/HarpoonPage";
+import WavesPage from "./pages/WavesPage";
 import "./App.css";
 
 function App() {
