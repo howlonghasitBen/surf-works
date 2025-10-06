@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/surf-works/static/css/main.82966d03.css",
+    "main.js": "/surf-works/static/js/main.165db043.js",
+    "index.html": "/surf-works/index.html",
+    "main.82966d03.css.map": "/surf-works/static/css/main.82966d03.css.map",
+    "main.165db043.js.map": "/surf-works/static/js/main.165db043.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82966d03.css",
+    "static/js/main.165db043.js"
+  ]
+}

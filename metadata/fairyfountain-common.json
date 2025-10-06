@@ -1,0 +1,45 @@
+{
+  "name": "Moonwell Sanctuary",
+  "description": "Common Card from the SURF Waves Collection. Fairy Magic ⟨+3M⟩\nWhere moonbeams kiss the sacred waters, ancient magic flows eternal.",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/fairy fountain.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=fairyfountain&showRarity=false",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Level",
+      "value": "★"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Moonlight"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Consumable — Mana Restoration"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "★"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "1"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}

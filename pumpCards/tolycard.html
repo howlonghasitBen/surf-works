@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cardBackStyles.css" />
+    <script src="tiltAndFlip.js"></script>
+    <title>Pump TCG - Toly</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap");
+
+      body {
+        margin: 0;
+        background: radial-gradient(
+          circle at center,
+          #0f0f0f,
+          #1a1a2e,
+          #16213e
+        );
+        font-family: "Space Grotesk", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        box-sizing: border-box;
+      }
+
+      .card-container {
+        perspective: 3000px;
+        width: min(95vw, 400px);
+        height: calc(min(95vw, 400px) * 4 / 3);
+        position: relative;
+        margin: 0 auto;
+      }
+
+      .card {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        cursor: grab;
+        user-select: none;
+        border: min(0.8vw, 6px) solid #9945ff;
+        border-radius: min(2.5vw, 20px);
+        box-shadow: 0 0 min(3vw, 30px) rgba(153, 69, 255, 0.4),
+          0 min(3vw, 25px) min(6vw, 50px) rgba(20, 255, 157, 0.2),
+          inset 0 0 0 min(0.25vw, 2px) #14ff9d;
+        animation: solana-glow 3s ease-in-out infinite alternate;
+      }
+
+      @keyframes solana-glow {
+        0% {
+          box-shadow: 0 0 min(3vw, 30px) rgba(153, 69, 255, 0.4),
+            0 min(3vw, 25px) min(6vw, 50px) rgba(20, 255, 157, 0.2),
+            inset 0 0 0 min(0.25vw, 2px) #14ff9d;
+        }
+        100% {
+          box-shadow: 0 0 min(4vw, 40px) rgba(153, 69, 255, 0.6),
+            0 min(3vw, 25px) min(6vw, 50px) rgba(20, 255, 157, 0.4),
+            inset 0 0 0 min(0.25vw, 2px) #9945ff;
+        }
+      }
+
+      .card.flipped {
+        transform: rotateY(180deg);
+      }
+
+      .card:active {
+        cursor: grabbing;
+      }
+
+      .card:hover {
+        transform: scale(1.01);
+      }
+
+      .card-face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        border-radius: min(1.8vw, 14px);
+        overflow: hidden;
+        transform-style: preserve-3d;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+      }
+
+      .card-front {
+        background: radial-gradient(
+            circle at 20% 30%,
+            rgba(153, 69, 255, 0.3) 0%,
+            transparent 50%
+          ),
+          radial-gradient(
+            circle at 80% 70%,
+            rgba(20, 255, 157, 0.2) 0%,
+            transparent 40%
+          ),
+          radial-gradient(
+            circle at 60% 10%,
+            rgba(0, 255, 163, 0.1) 0%,
+            transparent 45%
+          ),
+          linear-gradient(145deg, #0f0f0f, #1a1a2e, #16213e, #2d1b69);
+        transform: rotateY(0deg);
+        z-index: 2;
+      }
+
+      /* Solana header */
+      .card-header {
+        background: radial-gradient(
+            circle at 25% 50%,
+            rgba(153, 69, 255, 0.4) 0%,
+            transparent 60%
+          ),
+          linear-gradient(135deg, #2d1b69, #9945ff, #14ff9d, #00ffa3);
+        border-bottom: min(0.4vw, 3px) solid #9945ff;
+        padding: min(1vw, 8px) min(1.5vw, 12px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Space Grotesk", sans-serif;
+        color: #ffffff;
+        flex-shrink: 0;
+        position: relative;
+        text-shadow: 0 0 min(1vw, 8px) rgba(153, 69, 255, 0.8);
+      }
+
+      .card-title {
+        font-size: min(1rem, 20px);
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+
+      .card-level {
+        background: linear-gradient(135deg, #9945ff, #14ff9d);
+        color: #ffffff;
+        font-family: "JetBrains Mono", monospace;
+        padding: min(0.5vw, 4px) min(1vw, 8px);
+        border-radius: min(1.5vw, 12px);
+        font-size: min(1rem, 16px);
+        font-weight: 700;
+        border: min(0.25vw, 2px) solid #00ffa3;
+        box-shadow: 0 0 min(1.2vw, 10px) rgba(153, 69, 255, 0.6);
+      }
+
+      .mana-cost {
+        display: flex;
+        gap: min(0.5vw, 4px);
+        margin-bottom: min(0.5vw, 4px);
+      }
+
+      .mana-orb {
+        width: min(3vw, 24px);
+        height: min(3vw, 24px);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: min(0.65rem, 16px);
+        font-weight: 700;
+        border: min(0.25vw, 2px) solid #9945ff;
+        box-shadow: 0 min(0.25vw, 2px) min(0.5vw, 4px) rgba(255, 255, 255, 0.3);
+        font-family: "JetBrains Mono", monospace;
+      }
+
+      .mana-solana {
+        background: radial-gradient(circle, #9945ff, #6b1c99);
+        color: #ffffff;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+      }
+
+      .mana-proof {
+        background: radial-gradient(circle, #14ff9d, #00cc7a);
+        color: #000000;
+        text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+      }
+
+      .mana-history {
+        background: linear-gradient(45deg, #9945ff 50%, #14ff9d 50%);
+        color: #ffffff;
+        font-weight: 800;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+      }
+
+      /* Content area */
+      .image-area {
+        height: 40%;
+        margin: min(1.2vw, 10px);
+        background: radial-gradient(
+            circle at 30% 20%,
+            rgba(153, 69, 255, 0.2) 0%,
+            transparent 45%
+          ),
+          radial-gradient(
+            circle at 70% 80%,
+            rgba(20, 255, 157, 0.2) 0%,
+            transparent 50%
+          ),
+          linear-gradient(145deg, #0f0f0f, #1a1a2e, #2d1b69);
+        border: min(0.25vw, 2px) solid #14ff9d;
+        border-radius: min(1vw, 8px);
+        position: relative;
+        overflow: hidden;
+        box-shadow: inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6);
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "JetBrains Mono", monospace;
+        color: #ffffff;
+        font-size: min(0.8rem, 14px);
+        text-align: center;
+        padding: min(1vw, 8px);
+      }
+
+      .image-area img {
+        width: auto;
+        height: 100%;
+        scale: 1.2;
+      }
+
+      /* Type section */
+      .type-power-section {
+        background: radial-gradient(
+            circle at 30% 60%,
+            rgba(153, 69, 255, 0.3) 0%,
+            transparent 55%
+          ),
+          linear-gradient(135deg, #2d1b69, #9945ff, #14ff9d, #00ffa3);
+        color: #ffffff;
+        padding: min(1.2vw, 10px) min(2vw, 16px);
+        font-family: "Space Grotesk", sans-serif;
+        font-size: min(2rem, 12px);
+        font-weight: 700;
+        text-shadow: 0 0 min(1vw, 8px) rgba(153, 69, 255, 0.6);
+        border-top: min(0.25vw, 2px) solid #14ff9d;
+        border-bottom: min(0.25vw, 2px) solid #14ff9d;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(20, 255, 157, 0.3),
+          inset 0 min(0.25vw, 2px) 0 rgba(255, 255, 255, 0.2);
+      }
+
+      .power-stats {
+        font-size: min(2rem, 8px);
+        display: flex;
+        gap: min(1.5vw, 12px);
+      }
+
+      .stat {
+        background: rgba(45, 27, 105, 0.9);
+        padding: min(0.5vw, 4px) min(1vw, 8px);
+        border-radius: min(0.5vw, 4px);
+        border: min(0.25vw, 2px) solid #9945ff;
+        color: #14ff9d;
+        text-shadow: 0 0 min(0.5vw, 4px) rgba(20, 255, 157, 0.6);
+        box-shadow: 0 0 min(1vw, 8px) rgba(153, 69, 255, 0.4);
+        font-family: "JetBrains Mono", monospace;
+        font-weight: 600;
+      }
+
+      /* Flavor text */
+      .flavor-text {
+        background: radial-gradient(
+            circle at 40% 30%,
+            rgba(45, 27, 105, 0.2) 0%,
+            transparent 50%
+          ),
+          linear-gradient(145deg, #0f0f0f, #1a1a2e);
+        padding: 0 min(2vw, 16px);
+        font-size: min(2rem, 18px);
+        line-height: 1.4;
+        color: #ffffff;
+        text-align: center;
+        font-style: italic;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: min(0.25vw, 2px) solid #9945ff;
+        position: relative;
+        font-family: "Space Grotesk", sans-serif;
+        text-shadow: 0 0 min(0.5vw, 4px) rgba(153, 69, 255, 0.4);
+      }
+
+      .flavor-text::before {
+        content: "⚡";
+        font-size: min(2rem, 24px);
+        position: absolute;
+        top: min(0.5vw, 4px);
+        left: min(1vw, 8px);
+        opacity: 0.6;
+        color: #14ff9d;
+        animation: lightning-pulse 2s ease-in-out infinite alternate;
+      }
+
+      .flavor-text::after {
+        content: "⚡";
+        font-size: min(2rem, 24px);
+        position: absolute;
+        bottom: min(0.5vw, 4px);
+        right: min(1vw, 8px);
+        opacity: 0.6;
+        color: #14ff9d;
+        animation: lightning-pulse 2s ease-in-out infinite alternate reverse;
+      }
+
+      @keyframes lightning-pulse {
+        0% {
+          opacity: 0.4;
+        }
+        100% {
+          opacity: 0.8;
+        }
+      }
+
+      .highlight-text {
+        background: linear-gradient(45deg, #ffffff, #9945ff, #14ff9d);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-weight: 700;
+      }
+
+      /* Bottom section */
+      .bottom-section {
+        background: linear-gradient(135deg, #2d1b69, #9945ff, #14ff9d);
+        padding: min(1.2vw, 10px) min(2vw, 16px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+      }
+
+      .artist-info {
+        font-size: min(1rem, 12px);
+        color: #ffffff;
+        font-family: "JetBrains Mono", monospace;
+        font-weight: 600;
+        text-shadow: 0 0 min(0.5vw, 4px) rgba(153, 69, 255, 0.6);
+      }
+
+      .rarity-indicator {
+        background: linear-gradient(135deg, #ffffff, #f0f8ff);
+        color: #2d1b69;
+        padding: min(0.5vw, 4px) min(1vw, 8px);
+        border-radius: min(1vw, 8px);
+        font-size: min(1.2vw, 14px);
+        font-weight: 800;
+        border: min(0.25vw, 2px) solid #9945ff;
+        box-shadow: 0 0 min(1.2vw, 10px) rgba(255, 255, 255, 0.3);
+        font-family: "Space Grotesk", sans-serif;
+        letter-spacing: 0.05em;
+      }
+
+      @media (max-width: 600px) {
+        .card-container {
+          width: 95vw;
+          height: calc(95vw * 4 / 3);
+        }
+      }
+
+      @media (max-width: 400px) {
+        .card-container {
+          width: 95vw;
+          height: calc(95vw * 4 / 3);
+        }
+
+        .flavor-text {
+          font-size: 3.5vw;
+          line-height: 1.3;
+        }
+
+        .card-title {
+          font-size: 4.5vw;
+        }
+
+        .back-title {
+          font-size: 8vw;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card" id="card" onclick="this.classList.toggle('flipped')">
+        <!-- Front Face -->
+        <div class="card-face card-front">
+          <div class="card-header">
+            <div>
+              <div class="mana-cost">
+                <div class="mana-orb mana-solana">5</div>
+                <div class="mana-orb mana-proof">P</div>
+                <div class="mana-orb mana-history">H</div>
+              </div>
+              <div class="card-title">Toly 〈Solana Labs〉</div>
+            </div>
+            <div class="card-level">LVL ∞</div>
+          </div>
+
+          <div class="image-area" id="imageArea">
+            <img src="images/toly.png" alt="" />
+          </div>
+
+          <div class="type-power-section">
+            <div>Legendary Founder — Blockchain Architect</div>
+            <div class="power-stats">
+              <div class="stat">ATK: ∞</div>
+              <div class="stat">DEF: ∞</div>
+            </div>
+          </div>
+
+          <div class="flavor-text" id="flavorText">
+            <div class="flavor-text-content">
+              <span class="highlight-text">Speed of light</span>
+              transactions<br />
+              built for the future of Web3.
+            </div>
+          </div>
+
+          <div class="bottom-section">
+            <div class="artist-info">@PumpGodTCG</div>
+            <div class="rarity-indicator">★ 1/1 ★</div>
+          </div>
+        </div>
+
+        <!-- Back Face -->
+        <div class="card-face card-back">
+          <div class="back-content">
+            <div class="back-title">Pump</div>
+            <div class="back-pattern">
+              <img src="images/pumplogo.png" alt="" class="pump-logo" />
+            </div>
+            <div class="back-subtitle">Cards</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

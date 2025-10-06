@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter War - Card Battle Game</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: radial-gradient(
+          circle at center,
+          #0f0f0f,
+          #1a1a2e,
+          #16213e
+        );
+        color: #ffffff;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+      }
+
+      .game-container {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+      }
+
+      .sidebar {
+        width: 200px;
+        background: #1a1a1a;
+        border-right: 2px solid #00ff88;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .controls-sidebar {
+        width: 200px;
+        background: #1a1a1a;
+        border-left: 2px solid #00ff88;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .main-game {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+        position: relative;
+      }
+
+      .game-title {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 2rem;
+        font-weight: bold;
+        color: #00ff88;
+        text-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+      }
+
+      .round-counter {
+        position: absolute;
+        top: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1.2rem;
+        color: #888;
+      }
+
+      .score-section {
+        margin-bottom: 30px;
+      }
+
+      .score-section h3 {
+        color: #00ff88;
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+        text-align: center;
+      }
+
+      .score-number {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: center;
+        text-shadow: 0 0 10px rgba(0, 255, 136, 0.2);
+      }
+
+      .battle-arena {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-top: 60px;
+      }
+
+      .card-slot {
+        width: 100%;
+        aspect-ratio: 3 /4;
+        height: auto;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #2a2a2a;
+        border: 2px solid #333;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+        transition: all 0.5s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .card-slot.twitter {
+        border-color: #00ff88;
+        background: #1a3d2e;
+      }
+
+      .card-slot.creature {
+        border-color: #ffa500;
+        background: #3d2a1a;
+      }
+
+      .card-slot iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 13px;
+        display: block;
+        background: transparent;
+        overflow: hidden;
+        transform-origin: center;
+        pointer-events: none;
+      }
+
+      .power-overlay {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        background: rgba(0, 0, 0, 0.9);
+        color: #00ff88;
+        padding: 4px 8px;
+        border-radius: 10px;
+        font-size: 0.9rem;
+        font-weight: bold;
+        z-index: 10;
+        border: 1px solid #00ff88;
+      }
+
+      .loading-text {
+        color: #888;
+        font-style: italic;
+        text-align: center;
+        font-size: 1rem;
+        position: relative;
+        z-index: 5;
+      }
+
+      .vs-text {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #00ff88;
+        text-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+        animation: pulse 2s infinite;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+          text-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+        }
+        50% {
+          transform: scale(1.1);
+          text-shadow: 0 0 25px rgba(0, 255, 136, 0.8);
+        }
+      }
+
+      .battle-button {
+        background: linear-gradient(135deg, #00ff88, #00cc6a);
+        border: none;
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+        color: #000;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 255, 136, 0.2);
+        width: 100%;
+      }
+
+      .battle-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 255, 136, 0.4);
+        background: linear-gradient(135deg, #00cc6a, #00aa55);
+      }
+
+      .battle-button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        transform: none;
+        background: #333;
+        color: #666;
+      }
+
+      .secondary-button {
+        background: #333;
+        border: 2px solid #555;
+        color: #fff;
+      }
+
+      .secondary-button:hover {
+        background: #444;
+        border-color: #666;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      .result-message {
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1.3rem;
+        font-weight: bold;
+        min-height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .win-message {
+        color: #00ff88;
+        text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+      }
+      .lose-message {
+        color: #ff6b6b;
+        text-shadow: 0 0 10px rgba(255, 107, 107, 0.5);
+      }
+      .draw-message {
+        color: #ffa500;
+        text-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+      }
+
+      .game-over-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.9);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+      }
+
+      .game-over-content {
+        background: #1a1a1a;
+        border: 2px solid #00ff88;
+        border-radius: 15px;
+        padding: 40px;
+        text-align: center;
+        box-shadow: 0 0 50px rgba(0, 255, 136, 0.3);
+      }
+
+      .game-over-content h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #00ff88;
+      }
+
+      .final-score {
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+        color: #ccc;
+      }
+
+      @media (max-width: 768px) {
+        .game-container {
+          flex-direction: column;
+        }
+
+        .sidebar,
+        .controls-sidebar {
+          width: 100%;
+          height: auto;
+          flex-direction: row;
+          justify-content: space-around;
+          padding: 10px;
+        }
+
+        .battle-arena {
+          gap: 15px;
+          margin-top: 20px;
+        }
+
+        .card-slot {
+          width: 160px;
+          height: 220px;
+        }
+
+        .card-slot iframe {
+          transform: scale(0.5);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="game-container">
+      <!-- Left Sidebar - Scores -->
+      <div class="sidebar">
+        <div class="score-section">
+          <h3>Your Score</h3>
+          <div id="playerScore" class="score-number">0</div>
+        </div>
+        <div class="score-section">
+          <h3>Opponent</h3>
+          <div id="opponentScore" class="score-number">0</div>
+        </div>
+      </div>
+
+      <!-- Main Game Area -->
+      <div class="main-game">
+        <h1 class="game-title">Pump TCG: War</h1>
+        <div class="round-counter">Round <span id="roundNumber">1</span></div>
+
+        <div class="battle-arena">
+          <div id="playerSlot" class="card-slot">
+            <div class="loading-text">Click Draw Cards!</div>
+          </div>
+          <div class="vs-text">VS</div>
+          <div id="opponentSlot" class="card-slot">
+            <div class="loading-text">Ready to battle</div>
+          </div>
+        </div>
+
+        <div class="result-message" id="resultText"></div>
+
+        <!-- Game Over Overlay -->
+        <div id="gameOverOverlay" class="game-over-overlay">
+          <div class="game-over-content">
+            <h2 id="gameOverTitle">Game Over</h2>
+            <div id="finalScore" class="final-score"></div>
+            <button class="battle-button" onclick="resetGame()">
+              Play Again
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Sidebar - Controls -->
+      <div class="controls-sidebar">
+        <button id="battleButton" class="battle-button" onclick="battle()">
+          Draw Cards
+        </button>
+        <button
+          id="nextButton"
+          class="battle-button"
+          onclick="nextRound()"
+          style="display: none"
+        >
+          Next Round
+        </button>
+        <button class="battle-button secondary-button" onclick="resetGame()">
+          New Game
+        </button>
+      </div>
+    </div>
+
+    <script>
+      // Game state
+      let cards = [];
+      let playerScore = 0;
+      let opponentScore = 0;
+      let roundNumber = 1;
+
+      // Available cards
+      const cardFiles = [
+        {
+          name: "Alon 〈Pump〉",
+          type: "twitter",
+          power: 1000,
+          file: "aloncard.html",
+        },
+        {
+          name: "Mr. Frog ⟨Crypto X⟩",
+          type: "creature",
+          power: 1000,
+          file: "mrfrogcard.html",
+        },
+      ];
+
+      // Load cards
+      async function loadCards() {
+        console.log("🎴 Loading cards...");
+        cards = [];
+
+        for (const cardData of cardFiles) {
+          try {
+            const response = await fetch(cardData.file);
+            if (response.ok) {
+              cards.push(cardData);
+              console.log(`✅ Loaded: ${cardData.name}`);
+            }
+          } catch (error) {
+            console.warn(`❌ Could not load ${cardData.file}`);
+          }
+        }
+
+        console.log(`🎮 ${cards.length} cards ready`);
+        return cards.length > 0;
+      }
+
+      // Get random card
+      function getRandomCard() {
+        return cards[Math.floor(Math.random() * cards.length)];
+      }
+
+      // Show card in slot
+      function showCard(card, slotId) {
+        const slot = document.getElementById(slotId);
+        slot.className = `card-slot ${card.type}`;
+        slot.innerHTML = `
+                <iframe src="${card.file}" title="${card.name}" scrolling="no"></iframe>
+                <div class="power-overlay">⚡${card.power}</div>
+            `;
+      }
+
+      // Clear slots
+      function clearSlots() {
+        document.getElementById("playerSlot").innerHTML =
+          '<div class="loading-text">Click Draw Cards!</div>';
+        document.getElementById("opponentSlot").innerHTML =
+          '<div class="loading-text">Ready to battle</div>';
+        document.getElementById("playerSlot").className = "card-slot";
+        document.getElementById("opponentSlot").className = "card-slot";
+      }
+
+      // Battle function
+      function battle() {
+        if (cards.length === 0) {
+          document.getElementById("resultText").textContent =
+            "No cards loaded!";
+          return;
+        }
+
+        document.getElementById("battleButton").disabled = true;
+        document.getElementById("resultText").textContent = "";
+
+        const playerCard = getRandomCard();
+        const opponentCard = getRandomCard();
+
+        showCard(playerCard, "playerSlot");
+        showCard(opponentCard, "opponentSlot");
+
+        setTimeout(() => {
+          let resultText, resultClass;
+
+          if (playerCard.power > opponentCard.power) {
+            playerScore++;
+            resultText = `You Win! ${playerCard.power} vs ${opponentCard.power}`;
+            resultClass = "win-message";
+          } else if (opponentCard.power > playerCard.power) {
+            opponentScore++;
+            resultText = `Opponent Wins! ${opponentCard.power} vs ${playerCard.power}`;
+            resultClass = "lose-message";
+          } else {
+            resultText = `Draw! ${playerCard.power} vs ${opponentCard.power}`;
+            resultClass = "draw-message";
+          }
+
+          document.getElementById("resultText").textContent = resultText;
+          document.getElementById(
+            "resultText"
+          ).className = `result-message ${resultClass}`;
+          document.getElementById("playerScore").textContent = playerScore;
+          document.getElementById("opponentScore").textContent = opponentScore;
+
+          if (playerScore >= 5 || opponentScore >= 5) {
+            setTimeout(endGame, 2000);
+          } else {
+            document.getElementById("nextButton").style.display =
+              "inline-block";
+          }
+        }, 600);
+      }
+
+      // Next round
+      function nextRound() {
+        roundNumber++;
+        document.getElementById("roundNumber").textContent = roundNumber;
+        document.getElementById("battleButton").disabled = false;
+        document.getElementById("battleButton").style.display = "inline-block";
+        document.getElementById("nextButton").style.display = "none";
+        document.getElementById("resultText").textContent = "";
+        clearSlots();
+      }
+
+      // End game
+      function endGame() {
+        const isWin = playerScore > opponentScore;
+        document.getElementById("gameOverTitle").textContent = isWin
+          ? "🏆 Victory! 🏆"
+          : "💀 Defeat 💀";
+        document.getElementById("gameOverTitle").style.color = isWin
+          ? "#00ff88"
+          : "#ff6b6b";
+        document.getElementById("finalScore").innerHTML = `
+                <p>Final Score: ${playerScore} - ${opponentScore}</p>
+                <p>Rounds Played: ${roundNumber}</p>
+            `;
+        document.getElementById("gameOverOverlay").style.display = "flex";
+      }
+
+      // Reset game
+      function resetGame() {
+        playerScore = 0;
+        opponentScore = 0;
+        roundNumber = 1;
+        document.getElementById("playerScore").textContent = "0";
+        document.getElementById("opponentScore").textContent = "0";
+        document.getElementById("roundNumber").textContent = "1";
+        document.getElementById("resultText").textContent = "";
+        document.getElementById("battleButton").disabled = false;
+        document.getElementById("battleButton").style.display = "inline-block";
+        document.getElementById("nextButton").style.display = "none";
+        document.getElementById("gameOverOverlay").style.display = "none";
+        clearSlots();
+      }
+
+      // Initialize
+      async function init() {
+        const loaded = await loadCards();
+        if (loaded) {
+          clearSlots();
+        } else {
+          document.getElementById("playerSlot").innerHTML =
+            '<div class="loading-text">No cards found!</div>';
+          document.getElementById("opponentSlot").innerHTML =
+            '<div class="loading-text">Add card files</div>';
+        }
+      }
+
+      // Start
+      init();
+    </script>
+  </body>
+</html>

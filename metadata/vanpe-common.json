@@ -1,0 +1,53 @@
+{
+  "name": "Vanpe ⟨Antirush⟩",
+  "description": "Common Card from the SURF Waves Collection. Passive: Attack damage agaisnt Vanpe is multiplied by 0.5 and applied as TD",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/vanpe.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=vanpe&showRarity=false",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Level",
+      "value": "1"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "0"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "3"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Deep Sea Teal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Urchin"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "3"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "1"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}

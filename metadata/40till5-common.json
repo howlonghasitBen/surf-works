@@ -1,0 +1,53 @@
+{
+  "name": "40till5 〈Designer〉",
+  "description": "Common Card from the SURF Waves Collection. Every wave between you and I, recieved. The cosmos, interpreted by waves, through waves. If we can perceive, can we not also impact?",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/40till5.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=40till5&showRarity=false",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Level",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Cosmic Purple"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature – OG Memer"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "6"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}

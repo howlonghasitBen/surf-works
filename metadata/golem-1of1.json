@@ -1,0 +1,53 @@
+{
+  "name": "Stone Guardian ⟨SENTINEL⟩",
+  "description": "1/1 Legendary Card from the SURF Waves Collection. Carved from the mountain's heart, I stand eternal vigil over sacred grounds.\nPassive: Take 50% Reduced TD",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/golem.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=golem&showRarity=true",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "1/1"
+    },
+    {
+      "trait_type": "Level",
+      "value": "3"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "3"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "7"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Stone Guardian"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Construct — Stone Golem"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "10"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "5"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}

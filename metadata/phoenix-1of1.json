@@ -1,0 +1,53 @@
+{
+  "name": "Feelsix ⟨Mythical⟩",
+  "description": "1/1 Legendary Card from the SURF Waves Collection. Scorched Earth ⟨4M : Deal 1TD to all enemy cards⟩\nPassive: Attacking places this card in the graveyard for one turn, after which it's returned to the players hand.",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/phoenix.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=phoenix&showRarity=true",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "1/1"
+    },
+    {
+      "trait_type": "Level",
+      "value": "3"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "3"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "4"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Phoenix Fire"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Phoenix"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "10"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "5"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}

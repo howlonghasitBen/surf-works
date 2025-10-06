@@ -1,0 +1,53 @@
+{
+  "name": "Johnny 〈Gambler〉",
+  "description": "1/1 Legendary Card from the SURF Waves Collection. Eternal salvation was promised to this ape before he was born.",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/albinoApe.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=johnny&showRarity=true",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "1/1"
+    },
+    {
+      "trait_type": "Level",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Retro Gaming"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Albino Ape"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "∞"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "6"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}
