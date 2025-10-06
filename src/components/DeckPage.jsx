@@ -1,7 +1,7 @@
 import React from "react";
 import { CARD_DATA } from "../data/cardData";
 import MintCard from "./MintCard";
-import "./DeckPage.css";
+import "../styles/DeckPage.css";
 
 const DeckPage = () => {
   return (

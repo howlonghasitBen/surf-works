@@ -1,5 +1,5 @@
 import React from "react";
-import "./WavesPlayField.css";
+import "../styles/WavesPlayField.css";
 
 const WavesPlayField = () => {
   return (

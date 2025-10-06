@@ -1,7 +1,7 @@
 // src/components/Card.jsx
 import React, { useState } from "react";
 import { CARD_THEMES } from "../data/cardData";
-import "./Cards.css";
+import "../styles/Cards.css";
 
 const Card = ({ card }) => {
   const [isFlipped, setIsFlipped] = useState(false);

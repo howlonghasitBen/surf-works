@@ -14,7 +14,7 @@ import {
   Shield,
   Zap,
 } from "lucide-react";
-import "./HarpoonPage.css";
+import "../styles/HarpoonPage.css";
 
 const HarpoonPage = () => {
   const { isConnected, account, connect } = useWeb3Manager();

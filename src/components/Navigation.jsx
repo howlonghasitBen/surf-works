@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { Home, Code, DollarSign, PenTool, Wallet, Layers } from "lucide-react";
 import { useWeb3Manager } from "../hooks/useWeb3Manager";
-import "./Navigation.css";
+import "../styles/Navigation.css";
 
 const Navigation = ({ onNavigate, currentPage, isExpanded, setIsExpanded }) => {
   const [isFading, setIsFading] = useState(false);

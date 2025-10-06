@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Card";
-import "./MintCard.css";
+import "../styles/MintCard.css";
 
 const MintCard = ({ card }) => {
   const [isHovered, setIsHovered] = useState(false);
