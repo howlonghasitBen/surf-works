@@ -156,7 +156,7 @@ const Card = ({ card }) => {
             <style>{`
               .flavor-text::before,
               .flavor-text::after {
-                color: ${theme.flavorText.accentColor};
+                color: ${theme.flavorText};
               }
             `}</style>
           </div>
