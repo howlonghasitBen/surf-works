@@ -561,6 +561,22 @@
       "rarity": "Common",
       "metadataFile": "zombie-common.json",
       "uri": "https://howlonghasitben.github.io/surf-works/metadata/zombie-common.json"
+    },
+    "71": {
+      "id": 71,
+      "cardId": "unicorn",
+      "name": "Starlight",
+      "rarity": "1/1",
+      "metadataFile": "unicorn-1of1.json",
+      "uri": "https://howlonghasitben.github.io/surf-works/metadata/unicorn-1of1.json"
+    },
+    "72": {
+      "id": 72,
+      "cardId": "unicorn",
+      "name": "Starlight",
+      "rarity": "Common",
+      "metadataFile": "unicorn-common.json",
+      "uri": "https://howlonghasitben.github.io/surf-works/metadata/unicorn-common.json"
     }
   }
 }
