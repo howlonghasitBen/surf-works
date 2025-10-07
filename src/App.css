@@ -177,6 +177,13 @@ body {
 
 /* Mobile adjustments */
 @media (max-width: 1079px) {
+  .header-bar {
+    height: 80px;
+  }
+
+  .bodyContent {
+    margin-top: 80px;
+  }
   .bodyContent {
     grid-template-columns: 1fr;
   }
