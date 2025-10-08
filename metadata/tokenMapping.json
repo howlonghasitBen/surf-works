@@ -577,6 +577,22 @@
       "rarity": "Common",
       "metadataFile": "unicorn-common.json",
       "uri": "https://howlonghasitben.github.io/surf-works/metadata/unicorn-common.json"
+    },
+    "73": {
+      "id": 73,
+      "cardId": "foresttitan",
+      "name": "Forest Titan",
+      "rarity": "1/1",
+      "metadataFile": "foresttitan-1of1.json",
+      "uri": "https://howlonghasitben.github.io/surf-works/metadata/foresttitan-1of1.json"
+    },
+    "74": {
+      "id": 74,
+      "cardId": "foresttitan",
+      "name": "Forest Titan",
+      "rarity": "Common",
+      "metadataFile": "foresttitan-common.json",
+      "uri": "https://howlonghasitben.github.io/surf-works/metadata/foresttitan-common.json"
     }
   }
 }
