@@ -11,7 +11,7 @@
     },
     {
       "trait_type": "Level",
-      "value": "2"
+      "value": "1"
     },
     {
       "trait_type": "Attack",
@@ -39,11 +39,11 @@
     },
     {
       "trait_type": "Health Points",
-      "value": "5"
+      "value": "3"
     },
     {
       "trait_type": "Mana Cost",
-      "value": "3"
+      "value": "1"
     },
     {
       "trait_type": "Terrain",
