@@ -1328,7 +1328,7 @@ export const CARD_DATA = [
     name: "Forest Titan",
     subtitle: "⟨ANCIENT⟩",
     level: "3",
-    theme: "mysticalForest",
+    theme: "darkForest",
     manaCost: [
       {
         type: "hp",
@@ -1357,6 +1357,43 @@ export const CARD_DATA = [
     },
     flavorText:
       "Nature's Wrath ⟨4D : 4TD⟩\nPassive: At the start of each turn, heal 1 HP to all ally creatures\n'From the ancient roots, wisdom and power intertwine.'",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "treant",
+    name: "Forest Keeper",
+    subtitle: "⟨GUARDIAN⟩",
+    level: "2",
+    theme: "darkForest",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "3",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/treant.png",
+    type: "Creature — Forest Guardian",
+    stats: {
+      attack: "4",
+      defense: "6",
+    },
+    flavorText:
+      "Sacred Grove ⟨4D : 2TD⟩\nPassive: All allied creatures gain +1 DEF while Forest Keeper is on the field.",
     artist: "SURF FINANCE STUDIOS",
     rarity: "1/1",
   },
