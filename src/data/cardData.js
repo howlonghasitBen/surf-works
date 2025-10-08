@@ -1328,7 +1328,7 @@ export const CARD_DATA = [
     name: "Forest Titan",
     subtitle: "⟨ANCIENT⟩",
     level: "3",
-    theme: "darkForest",
+    theme: "ancientGlade",
     manaCost: [
       {
         type: "hp",
@@ -1365,7 +1365,7 @@ export const CARD_DATA = [
     name: "Forest Keeper",
     subtitle: "⟨GUARDIAN⟩",
     level: "2",
-    theme: "darkForest",
+    theme: "enchantedGrove",
     manaCost: [
       {
         type: "hp",
@@ -1400,6 +1400,104 @@ export const CARD_DATA = [
 ];
 
 export const CARD_THEMES = {
+  enchantedGrove: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(64, 224, 208, 0.4) 0%, transparent 50%),\n               radial-gradient(circle at 80% 70%, rgba(34, 139, 34, 0.3) 0%, transparent 40%),\n               radial-gradient(circle at 60% 10%, rgba(144, 238, 144, 0.3) 0%, transparent 45%),\n               linear-gradient(145deg, #1a3a3a, #2d4a4a, #1f3535)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(64, 224, 208, 0.6) 0%, transparent 60%),\n                   radial-gradient(circle at 75% 50%, rgba(144, 238, 144, 0.5) 0%, transparent 60%),\n                   linear-gradient(135deg, #3a5a5a, #40e0d0, #5f9ea0, #48d1cc, #2f4f4f)",
+      color: "#e8fff8",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.9), 0 0 10px rgba(64, 224, 208, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(64, 224, 208, 0.5), inset 0 min(0.25vw, 2px) 0 rgba(144, 238, 144, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(64, 224, 208, 0.5) 0%, transparent 45%),\n                   radial-gradient(circle at 70% 80%, rgba(34, 139, 34, 0.4) 0%, transparent 50%),\n                   linear-gradient(145deg, #2d4a4a, #1a3a3a)",
+      border: "min(0.25vw, 2px) solid #40e0d0",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.7), 0 0 min(2vw, 15px) rgba(64, 224, 208, 0.4)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(64, 224, 208, 0.6) 0%, transparent 55%),\n                   linear-gradient(135deg, #3a5a5a, #40e0d0, #5f9ea0, #48d1cc, #2f4f4f)",
+      color: "#e8fff8",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.9), 0 0 10px rgba(64, 224, 208, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(64, 224, 208, 0.3) 0%, transparent 50%),\n                   linear-gradient(145deg, #2d4a4a, #1a3a3a)",
+      color: "#c8f5e8",
+      accentColor: "#48d1cc",
+      border: "min(0.25vw, 2px) solid #40e0d0",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #1a3a3a, #2d4a4a)",
+    },
+    stat: {
+      background: "rgba(26, 58, 58, 0.8)",
+      border: "min(0.25vw, 2px) solid #48d1cc",
+      color: "#7fffd4",
+      boxShadow: "0 0 min(1vw, 8px) rgba(64, 224, 208, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #40e0d0, #20b2aa)",
+      color: "#f0fff8",
+      border: "min(0.25vw, 2px) solid #1a3a3a",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(64, 224, 208, 0.6)",
+    },
+  },
+  ancientGlade: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(34, 139, 34, 0.5) 0%, transparent 50%),\n               radial-gradient(circle at 80% 70%, rgba(85, 107, 47, 0.4) 0%, transparent 40%),\n               radial-gradient(circle at 60% 10%, rgba(154, 205, 50, 0.3) 0%, transparent 45%),\n               linear-gradient(145deg, #1a2e1a, #2d4a2d, #1f3a1f)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(34, 139, 34, 0.7) 0%, transparent 60%),\n                   radial-gradient(circle at 75% 50%, rgba(154, 205, 50, 0.6) 0%, transparent 60%),\n                   linear-gradient(135deg, #3d5a3d, #4a6b3d, #556b2f, #6b8e23, #2d4a2d)",
+      color: "#e8f5e8",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.9), 0 0 10px rgba(34, 139, 34, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(34, 139, 34, 0.5), inset 0 min(0.25vw, 2px) 0 rgba(154, 205, 50, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(34, 139, 34, 0.6) 0%, transparent 45%),\n                   radial-gradient(circle at 70% 80%, rgba(85, 107, 47, 0.5) 0%, transparent 50%),\n                   linear-gradient(145deg, #2d4a2d, #1a2e1a)",
+      border: "min(0.25vw, 2px) solid #4a6b3d",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.7), 0 0 min(2vw, 15px) rgba(34, 139, 34, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(34, 139, 34, 0.7) 0%, transparent 55%),\n                   linear-gradient(135deg, #3d5a3d, #4a6b3d, #556b2f, #6b8e23, #2d4a2d)",
+      color: "#e8f5e8",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.9), 0 0 10px rgba(34, 139, 34, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(34, 139, 34, 0.4) 0%, transparent 50%),\n                   linear-gradient(145deg, #2d4a2d, #1a2e1a)",
+      color: "#c8e6c8",
+      accentColor: "#6b8e23",
+      border: "min(0.25vw, 2px) solid #4a6b3d",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #1a2e1a, #2d4a2d)",
+    },
+    stat: {
+      background: "rgba(26, 46, 26, 0.8)",
+      border: "min(0.25vw, 2px) solid #6b8e23",
+      color: "#9acd32",
+      boxShadow: "0 0 min(1vw, 8px) rgba(107, 142, 35, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #6b8e23, #556b2f)",
+      color: "#f0f8e8",
+      border: "min(0.25vw, 2px) solid #1a2e1a",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(107, 142, 35, 0.6)",
+    },
+  },
   celestialPink: {
     background:
       "radial-gradient(circle at 20% 30%, rgba(255, 182, 193, 0.4) 0%, transparent 50%),\n               radial-gradient(circle at 80% 70%, rgba(255, 192, 203, 0.5) 0%, transparent 40%),\n               radial-gradient(circle at 60% 10%, rgba(255, 240, 245, 0.3) 0%, transparent 45%),\n               linear-gradient(145deg, #fff5f7, #ffe4e8, #ffd6dd)",
