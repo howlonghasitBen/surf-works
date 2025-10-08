@@ -1323,6 +1323,43 @@ export const CARD_DATA = [
     artist: "SURF FINANCE STUDIOS",
     rarity: "1/1",
   },
+  {
+    id: "foresttitan",
+    name: "Forest Titan",
+    subtitle: "⟨ANCIENT⟩",
+    level: "3",
+    theme: "mysticalForest",
+    manaCost: [
+      {
+        type: "hp",
+        value: "10",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "5",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/foresttitan.png",
+    type: "Creature — Ancient Treant",
+    stats: {
+      attack: "4",
+      defense: "8",
+    },
+    flavorText:
+      "Nature's Wrath ⟨4D : 4TD⟩\nPassive: At the start of each turn, heal 1 HP to all ally creatures\n'From the ancient roots, wisdom and power intertwine.'",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
 ];
 
 export const CARD_THEMES = {
