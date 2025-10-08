@@ -593,6 +593,22 @@
       "rarity": "Common",
       "metadataFile": "foresttitan-common.json",
       "uri": "https://howlonghasitben.github.io/surf-works/metadata/foresttitan-common.json"
+    },
+    "75": {
+      "id": 75,
+      "cardId": "treant",
+      "name": "Forest Keeper",
+      "rarity": "1/1",
+      "metadataFile": "treant-1of1.json",
+      "uri": "https://howlonghasitben.github.io/surf-works/metadata/treant-1of1.json"
+    },
+    "76": {
+      "id": 76,
+      "cardId": "treant",
+      "name": "Forest Keeper",
+      "rarity": "Common",
+      "metadataFile": "treant-common.json",
+      "uri": "https://howlonghasitben.github.io/surf-works/metadata/treant-common.json"
     }
   }
 }
