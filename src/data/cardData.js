@@ -300,18 +300,18 @@ export const CARD_DATA = [
     id: "ent",
     name: "Ent",
     subtitle: "⟨Woodland⟩",
-    level: "2",
+    level: "1",
     theme: "darkForest",
     manaCost: [
       {
         type: "hp",
-        value: "5",
+        value: "3",
         color: "radial-gradient(circle, #dc143c, #8b0000)",
         textColor: "#ffffff",
       },
       {
         type: "mana",
-        value: "3",
+        value: "1",
         color: "radial-gradient(circle, #4169e1, #0000cd)",
         textColor: "#ffffff",
       },
