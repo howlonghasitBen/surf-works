@@ -609,6 +609,22 @@
       "rarity": "Common",
       "metadataFile": "treant-common.json",
       "uri": "https://howlonghasitben.github.io/surf-works/metadata/treant-common.json"
+    },
+    "77": {
+      "id": 77,
+      "cardId": "beachjester",
+      "name": "Beach Bum",
+      "rarity": "1/1",
+      "metadataFile": "beachjester-1of1.json",
+      "uri": "https://howlonghasitben.github.io/surf-works/metadata/beachjester-1of1.json"
+    },
+    "78": {
+      "id": 78,
+      "cardId": "beachjester",
+      "name": "Beach Bum",
+      "rarity": "Common",
+      "metadataFile": "beachjester-common.json",
+      "uri": "https://howlonghasitben.github.io/surf-works/metadata/beachjester-common.json"
     }
   }
 }
