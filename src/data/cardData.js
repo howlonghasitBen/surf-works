@@ -1397,9 +1397,95 @@ export const CARD_DATA = [
     artist: "SURF FINANCE STUDIOS",
     rarity: "1/1",
   },
+  {
+    id: "beachjester",
+    name: "Beach Bum",
+    subtitle: "⟨WANDERER⟩",
+    level: "∞",
+    theme: "tropicalParadise",
+    manaCost: [
+      {
+        type: "hp",
+        value: "∞",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "6",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/beachjester.png",
+    type: "Creature — Beach Philosopher",
+    stats: {
+      attack: "∞",
+      defense: "∞",
+    },
+    flavorText:
+      "Island Time ⟨Passive: While on field, all allies gain +1 ATK at the start of turn\n'Sometimes the best strategy is no strategy at all. Just vibes.'",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
 ];
 
 export const CARD_THEMES = {
+  tropicalParadise: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(255, 165, 0, 0.4) 0%, transparent 50%),\n               radial-gradient(circle at 80% 70%, rgba(64, 224, 208, 0.5) 0%, transparent 40%),\n               radial-gradient(circle at 60% 10%, rgba(135, 206, 250, 0.4) 0%, transparent 45%),\n               linear-gradient(145deg, #fff8e1, #ffe4b5, #f0e68c, #ffd89b)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(255, 165, 0, 0.6) 0%, transparent 60%),\n                   radial-gradient(circle at 75% 50%, rgba(64, 224, 208, 0.5) 0%, transparent 60%),\n                   linear-gradient(135deg, #87ceeb, #40e0d0, #ffa500, #48d1cc, #ffd700)",
+      color: "#1a5f7a",
+      textShadow:
+        "2px 2px 4px rgba(255, 255, 255, 0.8), 0 0 10px rgba(64, 224, 208, 0.5)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(64, 224, 208, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(255, 255, 255, 0.4)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(255, 165, 0, 0.5) 0%, transparent 45%),\n                   radial-gradient(circle at 70% 80%, rgba(64, 224, 208, 0.4) 0%, transparent 50%),\n                   linear-gradient(145deg, #fffacd, #f0e68c, #ffe4b5)",
+      border: "min(0.25vw, 2px) solid #40e0d0",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(135, 206, 250, 0.3), 0 0 min(2vw, 15px) rgba(64, 224, 208, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(255, 165, 0, 0.6) 0%, transparent 55%),\n                   radial-gradient(circle at 70% 60%, rgba(64, 224, 208, 0.5) 0%, transparent 55%),\n                   linear-gradient(135deg, #87ceeb, #40e0d0, #ffa500, #48d1cc, #ffd700)",
+      color: "#1a5f7a",
+      textShadow:
+        "2px 2px 4px rgba(255, 255, 255, 0.8), 0 0 10px rgba(64, 224, 208, 0.5)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(255, 165, 0, 0.3) 0%, transparent 50%),\n                   radial-gradient(circle at 60% 70%, rgba(64, 224, 208, 0.3) 0%, transparent 50%),\n                   linear-gradient(145deg, #fffacd, #fff8e1)",
+      color: "#2f6690",
+      accentColor: "#ffa500",
+      border: "min(0.25vw, 2px) solid #40e0d0",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #ffe4b5, #f0e68c)",
+    },
+    stat: {
+      background: "rgba(255, 255, 255, 0.8)",
+      border: "min(0.25vw, 2px) solid #40e0d0",
+      color: "#1a5f7a",
+      boxShadow: "0 0 min(1vw, 8px) rgba(64, 224, 208, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #ffd700, #ffa500)",
+      color: "#1a5f7a",
+      border: "min(0.25vw, 2px) solid #40e0d0",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(255, 165, 0, 0.6)",
+    },
+  },
   enchantedGrove: {
     background:
       "radial-gradient(circle at 20% 30%, rgba(64, 224, 208, 0.4) 0%, transparent 50%),\n               radial-gradient(circle at 80% 70%, rgba(34, 139, 34, 0.3) 0%, transparent 40%),\n               radial-gradient(circle at 60% 10%, rgba(144, 238, 144, 0.3) 0%, transparent 45%),\n               linear-gradient(145deg, #1a3a3a, #2d4a4a, #1f3535)",

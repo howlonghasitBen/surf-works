@@ -80,7 +80,7 @@
 }
 
 .card-title {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -90,7 +90,7 @@
   /* Theme colors applied via inline styles */
   padding: min(0.5vw, 4px) min(1vw, 8px);
   border-radius: min(1.5vw, 12px);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 700;
   text-wrap: nowrap;
 }
@@ -124,7 +124,7 @@
 }
 
 .orb-label {
-  font-size: 0.35rem;
+  font-size: 0.3rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   opacity: 0.9;
@@ -133,7 +133,7 @@
 }
 
 .orb-value {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-weight: 700;
   line-height: 1;
 }
@@ -149,7 +149,7 @@
   color: white;
   padding: 0.3rem 0.6rem;
   border-radius: 0.3rem;
-  font-size: 0.5rem;
+  font-size: 0.45rem;
   white-space: nowrap;
   opacity: 0;
   pointer-events: none;
@@ -186,7 +186,7 @@
 .type-power-section {
   padding: min(1.2vw, 10px) min(2vw, 16px);
   font-family: "Cinzel", serif;
-  font-size: 0.65rem;
+  font-size: 0.525rem;
   font-weight: 600;
   border-top: min(0.25vw, 2px) solid #1a1a2e;
   border-bottom: min(0.25vw, 2px) solid #1a1a2e;
@@ -197,7 +197,7 @@
 }
 
 .power-stats {
-  font-size: 0.5rem;
+  font-size: 0.45rem;
   display: flex;
   gap: min(1vw, 8px);
   text-wrap: nowrap;
@@ -212,7 +212,7 @@
 /* Flavor Text */
 .flavor-text {
   padding: 0 min(2vw, 16px);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   line-height: 1.1;
   text-align: center;
   font-style: italic;
@@ -225,7 +225,7 @@
 
 .flavor-text::before {
   content: '"';
-  font-size: 2rem;
+  font-size: 1.8rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -234,7 +234,7 @@
 
 .flavor-text::after {
   content: '"';
-  font-size: 2rem;
+  font-size: 1.8rem;
   position: absolute;
   bottom: 0;
   right: 0.5vw;
@@ -255,7 +255,7 @@
 }
 
 .artist-info {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-family: "Cinzel", serif;
   opacity: 0.8;
 }
@@ -264,7 +264,7 @@
   /* Theme colors applied via inline styles */
   padding: min(0.5vw, 4px) min(1vw, 8px);
   border-radius: min(1vw, 8px);
-  font-size: 0.75rem;
+  font-size: 0.625rem;
   font-weight: 700;
   border: min(0.25vw, 2px) solid #1a1a1a;
   font-family: "Cinzel", serif;
