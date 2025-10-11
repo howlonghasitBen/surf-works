@@ -31,7 +31,7 @@
 
 .deck-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 25vw));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 20vw));
   gap: 1rem;
   max-width: 100%;
   place-content: space-evenly;

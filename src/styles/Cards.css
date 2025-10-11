@@ -236,8 +236,8 @@
   content: '"';
   font-size: 1.8rem;
   position: absolute;
-  bottom: 0;
-  right: 0.5vw;
+  bottom: -2vh;
+  right: 0.2vw;
   opacity: 0.4;
 }
 
