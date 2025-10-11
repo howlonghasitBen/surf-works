@@ -625,6 +625,22 @@
       "rarity": "Common",
       "metadataFile": "beachjester-common.json",
       "uri": "https://howlonghasitben.github.io/surf-works/metadata/beachjester-common.json"
+    },
+    "79": {
+      "id": 79,
+      "cardId": "lootgremlin",
+      "name": "Gribble",
+      "rarity": "1/1",
+      "metadataFile": "lootgremlin-1of1.json",
+      "uri": "https://howlonghasitben.github.io/surf-works/metadata/lootgremlin-1of1.json"
+    },
+    "80": {
+      "id": 80,
+      "cardId": "lootgremlin",
+      "name": "Gribble",
+      "rarity": "Common",
+      "metadataFile": "lootgremlin-common.json",
+      "uri": "https://howlonghasitben.github.io/surf-works/metadata/lootgremlin-common.json"
     }
   }
 }

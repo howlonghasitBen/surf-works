@@ -1,0 +1,53 @@
+{
+  "name": "Gribble ⟨HOARDER⟩",
+  "description": "1/1 Legendary Card from the SURF Waves Collection. Coin Toss ⟨3M: Deal 2 TD to target, gain 1 HP⟩\nPassive: When this card is destroyed, spawn 2 Gold tokens\n'Not all treasure is silver and gold, mate... but most of it is.'",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/lootgremlin.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=lootgremlin&showRarity=true",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "1/1"
+    },
+    {
+      "trait_type": "Level",
+      "value": "2"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "3"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "4"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Treasure Hoard"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Treasure Goblin"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "5"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "3"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}
