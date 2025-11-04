@@ -1,0 +1,53 @@
+{
+  "name": "Gold Dragon Wyrmling 2 ⟨Generated⟩",
+  "description": "1/1 Legendary Card from the Waves Collection. Auto-generated card from gold_dragon_wyrmling_2. Customize this text to make it unique!",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/gold_dragon_wyrmling_2.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=golddragonwyrmling2&showRarity=true",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "1/1"
+    },
+    {
+      "trait_type": "Level",
+      "value": "1"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "3"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "3"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Gold Dragon Wyrmling2"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Generated"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "5"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "2"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}
