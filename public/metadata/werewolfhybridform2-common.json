@@ -1,0 +1,53 @@
+{
+  "name": "Werewolf  Hybrid Form 2 ⟨Generated⟩",
+  "description": "Common Card from the Waves Collection. Auto-generated card from werewolf__hybrid_form_2. Customize this text to make it unique!",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/werewolf__hybrid_form_2.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=werewolfhybridform2&showRarity=false",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Level",
+      "value": "1"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "3"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "3"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Werewolf Hybrid Form2"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Generated"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "5"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "2"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}
