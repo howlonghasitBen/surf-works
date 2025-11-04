@@ -1437,7 +1437,7 @@
     {
       "id": "aboleth",
       "name": "Aboleth",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "aboleth",
       "manaCost": [
@@ -1473,7 +1473,7 @@
     {
       "id": "acolyte",
       "name": "Acolyte",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "acolyte",
       "manaCost": [
@@ -1509,7 +1509,7 @@
     {
       "id": "acolyte2",
       "name": "Acolyte 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "acolyte2",
       "manaCost": [
@@ -1545,7 +1545,7 @@
     {
       "id": "adultbronzedragon",
       "name": "Adult Bronze Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "adultBronzeDragon",
       "manaCost": [
@@ -1581,7 +1581,7 @@
     {
       "id": "adultcopperdragon",
       "name": "Adult Copper Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "adultCopperDragon",
       "manaCost": [
@@ -1617,7 +1617,7 @@
     {
       "id": "adultgolddragon",
       "name": "Adult Gold Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "adultGoldDragon",
       "manaCost": [
@@ -1653,7 +1653,7 @@
     {
       "id": "adultgreendragon",
       "name": "Adult Green Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "adultGreenDragon",
       "manaCost": [
@@ -1689,7 +1689,7 @@
     {
       "id": "adultgreendragon2",
       "name": "Adult Green Dragon 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "adultGreenDragon2",
       "manaCost": [
@@ -1725,7 +1725,7 @@
     {
       "id": "adultsilverdragon",
       "name": "Adult Silver Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "adultSilverDragon",
       "manaCost": [
@@ -1761,7 +1761,7 @@
     {
       "id": "airelemental",
       "name": "Air Elemental",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "airElemental",
       "manaCost": [
@@ -1797,7 +1797,7 @@
     {
       "id": "ancientblackdragon",
       "name": "Ancient Black Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ancientBlackDragon",
       "manaCost": [
@@ -1833,7 +1833,7 @@
     {
       "id": "ancientbrassdragon",
       "name": "Ancient Brass Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ancientBrassDragon",
       "manaCost": [
@@ -1869,7 +1869,7 @@
     {
       "id": "ancientbronzedragon",
       "name": "Ancient Bronze Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ancientBronzeDragon",
       "manaCost": [
@@ -1905,7 +1905,7 @@
     {
       "id": "ancientcopperdragon",
       "name": "Ancient Copper Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ancientCopperDragon",
       "manaCost": [
@@ -1941,7 +1941,7 @@
     {
       "id": "ancientgolddragon2",
       "name": "Ancient Gold Dragon 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ancientGoldDragon2",
       "manaCost": [
@@ -1977,7 +1977,7 @@
     {
       "id": "ancientgolddragon3",
       "name": "Ancient Gold Dragon 3",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ancientGoldDragon3",
       "manaCost": [
@@ -2013,7 +2013,7 @@
     {
       "id": "ancientgreendragon",
       "name": "Ancient Green Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ancientGreenDragon",
       "manaCost": [
@@ -2049,7 +2049,7 @@
     {
       "id": "ancientreddragon",
       "name": "Ancient Red Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ancientRedDragon",
       "manaCost": [
@@ -2085,7 +2085,7 @@
     {
       "id": "ancientsilverdragon",
       "name": "Ancient Silver Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ancientSilverDragon",
       "manaCost": [
@@ -2121,7 +2121,7 @@
     {
       "id": "androsphinx",
       "name": "Androsphinx",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "androsphinx",
       "manaCost": [
@@ -2157,7 +2157,7 @@
     {
       "id": "animatedarmor",
       "name": "Animated Armor",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "animatedArmor",
       "manaCost": [
@@ -2193,7 +2193,7 @@
     {
       "id": "awakenedshrub",
       "name": "Awakened Shrub",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "awakenedShrub",
       "manaCost": [
@@ -2229,7 +2229,7 @@
     {
       "id": "azer",
       "name": "Azer",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "azer",
       "manaCost": [
@@ -2265,7 +2265,7 @@
     {
       "id": "baboon",
       "name": "Baboon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "baboon",
       "manaCost": [
@@ -2301,7 +2301,7 @@
     {
       "id": "baboon2",
       "name": "Baboon 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "baboon2",
       "manaCost": [
@@ -2337,7 +2337,7 @@
     {
       "id": "balor",
       "name": "Balor",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "balor",
       "manaCost": [
@@ -2373,7 +2373,7 @@
     {
       "id": "banditcaptain",
       "name": "Bandit Captain",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "banditCaptain",
       "manaCost": [
@@ -2409,7 +2409,7 @@
     {
       "id": "barbeddevil2",
       "name": "Barbed Devil 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "barbedDevil2",
       "manaCost": [
@@ -2445,7 +2445,7 @@
     {
       "id": "bat",
       "name": "Bat",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "bat",
       "manaCost": [
@@ -2481,7 +2481,7 @@
     {
       "id": "beardeddevil3",
       "name": "Bearded Devil 3",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "beardedDevil3",
       "manaCost": [
@@ -2517,7 +2517,7 @@
     {
       "id": "behir",
       "name": "Behir",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "behir",
       "manaCost": [
@@ -2553,7 +2553,7 @@
     {
       "id": "berserker2",
       "name": "Berserker 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "berserker2",
       "manaCost": [
@@ -2589,7 +2589,7 @@
     {
       "id": "blackbear",
       "name": "Black Bear",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "blackBear",
       "manaCost": [
@@ -2625,7 +2625,7 @@
     {
       "id": "blackdragonwyrmling",
       "name": "Black Dragon Wyrmling",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "blackDragonWyrmling",
       "manaCost": [
@@ -2661,7 +2661,7 @@
     {
       "id": "blackpudding3",
       "name": "Black Pudding 3",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "blackPudding3",
       "manaCost": [
@@ -2697,7 +2697,7 @@
     {
       "id": "bloodhawk",
       "name": "Blood Hawk",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "bloodHawk",
       "manaCost": [
@@ -2733,7 +2733,7 @@
     {
       "id": "boar2",
       "name": "Boar 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "boar2",
       "manaCost": [
@@ -2769,7 +2769,7 @@
     {
       "id": "bugbear",
       "name": "Bugbear",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "bugbear",
       "manaCost": [
@@ -2805,7 +2805,7 @@
     {
       "id": "bugbear2",
       "name": "Bugbear 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "bugbear2",
       "manaCost": [
@@ -2841,7 +2841,7 @@
     {
       "id": "chimera",
       "name": "Chimera",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "chimera",
       "manaCost": [
@@ -2877,7 +2877,7 @@
     {
       "id": "chuul",
       "name": "Chuul",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "chuul",
       "manaCost": [
@@ -2913,7 +2913,7 @@
     {
       "id": "cloudgiant",
       "name": "Cloud Giant",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "cloudGiant",
       "manaCost": [
@@ -2949,7 +2949,7 @@
     {
       "id": "cloudgiant2",
       "name": "Cloud Giant 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "cloudGiant2",
       "manaCost": [
@@ -2985,7 +2985,7 @@
     {
       "id": "cockatrice2",
       "name": "Cockatrice 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "cockatrice2",
       "manaCost": [
@@ -3021,7 +3021,7 @@
     {
       "id": "copperdragonwyrmling3",
       "name": "Copper Dragon Wyrmling 3",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "copperDragonWyrmling3",
       "manaCost": [
@@ -3057,7 +3057,7 @@
     {
       "id": "couatl",
       "name": "Couatl",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "couatl",
       "manaCost": [
@@ -3093,7 +3093,7 @@
     {
       "id": "cultist",
       "name": "Cultist",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "cultist",
       "manaCost": [
@@ -3129,7 +3129,7 @@
     {
       "id": "cultfanatic",
       "name": "Cult Fanatic",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "cultFanatic",
       "manaCost": [
@@ -3165,7 +3165,7 @@
     {
       "id": "darkmantle2",
       "name": "Darkmantle 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "darkmantle2",
       "manaCost": [
@@ -3201,7 +3201,7 @@
     {
       "id": "deepgnomesvirfneblin",
       "name": "Deep Gnome  Svirfneblin ",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "deepGnomeSvirfneblin",
       "manaCost": [
@@ -3237,7 +3237,7 @@
     {
       "id": "drafthorse3",
       "name": "Draft Horse 3",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "draftHorse3",
       "manaCost": [
@@ -3273,7 +3273,7 @@
     {
       "id": "dragonturtle",
       "name": "Dragon Turtle",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "dragonTurtle",
       "manaCost": [
@@ -3309,7 +3309,7 @@
     {
       "id": "dragonturtle2",
       "name": "Dragon Turtle 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "dragonTurtle2",
       "manaCost": [
@@ -3345,7 +3345,7 @@
     {
       "id": "drider",
       "name": "Drider",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "drider",
       "manaCost": [
@@ -3381,7 +3381,7 @@
     {
       "id": "drow",
       "name": "Drow",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "drow",
       "manaCost": [
@@ -3417,7 +3417,7 @@
     {
       "id": "druid",
       "name": "Druid",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "druid",
       "manaCost": [
@@ -3453,7 +3453,7 @@
     {
       "id": "dryad2",
       "name": "Dryad 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "dryad2",
       "manaCost": [
@@ -3489,7 +3489,7 @@
     {
       "id": "duergar2",
       "name": "Duergar 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "duergar2",
       "manaCost": [
@@ -3525,7 +3525,7 @@
     {
       "id": "dustmephit",
       "name": "Dust Mephit",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "dustMephit",
       "manaCost": [
@@ -3561,7 +3561,7 @@
     {
       "id": "efreeti2",
       "name": "Efreeti 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "efreeti2",
       "manaCost": [
@@ -3597,7 +3597,7 @@
     {
       "id": "elephant2",
       "name": "Elephant 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "elephant2",
       "manaCost": [
@@ -3633,7 +3633,7 @@
     {
       "id": "elk3",
       "name": "Elk 3",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "elk3",
       "manaCost": [
@@ -3669,7 +3669,7 @@
     {
       "id": "erinyes",
       "name": "Erinyes",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "erinyes",
       "manaCost": [
@@ -3705,7 +3705,7 @@
     {
       "id": "ettin",
       "name": "Ettin",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ettin",
       "manaCost": [
@@ -3741,7 +3741,7 @@
     {
       "id": "ettin2",
       "name": "Ettin 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ettin2",
       "manaCost": [
@@ -3777,7 +3777,7 @@
     {
       "id": "fireelemental",
       "name": "Fire Elemental",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "fireElemental",
       "manaCost": [
@@ -3813,7 +3813,7 @@
     {
       "id": "fireelemental2",
       "name": "Fire Elemental 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "fireElemental2",
       "manaCost": [
@@ -3849,7 +3849,7 @@
     {
       "id": "frostgiant",
       "name": "Frost Giant",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "frostGiant",
       "manaCost": [
@@ -3885,7 +3885,7 @@
     {
       "id": "gelatinouscube",
       "name": "Gelatinous Cube",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "gelatinousCube",
       "manaCost": [
@@ -3921,7 +3921,7 @@
     {
       "id": "ghast",
       "name": "Ghast",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ghast",
       "manaCost": [
@@ -3957,7 +3957,7 @@
     {
       "id": "ghast2",
       "name": "Ghast 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ghast2",
       "manaCost": [
@@ -3993,7 +3993,7 @@
     {
       "id": "giantape",
       "name": "Giant Ape",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "giantApe",
       "manaCost": [
@@ -4029,7 +4029,7 @@
     {
       "id": "giantbat",
       "name": "Giant Bat",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "giantBat",
       "manaCost": [
@@ -4065,7 +4065,7 @@
     {
       "id": "giantcentipede",
       "name": "Giant Centipede",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "giantCentipede",
       "manaCost": [
@@ -4101,7 +4101,7 @@
     {
       "id": "giantconstrictorsnake",
       "name": "Giant Constrictor Snake",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "giantConstrictorSnake",
       "manaCost": [
@@ -4137,7 +4137,7 @@
     {
       "id": "giantcrab",
       "name": "Giant Crab",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "giantCrab",
       "manaCost": [
@@ -4173,7 +4173,7 @@
     {
       "id": "giantfirebeetle",
       "name": "Giant Fire Beetle",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "giantFireBeetle",
       "manaCost": [
@@ -4209,7 +4209,7 @@
     {
       "id": "giantfrog",
       "name": "Giant Frog",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "giantFrog",
       "manaCost": [
@@ -4245,7 +4245,7 @@
     {
       "id": "giantgoat3",
       "name": "Giant Goat 3",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "giantGoat3",
       "manaCost": [
@@ -4281,7 +4281,7 @@
     {
       "id": "giantoctopus2",
       "name": "Giant Octopus 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "giantOctopus2",
       "manaCost": [
@@ -4317,7 +4317,7 @@
     {
       "id": "giantseahorse",
       "name": "Giant Sea Horse",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "giantSeaHorse",
       "manaCost": [
@@ -4353,7 +4353,7 @@
     {
       "id": "gibberingmouther",
       "name": "Gibbering Mouther",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "gibberingMouther",
       "manaCost": [
@@ -4389,7 +4389,7 @@
     {
       "id": "glabrezu",
       "name": "Glabrezu",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "glabrezu",
       "manaCost": [
@@ -4425,7 +4425,7 @@
     {
       "id": "goat",
       "name": "Goat",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "goat",
       "manaCost": [
@@ -4461,7 +4461,7 @@
     {
       "id": "goblin",
       "name": "Goblin",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "goblin",
       "manaCost": [
@@ -4497,7 +4497,7 @@
     {
       "id": "golddragonwyrmling2",
       "name": "Gold Dragon Wyrmling 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "goldDragonWyrmling2",
       "manaCost": [
@@ -4533,7 +4533,7 @@
     {
       "id": "gorgon",
       "name": "Gorgon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "gorgon",
       "manaCost": [
@@ -4569,7 +4569,7 @@
     {
       "id": "greendragonwyrmling",
       "name": "Green Dragon Wyrmling",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "greenDragonWyrmling",
       "manaCost": [
@@ -4605,7 +4605,7 @@
     {
       "id": "greenhag",
       "name": "Green Hag",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "greenHag",
       "manaCost": [
@@ -4641,7 +4641,7 @@
     {
       "id": "griffon",
       "name": "Griffon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "griffon",
       "manaCost": [
@@ -4677,7 +4677,7 @@
     {
       "id": "guard2",
       "name": "Guard 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "guard2",
       "manaCost": [
@@ -4713,7 +4713,7 @@
     {
       "id": "halfreddragonveteran2",
       "name": "Half Red Dragon Veteran 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "halfRedDragonVeteran2",
       "manaCost": [
@@ -4749,7 +4749,7 @@
     {
       "id": "hellhound",
       "name": "Hell Hound",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "hellHound",
       "manaCost": [
@@ -4785,7 +4785,7 @@
     {
       "id": "hillgiant",
       "name": "Hill Giant",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "hillGiant",
       "manaCost": [
@@ -4821,7 +4821,7 @@
     {
       "id": "hobgoblin",
       "name": "Hobgoblin",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "hobgoblin",
       "manaCost": [
@@ -4857,7 +4857,7 @@
     {
       "id": "homunculus",
       "name": "Homunculus",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "homunculus",
       "manaCost": [
@@ -4893,7 +4893,7 @@
     {
       "id": "homunculus2",
       "name": "Homunculus 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "homunculus2",
       "manaCost": [
@@ -4929,7 +4929,7 @@
     {
       "id": "hydra",
       "name": "Hydra",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "hydra",
       "manaCost": [
@@ -4965,7 +4965,7 @@
     {
       "id": "icedevil",
       "name": "Ice Devil",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "iceDevil",
       "manaCost": [
@@ -5001,7 +5001,7 @@
     {
       "id": "knight2",
       "name": "Knight 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "knight2",
       "manaCost": [
@@ -5037,7 +5037,7 @@
     {
       "id": "knight4",
       "name": "Knight 4",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "knight4",
       "manaCost": [
@@ -5073,7 +5073,7 @@
     {
       "id": "kobold",
       "name": "Kobold",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "kobold",
       "manaCost": [
@@ -5109,7 +5109,7 @@
     {
       "id": "kraken",
       "name": "Kraken",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "kraken",
       "manaCost": [
@@ -5145,7 +5145,7 @@
     {
       "id": "lich",
       "name": "Lich",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "lich",
       "manaCost": [
@@ -5181,7 +5181,7 @@
     {
       "id": "lich2",
       "name": "Lich 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "lich2",
       "manaCost": [
@@ -5217,7 +5217,7 @@
     {
       "id": "lizardfolk2",
       "name": "Lizardfolk 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "lizardfolk2",
       "manaCost": [
@@ -5253,7 +5253,7 @@
     {
       "id": "magmamephit",
       "name": "Magma Mephit",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "magmaMephit",
       "manaCost": [
@@ -5289,7 +5289,7 @@
     {
       "id": "magmamephit3",
       "name": "Magma Mephit 3",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "magmaMephit3",
       "manaCost": [
@@ -5325,7 +5325,7 @@
     {
       "id": "magmamephit4",
       "name": "Magma Mephit 4",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "magmaMephit4",
       "manaCost": [
@@ -5361,7 +5361,7 @@
     {
       "id": "magmamephit5",
       "name": "Magma Mephit 5",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "magmaMephit5",
       "manaCost": [
@@ -5397,7 +5397,7 @@
     {
       "id": "mammoth",
       "name": "Mammoth",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "mammoth",
       "manaCost": [
@@ -5433,7 +5433,7 @@
     {
       "id": "marilith2",
       "name": "Marilith 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "marilith2",
       "manaCost": [
@@ -5469,7 +5469,7 @@
     {
       "id": "mastiff",
       "name": "Mastiff",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "mastiff",
       "manaCost": [
@@ -5505,7 +5505,7 @@
     {
       "id": "medusa",
       "name": "Medusa",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "medusa",
       "manaCost": [
@@ -5541,7 +5541,7 @@
     {
       "id": "merrow",
       "name": "Merrow",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "merrow",
       "manaCost": [
@@ -5577,7 +5577,7 @@
     {
       "id": "mimic2",
       "name": "Mimic 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "mimic2",
       "manaCost": [
@@ -5613,7 +5613,7 @@
     {
       "id": "minotaur",
       "name": "Minotaur",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "minotaur",
       "manaCost": [
@@ -5649,7 +5649,7 @@
     {
       "id": "minotaurskeleton",
       "name": "Minotaur Skeleton",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "minotaurSkeleton",
       "manaCost": [
@@ -5685,7 +5685,7 @@
     {
       "id": "mummy",
       "name": "Mummy",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "mummy",
       "manaCost": [
@@ -5721,7 +5721,7 @@
     {
       "id": "mummylord",
       "name": "Mummy Lord",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "mummyLord",
       "manaCost": [
@@ -5757,7 +5757,7 @@
     {
       "id": "nalfeshnee2",
       "name": "Nalfeshnee 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "nalfeshnee2",
       "manaCost": [
@@ -5793,7 +5793,7 @@
     {
       "id": "orc",
       "name": "Orc",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "orc",
       "manaCost": [
@@ -5829,7 +5829,7 @@
     {
       "id": "phasespider",
       "name": "Phase Spider",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "phaseSpider",
       "manaCost": [
@@ -5865,7 +5865,7 @@
     {
       "id": "planetar3",
       "name": "Planetar 3",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "planetar3",
       "manaCost": [
@@ -5901,7 +5901,7 @@
     {
       "id": "poisonoussnake",
       "name": "Poisonous Snake",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "poisonousSnake",
       "manaCost": [
@@ -5937,7 +5937,7 @@
     {
       "id": "rat",
       "name": "Rat",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "rat",
       "manaCost": [
@@ -5973,7 +5973,7 @@
     {
       "id": "reefshark",
       "name": "Reef Shark",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "reefShark",
       "manaCost": [
@@ -6009,7 +6009,7 @@
     {
       "id": "remorhaz",
       "name": "Remorhaz",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "remorhaz",
       "manaCost": [
@@ -6045,7 +6045,7 @@
     {
       "id": "ridinghorse2",
       "name": "Riding Horse 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "ridingHorse2",
       "manaCost": [
@@ -6081,7 +6081,7 @@
     {
       "id": "roper",
       "name": "Roper",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "roper",
       "manaCost": [
@@ -6117,7 +6117,7 @@
     {
       "id": "rugofsmothering",
       "name": "Rug Of Smothering",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "rugOfSmothering",
       "manaCost": [
@@ -6153,7 +6153,7 @@
     {
       "id": "sahuagin",
       "name": "Sahuagin",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "sahuagin",
       "manaCost": [
@@ -6189,7 +6189,7 @@
     {
       "id": "scorpion",
       "name": "Scorpion",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "scorpion",
       "manaCost": [
@@ -6225,7 +6225,7 @@
     {
       "id": "seahorse4",
       "name": "Sea Horse 4",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "seaHorse4",
       "manaCost": [
@@ -6261,7 +6261,7 @@
     {
       "id": "shadow",
       "name": "Shadow",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "shadow",
       "manaCost": [
@@ -6297,7 +6297,7 @@
     {
       "id": "shamblingmound",
       "name": "Shambling Mound",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "shamblingMound",
       "manaCost": [
@@ -6333,7 +6333,7 @@
     {
       "id": "silverdragonwyrmling",
       "name": "Silver Dragon Wyrmling",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "silverDragonWyrmling",
       "manaCost": [
@@ -6369,7 +6369,7 @@
     {
       "id": "skeleton2",
       "name": "Skeleton 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "skeleton2",
       "manaCost": [
@@ -6405,7 +6405,7 @@
     {
       "id": "specter",
       "name": "Specter",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "specter",
       "manaCost": [
@@ -6441,7 +6441,7 @@
     {
       "id": "spy",
       "name": "Spy",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "spy",
       "manaCost": [
@@ -6477,7 +6477,7 @@
     {
       "id": "stonegiant",
       "name": "Stone Giant",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "stoneGiant",
       "manaCost": [
@@ -6513,7 +6513,7 @@
     {
       "id": "stormgiant",
       "name": "Storm Giant",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "stormGiant",
       "manaCost": [
@@ -6549,7 +6549,7 @@
     {
       "id": "swarmofbeetles2",
       "name": "Swarm Of Beetles 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "swarmOfBeetles2",
       "manaCost": [
@@ -6585,7 +6585,7 @@
     {
       "id": "swarmofpoisonoussnakes",
       "name": "Swarm Of Poisonous Snakes",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "swarmOfPoisonousSnakes",
       "manaCost": [
@@ -6621,7 +6621,7 @@
     {
       "id": "tarrasque",
       "name": "Tarrasque",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "tarrasque",
       "manaCost": [
@@ -6657,7 +6657,7 @@
     {
       "id": "tiger2",
       "name": "Tiger 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "tiger2",
       "manaCost": [
@@ -6693,7 +6693,7 @@
     {
       "id": "tribalwarrior",
       "name": "Tribal Warrior",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "tribalWarrior",
       "manaCost": [
@@ -6729,7 +6729,7 @@
     {
       "id": "unicorn3",
       "name": "Unicorn 3",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "unicorn3",
       "manaCost": [
@@ -6765,7 +6765,7 @@
     {
       "id": "vampirebatform",
       "name": "Vampire  Bat Form",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "vampireBatForm",
       "manaCost": [
@@ -6801,7 +6801,7 @@
     {
       "id": "vampiremistform4",
       "name": "Vampire  Mist Form 4",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "vampireMistForm4",
       "manaCost": [
@@ -6837,7 +6837,7 @@
     {
       "id": "violetfungus",
       "name": "Violet Fungus",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "violetFungus",
       "manaCost": [
@@ -6873,7 +6873,7 @@
     {
       "id": "warhorse2",
       "name": "Warhorse 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "warhorse2",
       "manaCost": [
@@ -6909,7 +6909,7 @@
     {
       "id": "wereboarhybridform2",
       "name": "Wereboar  Hybrid Form 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "wereboarHybridForm2",
       "manaCost": [
@@ -6945,7 +6945,7 @@
     {
       "id": "wererathumanform",
       "name": "Wererat  Human Form",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "wereratHumanForm",
       "manaCost": [
@@ -6981,7 +6981,7 @@
     {
       "id": "werewolfhybridform2",
       "name": "Werewolf  Hybrid Form 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "werewolfHybridForm2",
       "manaCost": [
@@ -7017,7 +7017,7 @@
     {
       "id": "willowisp",
       "name": "Will O  Wisp",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "willOWisp",
       "manaCost": [
@@ -7053,7 +7053,7 @@
     {
       "id": "winterwolf",
       "name": "Winter Wolf",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "winterWolf",
       "manaCost": [
@@ -7089,7 +7089,7 @@
     {
       "id": "wraith",
       "name": "Wraith",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "wraith",
       "manaCost": [
@@ -7125,7 +7125,7 @@
     {
       "id": "wyvern",
       "name": "Wyvern",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "wyvern",
       "manaCost": [
@@ -7161,7 +7161,7 @@
     {
       "id": "youngblackdragon",
       "name": "Young Black Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "youngBlackDragon",
       "manaCost": [
@@ -7197,7 +7197,7 @@
     {
       "id": "youngblackdragon2",
       "name": "Young Black Dragon 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "youngBlackDragon2",
       "manaCost": [
@@ -7233,7 +7233,7 @@
     {
       "id": "youngbrassdragon",
       "name": "Young Brass Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "youngBrassDragon",
       "manaCost": [
@@ -7269,7 +7269,7 @@
     {
       "id": "youngbrassdragon2",
       "name": "Young Brass Dragon 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "youngBrassDragon2",
       "manaCost": [
@@ -7305,7 +7305,7 @@
     {
       "id": "youngcopperdragon",
       "name": "Young Copper Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "youngCopperDragon",
       "manaCost": [
@@ -7341,7 +7341,7 @@
     {
       "id": "younggreendragon2",
       "name": "Young Green Dragon 2",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "youngGreenDragon2",
       "manaCost": [
@@ -7377,7 +7377,7 @@
     {
       "id": "youngreddragon3",
       "name": "Young Red Dragon 3",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "youngRedDragon3",
       "manaCost": [
@@ -7413,7 +7413,7 @@
     {
       "id": "youngwhitedragon",
       "name": "Young White Dragon",
-      "subtitle": "⟨Generated⟩",
+      "subtitle": "",
       "level": "1",
       "theme": "youngWhiteDragon",
       "manaCost": [
