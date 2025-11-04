@@ -9124,7 +9124,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(180, 109, 89, 0.6)"
       }
     },
-    "adult_bronze_dragon": {
+    "adultBronzeDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(94, 167, 219, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(108, 68, 28, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(127, 200, 230, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #425734, #6c441c, #6f936d)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(94, 167, 219, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(111, 147, 109, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #5ea7db, #6f936d, #7fc8e6, #5ea7db, #6c441c)",
@@ -9164,7 +9164,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(94, 167, 219, 0.6)"
       }
     },
-    "adult_copper_dragon": {
+    "adultCopperDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(154, 96, 58, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(135, 99, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(199, 154, 101, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4f443a, #876324, #a58a50)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(154, 96, 58, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(165, 138, 80, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #9a603a, #a58a50, #c79a65, #9a603a, #876324)",
@@ -9204,7 +9204,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(154, 96, 58, 0.6)"
       }
     },
-    "adult_gold_dragon": {
+    "adultGoldDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(194, 158, 64, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(102, 76, 30, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(240, 219, 100, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4c3c24, #664c1e, #998251)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(194, 158, 64, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(153, 130, 81, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #c29e40, #998251, #f0db64, #c29e40, #664c1e)",
@@ -9244,7 +9244,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(194, 158, 64, 0.6)"
       }
     },
-    "adult_green_dragon": {
+    "adultGreenDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(147, 151, 103, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(76, 78, 53, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(199, 201, 176, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4b6339, #4c4e35, #6c878e)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(147, 151, 103, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(108, 135, 142, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #939767, #6c878e, #c7c9b0, #939767, #4c4e35)",
@@ -9284,7 +9284,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(147, 151, 103, 0.6)"
       }
     },
-    "adult_green_dragon_2": {
+    "adultGreenDragon2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(102, 139, 183, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(50, 70, 32, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(140, 179, 212, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #40572b, #324620, #5c7c9c)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(102, 139, 183, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(92, 124, 156, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #668bb7, #5c7c9c, #8cb3d4, #668bb7, #324620)",
@@ -9324,7 +9324,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(102, 139, 183, 0.6)"
       }
     },
-    "adult_silver_dragon": {
+    "adultSilverDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(106, 142, 184, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(41, 63, 90, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(165, 199, 225, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #344b71, #293f5a, #6080a7)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(106, 142, 184, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(96, 128, 167, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #6a8eb8, #6080a7, #a5c7e1, #6a8eb8, #293f5a)",
@@ -9364,7 +9364,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(106, 142, 184, 0.6)"
       }
     },
-    "air_elemental": {
+    "airElemental": {
       "background": "radial-gradient(circle at 20% 30%, rgba(76, 167, 176, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(34, 88, 97, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(148, 213, 213, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #394a58, #225861, #56939a)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(76, 167, 176, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(86, 147, 154, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #4ca7b0, #56939a, #94d5d5, #4ca7b0, #225861)",
@@ -9404,7 +9404,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(76, 167, 176, 0.6)"
       }
     },
-    "ancient_black_dragon": {
+    "ancientBlackDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(192, 198, 129, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(60, 77, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(210, 221, 155, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #41532e, #3c4d24, #a46458)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(192, 198, 129, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(164, 100, 88, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #c0c681, #a46458, #d2dd9b, #c0c681, #3c4d24)",
@@ -9444,7 +9444,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(192, 198, 129, 0.6)"
       }
     },
-    "ancient_brass_dragon": {
+    "ancientBrassDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(212, 180, 60, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(94, 69, 29, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(248, 207, 130, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3f522d, #5e451d, #ac7162)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(212, 180, 60, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(172, 113, 98, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #d4b43c, #ac7162, #f8cf82, #d4b43c, #5e451d)",
@@ -9484,7 +9484,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(212, 180, 60, 0.6)"
       }
     },
-    "ancient_bronze_dragon": {
+    "ancientBronzeDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(221, 142, 76, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(92, 61, 44, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(250, 221, 143, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #514d39, #5c3d2c, #9f6f58)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(221, 142, 76, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(159, 111, 88, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #dd8e4c, #9f6f58, #fadd8f, #dd8e4c, #5c3d2c)",
@@ -9524,7 +9524,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(221, 142, 76, 0.6)"
       }
     },
-    "ancient_copper_dragon": {
+    "ancientCopperDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(165, 131, 43, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(120, 44, 20, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(242, 217, 155, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5e422f, #782c14, #b19062)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(165, 131, 43, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(177, 144, 98, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #a5832b, #b19062, #f2d99b, #a5832b, #782c14)",
@@ -9564,7 +9564,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(165, 131, 43, 0.6)"
       }
     },
-    "ancient_gold_dragon_2": {
+    "ancientGoldDragon2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(190, 124, 59, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(109, 55, 20, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(246, 201, 136, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3b3e48, #6d3714, #9d7966)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(190, 124, 59, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(157, 121, 102, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #be7c3b, #9d7966, #f6c988, #be7c3b, #6d3714)",
@@ -9604,7 +9604,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(190, 124, 59, 0.6)"
       }
     },
-    "ancient_gold_dragon_3": {
+    "ancientGoldDragon3": {
       "background": "radial-gradient(circle at 20% 30%, rgba(199, 117, 47, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(112, 67, 12, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(248, 228, 134, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4c3d29, #70430c, #a47457)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(199, 117, 47, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(164, 116, 87, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #c7752f, #a47457, #f8e486, #c7752f, #70430c)",
@@ -9644,7 +9644,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(199, 117, 47, 0.6)"
       }
     },
-    "ancient_green_dragon": {
+    "ancientGreenDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(184, 86, 84, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(60, 92, 28, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(248, 235, 179, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3a4931, #3c5c1c, #a4895c)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(184, 86, 84, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(164, 137, 92, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b85654, #a4895c, #f8ebb3, #b85654, #3c5c1c)",
@@ -9684,7 +9684,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(184, 86, 84, 0.6)"
       }
     },
-    "ancient_red_dragon": {
+    "ancientRedDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(187, 47, 43, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(114, 27, 27, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(199, 157, 122, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #334650, #721b1b, #936952)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(187, 47, 43, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(147, 105, 82, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #bb2f2b, #936952, #c79d7a, #bb2f2b, #721b1b)",
@@ -9724,7 +9724,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(187, 47, 43, 0.6)"
       }
     },
-    "ancient_silver_dragon": {
+    "ancientSilverDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(87, 148, 179, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(30, 58, 87, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(136, 189, 198, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #394f3d, #1e3a57, #5383a3)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(87, 148, 179, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(83, 131, 163, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #5794b3, #5383a3, #88bdc6, #5794b3, #1e3a57)",
@@ -9804,7 +9804,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(244, 156, 113, 0.6)"
       }
     },
-    "animated_armor": {
+    "animatedArmor": {
       "background": "radial-gradient(circle at 20% 30%, rgba(101, 129, 54, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(75, 94, 35, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(195, 215, 161, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3f4d37, #4b5e23, #5f8084)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(101, 129, 54, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(95, 128, 132, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #658136, #5f8084, #c3d7a1, #658136, #4b5e23)",
@@ -9844,7 +9844,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(101, 129, 54, 0.6)"
       }
     },
-    "awakened_shrub": {
+    "awakenedShrub": {
       "background": "radial-gradient(circle at 20% 30%, rgba(75, 121, 178, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(20, 104, 112, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(100, 156, 220, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #2c4257, #146870, #517e75)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(75, 121, 178, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(81, 126, 117, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #4b79b2, #517e75, #649cdc, #4b79b2, #146870)",
@@ -9964,7 +9964,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(188, 130, 89, 0.6)"
       }
     },
-    "baboon_2": {
+    "baboon2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(180, 196, 132, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(68, 92, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(233, 228, 195, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4f5f32, #445c24, #889f60)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(180, 196, 132, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(136, 159, 96, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b4c484, #889f60, #e9e4c3, #b4c484, #445c24)",
@@ -10044,7 +10044,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(208, 90, 46, 0.6)"
       }
     },
-    "bandit_captain": {
+    "banditCaptain": {
       "background": "radial-gradient(circle at 20% 30%, rgba(91, 114, 53, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(102, 56, 20, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(194, 212, 164, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5a412b, #663814, #5d7481)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(91, 114, 53, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(93, 116, 129, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #5b7235, #5d7481, #c2d4a4, #5b7235, #663814)",
@@ -10084,7 +10084,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(91, 114, 53, 0.6)"
       }
     },
-    "barbed_devil_2": {
+    "barbedDevil2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(224, 110, 48, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(116, 20, 12, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(237, 174, 139, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #694439, #74140c, #6c8c94)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(224, 110, 48, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(108, 140, 148, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #e06e30, #6c8c94, #edae8b, #e06e30, #74140c)",
@@ -10164,7 +10164,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(139, 208, 46, 0.6)"
       }
     },
-    "bearded_devil_3": {
+    "beardedDevil3": {
       "background": "radial-gradient(circle at 20% 30%, rgba(225, 76, 20, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(148, 48, 19, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(247, 200, 116, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5f3731, #943013, #9d6355)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(225, 76, 20, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(157, 99, 85, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #e14c14, #9d6355, #f7c874, #e14c14, #943013)",
@@ -10244,7 +10244,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(75, 151, 183, 0.6)"
       }
     },
-    "berserker_2": {
+    "berserker2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(156, 102, 69, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(135, 43, 37, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(205, 165, 130, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3c4c5b, #872b25, #948073)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(156, 102, 69, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(148, 128, 115, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #9c6645, #948073, #cda582, #9c6645, #872b25)",
@@ -10284,7 +10284,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(156, 102, 69, 0.6)"
       }
     },
-    "black_bear": {
+    "blackBear": {
       "background": "radial-gradient(circle at 20% 30%, rgba(176, 143, 78, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(91, 74, 40, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(236, 228, 212, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #364434, #5b4a28, #9c8466)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(176, 143, 78, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(156, 132, 102, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b08f4e, #9c8466, #ece4d4, #b08f4e, #5b4a28)",
@@ -10324,7 +10324,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(176, 143, 78, 0.6)"
       }
     },
-    "black_dragon_wyrmling": {
+    "blackDragonWyrmling": {
       "background": "radial-gradient(circle at 20% 30%, rgba(210, 123, 52, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(96, 58, 39, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(194, 140, 128, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #543441, #603a27, #83868e)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(210, 123, 52, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(131, 134, 142, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #d27b34, #83868e, #c28c80, #d27b34, #603a27)",
@@ -10364,7 +10364,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(210, 123, 52, 0.6)"
       }
     },
-    "black_pudding_3": {
+    "blackPudding3": {
       "background": "radial-gradient(circle at 20% 30%, rgba(115, 66, 54, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(101, 102, 27, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(212, 174, 164, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4b4332, #65661b, #907d52)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(115, 66, 54, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(144, 125, 82, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #734236, #907d52, #d4aea4, #734236, #65661b)",
@@ -10404,7 +10404,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(115, 66, 54, 0.6)"
       }
     },
-    "blood_hawk": {
+    "bloodHawk": {
       "background": "radial-gradient(circle at 20% 30%, rgba(142, 28, 28, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(102, 22, 21, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(233, 144, 144, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4b5c3b, #661615, #847692)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(142, 28, 28, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(132, 118, 146, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #8e1c1c, #847692, #e99090, #8e1c1c, #661615)",
@@ -10444,7 +10444,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(142, 28, 28, 0.6)"
       }
     },
-    "boar_2": {
+    "boar2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(125, 189, 193, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(36, 68, 76, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(155, 226, 228, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #324d54, #24444c, #649ea6)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(125, 189, 193, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(100, 158, 166, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #7dbdc1, #649ea6, #9be2e4, #7dbdc1, #24444c)",
@@ -10524,7 +10524,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(115, 72, 46, 0.6)"
       }
     },
-    "bugbear_2": {
+    "bugbear2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(116, 76, 44, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(102, 65, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(218, 185, 158, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #31394e, #664124, #648646)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(116, 76, 44, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(100, 134, 70, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #744c2c, #648646, #dab99e, #744c2c, #664124)",
@@ -10644,7 +10644,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(135, 160, 94, 0.6)"
       }
     },
-    "cloud_giant": {
+    "cloudGiant": {
       "background": "radial-gradient(circle at 20% 30%, rgba(104, 160, 195, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(37, 72, 94, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(223, 166, 135, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5e4544, #25485e, #6c7897)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(104, 160, 195, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(108, 120, 151, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #68a0c3, #6c7897, #dfa687, #68a0c3, #25485e)",
@@ -10684,7 +10684,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(104, 160, 195, 0.6)"
       }
     },
-    "cloud_giant_2": {
+    "cloudGiant2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(235, 211, 108, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(116, 97, 15, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(228, 242, 252, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #344b63, #74610f, #6d8297)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(235, 211, 108, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(109, 130, 151, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #ebd36c, #6d8297, #e4f2fc, #ebd36c, #74610f)",
@@ -10724,7 +10724,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(235, 211, 108, 0.6)"
       }
     },
-    "cockatrice_2": {
+    "cockatrice2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(116, 163, 202, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(52, 84, 108, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(156, 206, 232, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #394e31, #34546c, #648eac)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(116, 163, 202, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(100, 142, 172, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #74a3ca, #648eac, #9ccee8, #74a3ca, #34546c)",
@@ -10764,7 +10764,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(116, 163, 202, 0.6)"
       }
     },
-    "copper_dragon_wyrmling_3": {
+    "copperDragonWyrmling3": {
       "background": "radial-gradient(circle at 20% 30%, rgba(175, 109, 61, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(86, 47, 26, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(140, 204, 236, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #30281f, #562f1a, #959e54)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(175, 109, 61, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(149, 158, 84, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #af6d3d, #959e54, #8cccec, #af6d3d, #562f1a)",
@@ -10884,7 +10884,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(136, 175, 79, 0.6)"
       }
     },
-    "cult_fanatic": {
+    "cultFanatic": {
       "background": "radial-gradient(circle at 20% 30%, rgba(195, 146, 68, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(76, 28, 20, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(142, 221, 222, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4b3b29, #4c1c14, #569a8d)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(195, 146, 68, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(86, 154, 141, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #c39244, #569a8d, #8eddde, #c39244, #4c1c14)",
@@ -10924,7 +10924,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(195, 146, 68, 0.6)"
       }
     },
-    "darkmantle_2": {
+    "darkmantle2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(134, 177, 77, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(76, 100, 44, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(192, 214, 162, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #37473e, #4c642c, #698f6c)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(134, 177, 77, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(105, 143, 108, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #86b14d, #698f6c, #c0d6a2, #86b14d, #4c642c)",
@@ -10964,7 +10964,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(134, 177, 77, 0.6)"
       }
     },
-    "deep_gnome__svirfneblin_": {
+    "deepGnomeSvirfneblin": {
       "background": "radial-gradient(circle at 20% 30%, rgba(105, 199, 207, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(36, 84, 90, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(154, 217, 222, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #304b54, #24545a, #549ba4)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(105, 199, 207, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(84, 155, 164, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #69c7cf, #549ba4, #9ad9de, #69c7cf, #24545a)",
@@ -11004,7 +11004,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(105, 199, 207, 0.6)"
       }
     },
-    "draft_horse_3": {
+    "draftHorse3": {
       "background": "radial-gradient(circle at 20% 30%, rgba(233, 159, 108, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(28, 84, 52, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(237, 204, 155, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #435d35, #1c5434, #a96460)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(233, 159, 108, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(169, 100, 96, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #e99f6c, #a96460, #edcc9b, #e99f6c, #1c5434)",
@@ -11044,7 +11044,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(233, 159, 108, 0.6)"
       }
     },
-    "dragon_turtle": {
+    "dragonTurtle": {
       "background": "radial-gradient(circle at 20% 30%, rgba(173, 114, 79, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(68, 92, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(234, 245, 243, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4f633e, #445c24, #6d857a)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(173, 114, 79, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(109, 133, 122, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #ad724f, #6d857a, #eaf5f3, #ad724f, #445c24)",
@@ -11084,7 +11084,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(173, 114, 79, 0.6)"
       }
     },
-    "dragon_turtle_2": {
+    "dragonTurtle2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(112, 155, 211, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(31, 61, 101, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(153, 184, 223, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #305740, #1f3d65, #569984)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(112, 155, 211, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(86, 153, 132, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #709bd3, #569984, #99b8df, #709bd3, #1f3d65)",
@@ -11244,7 +11244,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(130, 178, 63, 0.6)"
       }
     },
-    "dryad_2": {
+    "dryad2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(189, 202, 71, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(84, 92, 20, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(234, 240, 184, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5c5d31, #545c14, #ac8c54)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(189, 202, 71, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(172, 140, 84, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #bdca47, #ac8c54, #eaf0b8, #bdca47, #545c14)",
@@ -11284,7 +11284,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(189, 202, 71, 0.6)"
       }
     },
-    "duergar_2": {
+    "duergar2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(183, 73, 71, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(100, 40, 39, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(217, 160, 159, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #475f34, #642827, #7da067)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(183, 73, 71, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(125, 160, 103, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b74947, #7da067, #d9a09f, #b74947, #642827)",
@@ -11324,7 +11324,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(183, 73, 71, 0.6)"
       }
     },
-    "dust_mephit": {
+    "dustMephit": {
       "background": "radial-gradient(circle at 20% 30%, rgba(196, 128, 108, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(108, 60, 44, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(217, 173, 160, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5f4034, #6c3c2c, #8f7e70)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(196, 128, 108, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(143, 126, 112, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #c4806c, #8f7e70, #d9ada0, #c4806c, #6c3c2c)",
@@ -11364,7 +11364,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(196, 128, 108, 0.6)"
       }
     },
-    "efreeti_2": {
+    "efreeti2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(225, 135, 57, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(112, 71, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(240, 215, 131, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4a3539, #704724, #6f6489)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(225, 135, 57, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(111, 100, 137, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #e18739, #6f6489, #f0d783, #e18739, #704724)",
@@ -11404,7 +11404,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(225, 135, 57, 0.6)"
       }
     },
-    "elephant_2": {
+    "elephant2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(76, 132, 180, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(39, 68, 93, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(167, 222, 232, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #2c4453, #27445d, #6c8454)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(76, 132, 180, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(108, 132, 84, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #4c84b4, #6c8454, #a7dee8, #4c84b4, #27445d)",
@@ -11444,7 +11444,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(76, 132, 180, 0.6)"
       }
     },
-    "elk_3": {
+    "elk3": {
       "background": "radial-gradient(circle at 20% 30%, rgba(149, 180, 84, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(96, 132, 60, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(238, 241, 221, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #504f3a, #60843c, #738d7e)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(149, 180, 84, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(115, 141, 126, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #95b454, #738d7e, #eef1dd, #95b454, #60843c)",
@@ -11564,7 +11564,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(120, 76, 36, 0.6)"
       }
     },
-    "ettin_2": {
+    "ettin2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(116, 144, 60, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(92, 56, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(197, 216, 161, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4e5937, #5c3824, #8da959)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(116, 144, 60, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(141, 169, 89, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #74903c, #8da959, #c5d8a1, #74903c, #5c3824)",
@@ -11604,7 +11604,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(116, 144, 60, 0.6)"
       }
     },
-    "fire_elemental": {
+    "fireElemental": {
       "background": "radial-gradient(circle at 20% 30%, rgba(233, 103, 36, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(137, 28, 22, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(249, 201, 73, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5a2e2f, #891c16, #a96c5a)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(233, 103, 36, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(169, 108, 90, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #e96724, #a96c5a, #f9c949, #e96724, #891c16)",
@@ -11644,7 +11644,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(233, 103, 36, 0.6)"
       }
     },
-    "fire_elemental_2": {
+    "fireElemental2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(239, 78, 27, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(106, 28, 19, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(247, 238, 124, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4f373a, #6a1c13, #8e423d)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(239, 78, 27, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(142, 66, 61, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #ef4e1b, #8e423d, #f7ee7c, #ef4e1b, #6a1c13)",
@@ -11684,7 +11684,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(239, 78, 27, 0.6)"
       }
     },
-    "frost_giant": {
+    "frostGiant": {
       "background": "radial-gradient(circle at 20% 30%, rgba(58, 149, 190, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(33, 64, 90, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(152, 215, 237, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #324e2b, #21405a, #5b9da2)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(58, 149, 190, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(91, 157, 162, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #3a95be, #5b9da2, #98d7ed, #3a95be, #21405a)",
@@ -11724,7 +11724,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(58, 149, 190, 0.6)"
       }
     },
-    "gelatinous_cube": {
+    "gelatinousCube": {
       "background": "radial-gradient(circle at 20% 30%, rgba(76, 176, 104, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(44, 92, 56, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(156, 232, 196, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #374f3f, #2c5c38, #559368)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(76, 176, 104, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(85, 147, 104, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #4cb068, #559368, #9ce8c4, #4cb068, #2c5c38)",
@@ -11804,7 +11804,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(228, 84, 19, 0.6)"
       }
     },
-    "ghast_2": {
+    "ghast2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(248, 132, 24, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(106, 25, 16, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(251, 225, 81, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #345528, #6a1910, #a55c54)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(248, 132, 24, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(165, 92, 84, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #f88418, #a55c54, #fbe151, #f88418, #6a1910)",
@@ -11844,7 +11844,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(248, 132, 24, 0.6)"
       }
     },
-    "giant_ape": {
+    "giantApe": {
       "background": "radial-gradient(circle at 20% 30%, rgba(186, 158, 108, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(60, 76, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(238, 203, 148, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3c5233, #3c4c24, #72965b)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(186, 158, 108, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(114, 150, 91, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #ba9e6c, #72965b, #eecb94, #ba9e6c, #3c4c24)",
@@ -11884,7 +11884,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(186, 158, 108, 0.6)"
       }
     },
-    "giant_bat": {
+    "giantBat": {
       "background": "radial-gradient(circle at 20% 30%, rgba(121, 115, 139, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(63, 59, 72, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(185, 182, 195, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #445c34, #3f3b48, #7c9c62)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(121, 115, 139, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(124, 156, 98, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #79738b, #7c9c62, #b9b6c3, #79738b, #3f3b48)",
@@ -11924,7 +11924,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(121, 115, 139, 0.6)"
       }
     },
-    "giant_centipede": {
+    "giantCentipede": {
       "background": "radial-gradient(circle at 20% 30%, rgba(76, 158, 146, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(69, 100, 44, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(122, 179, 191, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #354e2f, #45642c, #648aa9)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(76, 158, 146, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(100, 138, 169, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #4c9e92, #648aa9, #7ab3bf, #4c9e92, #45642c)",
@@ -11964,7 +11964,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(76, 158, 146, 0.6)"
       }
     },
-    "giant_constrictor_snake": {
+    "giantConstrictorSnake": {
       "background": "radial-gradient(circle at 20% 30%, rgba(114, 150, 71, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(68, 92, 28, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(190, 212, 165, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3a4e26, #445c1c, #7e984e)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(114, 150, 71, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(126, 152, 78, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #729647, #7e984e, #bed4a5, #729647, #445c1c)",
@@ -12004,7 +12004,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(114, 150, 71, 0.6)"
       }
     },
-    "giant_crab": {
+    "giantCrab": {
       "background": "radial-gradient(circle at 20% 30%, rgba(102, 134, 152, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(53, 70, 79, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(175, 192, 201, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #614636, #35464f, #7c9464)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(102, 134, 152, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(124, 148, 100, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #668698, #7c9464, #afc0c9, #668698, #35464f)",
@@ -12044,7 +12044,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(102, 134, 152, 0.6)"
       }
     },
-    "giant_fire_beetle": {
+    "giantFireBeetle": {
       "background": "radial-gradient(circle at 20% 30%, rgba(245, 106, 49, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(98, 20, 14, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(251, 228, 116, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #653b32, #62140e, #8ca568)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(245, 106, 49, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(140, 165, 104, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #f56a31, #8ca568, #fbe474, #f56a31, #62140e)",
@@ -12084,7 +12084,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(245, 106, 49, 0.6)"
       }
     },
-    "giant_frog": {
+    "giantFrog": {
       "background": "radial-gradient(circle at 20% 30%, rgba(186, 78, 60, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(84, 56, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(248, 223, 167, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #455933, #543824, #8c656c)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(186, 78, 60, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(140, 101, 108, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #ba4e3c, #8c656c, #f8dfa7, #ba4e3c, #543824)",
@@ -12124,7 +12124,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(186, 78, 60, 0.6)"
       }
     },
-    "giant_goat_3": {
+    "giantGoat3": {
       "background": "radial-gradient(circle at 20% 30%, rgba(132, 92, 62, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(132, 84, 60, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(240, 232, 215, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #33454f, #84543c, #72858e)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(132, 92, 62, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(114, 133, 142, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #845c3e, #72858e, #f0e8d7, #845c3e, #84543c)",
@@ -12164,7 +12164,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(132, 92, 62, 0.6)"
       }
     },
-    "giant_octopus_2": {
+    "giantOctopus2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(99, 146, 155, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(51, 75, 80, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(174, 198, 203, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3c4e5e, #334b50, #6c8292)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(99, 146, 155, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(108, 130, 146, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #63929b, #6c8292, #aec6cb, #63929b, #334b50)",
@@ -12204,7 +12204,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(99, 146, 155, 0.6)"
       }
     },
-    "giant_sea_horse": {
+    "giantSeaHorse": {
       "background": "radial-gradient(circle at 20% 30%, rgba(44, 128, 152, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(20, 84, 108, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(188, 210, 224, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #34435d, #14546c, #6e869b)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(44, 128, 152, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(110, 134, 155, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #2c8098, #6e869b, #bcd2e0, #2c8098, #14546c)",
@@ -12244,7 +12244,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(44, 128, 152, 0.6)"
       }
     },
-    "gibbering_mouther": {
+    "gibberingMouther": {
       "background": "radial-gradient(circle at 20% 30%, rgba(52, 117, 140, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(36, 84, 100, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(158, 203, 219, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #2e4652, #245464, #5f93a9)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(52, 117, 140, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(95, 147, 169, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #34758c, #5f93a9, #9ecbdb, #34758c, #245464)",
@@ -12404,7 +12404,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(196, 97, 58, 0.6)"
       }
     },
-    "gold_dragon_wyrmling_2": {
+    "goldDragonWyrmling2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(211, 117, 47, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(105, 34, 20, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(245, 228, 145, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3f4455, #692214, #957c86)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(211, 117, 47, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(149, 124, 134, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #d3752f, #957c86, #f5e491, #d3752f, #692214)",
@@ -12484,7 +12484,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(76, 116, 52, 0.6)"
       }
     },
-    "green_dragon_wyrmling": {
+    "greenDragonWyrmling": {
       "background": "radial-gradient(circle at 20% 30%, rgba(174, 144, 80, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(90, 75, 41, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(225, 214, 190, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5f4736, #5a4b29, #8ca464)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(174, 144, 80, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(140, 164, 100, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #ae9050, #8ca464, #e1d6be, #ae9050, #5a4b29)",
@@ -12524,7 +12524,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(174, 144, 80, 0.6)"
       }
     },
-    "green_hag": {
+    "greenHag": {
       "background": "radial-gradient(circle at 20% 30%, rgba(93, 133, 58, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(87, 61, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(186, 214, 162, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #345541, #573d24, #63a493)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(93, 133, 58, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(99, 164, 147, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #5d853a, #63a493, #bad6a2, #5d853a, #573d24)",
@@ -12604,7 +12604,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(172, 129, 79, 0.6)"
       }
     },
-    "guard_2": {
+    "guard2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(195, 148, 89, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(96, 55, 20, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(219, 192, 157, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5a432d, #603714, #978656)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(195, 148, 89, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(151, 134, 86, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #c39459, #978656, #dbc09d, #c39459, #603714)",
@@ -12644,7 +12644,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(195, 148, 89, 0.6)"
       }
     },
-    "half_red_dragon_veteran_2": {
+    "halfRedDragonVeteran2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(203, 78, 53, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(152, 52, 20, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(227, 162, 149, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #573a35, #983414, #94504c)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(203, 78, 53, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(148, 80, 76, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #cb4e35, #94504c, #e3a295, #cb4e35, #983414)",
@@ -12684,7 +12684,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(203, 78, 53, 0.6)"
       }
     },
-    "hell_hound": {
+    "hellHound": {
       "background": "radial-gradient(circle at 20% 30%, rgba(230, 78, 44, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(117, 48, 41, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(246, 149, 64, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #574534, #753029, #ac614b)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(230, 78, 44, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(172, 97, 75, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #e64e2c, #ac614b, #f69540, #e64e2c, #753029)",
@@ -12724,7 +12724,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(230, 78, 44, 0.6)"
       }
     },
-    "hill_giant": {
+    "hillGiant": {
       "background": "radial-gradient(circle at 20% 30%, rgba(152, 137, 102, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(79, 71, 53, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(201, 193, 175, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3d4f37, #4f4735, #5b7e4e)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(152, 137, 102, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(91, 126, 78, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #988966, #5b7e4e, #c9c1af, #988966, #4f4735)",
@@ -12844,7 +12844,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(120, 50, 102, 0.6)"
       }
     },
-    "homunculus_2": {
+    "homunculus2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(109, 54, 44, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(84, 28, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(216, 169, 160, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5a4235, #541c24, #7a5a43)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(109, 54, 44, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(122, 90, 67, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #6d362c, #7a5a43, #d8a9a0, #6d362c, #541c24)",
@@ -12924,7 +12924,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(76, 108, 52, 0.6)"
       }
     },
-    "ice_devil": {
+    "iceDevil": {
       "background": "radial-gradient(circle at 20% 30%, rgba(58, 103, 136, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(17, 63, 95, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(156, 196, 210, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #304a61, #113f5f, #5685a1)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(58, 103, 136, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(86, 133, 161, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #3a6788, #5685a1, #9cc4d2, #3a6788, #113f5f)",
@@ -12964,7 +12964,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(58, 103, 136, 0.6)"
       }
     },
-    "knight_2": {
+    "knight2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(172, 180, 69, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(133, 146, 58, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(247, 247, 212, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #46475a, #85923a, #868381)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(172, 180, 69, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(134, 131, 129, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #acb445, #868381, #f7f7d4, #acb445, #85923a)",
@@ -13004,7 +13004,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(172, 180, 69, 0.6)"
       }
     },
-    "knight_4": {
+    "knight4": {
       "background": "radial-gradient(circle at 20% 30%, rgba(185, 71, 69, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(85, 33, 32, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(218, 159, 158, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3d4e30, #552120, #698691)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(185, 71, 69, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(105, 134, 145, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b94745, #698691, #da9f9e, #b94745, #552120)",
@@ -13164,7 +13164,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(82, 187, 67, 0.6)"
       }
     },
-    "lich_2": {
+    "lich2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(127, 191, 106, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(36, 116, 44, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(175, 215, 162, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #32472c, #24742c, #5b7f4f)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(127, 191, 106, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(91, 127, 79, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #7fbf6a, #5b7f4f, #afd7a2, #7fbf6a, #24742c)",
@@ -13204,7 +13204,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(127, 191, 106, 0.6)"
       }
     },
-    "lizardfolk_2": {
+    "lizardfolk2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(125, 172, 82, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(29, 40, 19, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(187, 212, 165, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #415733, #1d2813, #7f9296)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(125, 172, 82, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(127, 146, 150, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #7dac52, #7f9296, #bbd4a5, #7dac52, #1d2813)",
@@ -13244,7 +13244,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(125, 172, 82, 0.6)"
       }
     },
-    "magma_mephit": {
+    "magmaMephit": {
       "background": "radial-gradient(circle at 20% 30%, rgba(240, 158, 44, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(138, 65, 19, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(248, 221, 116, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #573331, #8a4113, #996258)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(240, 158, 44, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(153, 98, 88, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #f09e2c, #996258, #f8dd74, #f09e2c, #8a4113)",
@@ -13284,7 +13284,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(240, 158, 44, 0.6)"
       }
     },
-    "magma_mephit_3": {
+    "magmaMephit3": {
       "background": "radial-gradient(circle at 20% 30%, rgba(230, 78, 37, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(103, 30, 19, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(249, 213, 127, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #542f2e, #671e13, #a95955)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(230, 78, 37, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(169, 89, 85, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #e64e25, #a95955, #f9d57f, #e64e25, #671e13)",
@@ -13324,7 +13324,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(230, 78, 37, 0.6)"
       }
     },
-    "magma_mephit_4": {
+    "magmaMephit4": {
       "background": "radial-gradient(circle at 20% 30%, rgba(206, 88, 42, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(143, 33, 13, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(248, 222, 78, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4f2e29, #8f210d, #945d52)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(206, 88, 42, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(148, 93, 82, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #ce582a, #945d52, #f8de4e, #ce582a, #8f210d)",
@@ -13364,7 +13364,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(206, 88, 42, 0.6)"
       }
     },
-    "magma_mephit_5": {
+    "magmaMephit5": {
       "background": "radial-gradient(circle at 20% 30%, rgba(231, 91, 44, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(99, 19, 12, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(247, 217, 128, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #372221, #63130c, #84777d)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(231, 91, 44, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(132, 119, 125, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #e75b2c, #84777d, #f7d980, #e75b2c, #63130c)",
@@ -13444,7 +13444,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(143, 175, 79, 0.6)"
       }
     },
-    "marilith_2": {
+    "marilith2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(84, 108, 52, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(69, 89, 43, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(192, 211, 165, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #36445c, #45592b, #739a52)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(84, 108, 52, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(115, 154, 82, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #546c34, #739a52, #c0d3a5, #546c34, #45592b)",
@@ -13604,7 +13604,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(52, 182, 206, 0.6)"
       }
     },
-    "mimic_2": {
+    "mimic2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(119, 43, 39, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(96, 40, 37, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(222, 158, 155, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5f4e37, #602825, #855944)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(119, 43, 39, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(133, 89, 68, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #772b27, #855944, #de9e9b, #772b27, #602825)",
@@ -13684,7 +13684,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(157, 90, 58, 0.6)"
       }
     },
-    "minotaur_skeleton": {
+    "minotaurSkeleton": {
       "background": "radial-gradient(circle at 20% 30%, rgba(130, 81, 55, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(100, 52, 40, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(225, 235, 182, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4b4f39, #643428, #84a464)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(130, 81, 55, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(132, 164, 100, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #825137, #84a464, #e1ebb6, #825137, #643428)",
@@ -13764,7 +13764,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(170, 149, 72, 0.6)"
       }
     },
-    "mummy_lord": {
+    "mummyLord": {
       "background": "radial-gradient(circle at 20% 30%, rgba(173, 148, 78, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(100, 86, 34, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(229, 215, 155, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4b4032, #645622, #947c64)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(173, 148, 78, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(148, 124, 100, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #ad944e, #947c64, #e5d79b, #ad944e, #645622)",
@@ -13804,7 +13804,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(173, 148, 78, 0.6)"
       }
     },
-    "nalfeshnee_2": {
+    "nalfeshnee2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(122, 176, 85, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(39, 57, 25, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(184, 212, 164, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #2c3b48, #273919, #508095)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(122, 176, 85, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(80, 128, 149, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #7ab055, #508095, #b8d4a4, #7ab055, #273919)",
@@ -13884,7 +13884,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(132, 179, 197, 0.6)"
       }
     },
-    "phase_spider": {
+    "phaseSpider": {
       "background": "radial-gradient(circle at 20% 30%, rgba(73, 123, 186, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(20, 63, 107, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(158, 185, 218, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #253856, #143f6b, #5f589f)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(73, 123, 186, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(95, 88, 159, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #497bba, #5f589f, #9eb9da, #497bba, #143f6b)",
@@ -13924,7 +13924,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(73, 123, 186, 0.6)"
       }
     },
-    "planetar_3": {
+    "planetar3": {
       "background": "radial-gradient(circle at 20% 30%, rgba(179, 163, 77, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(28, 60, 108, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(215, 206, 162, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4b5a36, #1c3c6c, #6d84b0)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(179, 163, 77, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(109, 132, 176, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b3a34d, #6d84b0, #d7cea2, #b3a34d, #1c3c6c)",
@@ -13964,7 +13964,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(179, 163, 77, 0.6)"
       }
     },
-    "poisonous_snake": {
+    "poisonousSnake": {
       "background": "radial-gradient(circle at 20% 30%, rgba(122, 175, 73, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(36, 76, 12, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(193, 226, 222, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #455a31, #244c0c, #8fae69)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(122, 175, 73, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(143, 174, 105, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #7aaf49, #8fae69, #c1e2de, #7aaf49, #244c0c)",
@@ -14044,7 +14044,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(128, 98, 52, 0.6)"
       }
     },
-    "reef_shark": {
+    "reefShark": {
       "background": "radial-gradient(circle at 20% 30%, rgba(36, 162, 199, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(14, 84, 131, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(101, 202, 217, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #493c4d, #0e5483, #7b8161)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(36, 162, 199, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(123, 129, 97, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #24a2c7, #7b8161, #65cad9, #24a2c7, #0e5483)",
@@ -14124,7 +14124,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(65, 130, 177, 0.6)"
       }
     },
-    "riding_horse_2": {
+    "ridingHorse2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(198, 66, 54, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(52, 84, 28, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(226, 220, 123, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #40562d, #34541c, #5c84a4)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(198, 66, 54, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(92, 132, 164, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #c64236, #5c84a4, #e2dc7b, #c64236, #34541c)",
@@ -14204,7 +14204,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(173, 127, 81, 0.6)"
       }
     },
-    "rug_of_smothering": {
+    "rugOfSmothering": {
       "background": "radial-gradient(circle at 20% 30%, rgba(123, 145, 69, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(92, 36, 28, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(198, 212, 165, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #475230, #5c241c, #6c9ca4)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(123, 145, 69, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(108, 156, 164, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #7b9145, #6c9ca4, #c6d4a5, #7b9145, #5c241c)",
@@ -14324,7 +14324,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(139, 157, 97, 0.6)"
       }
     },
-    "sea_horse_4": {
+    "seaHorse4": {
       "background": "radial-gradient(circle at 20% 30%, rgba(48, 165, 197, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(20, 77, 120, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(127, 207, 219, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #2e4c52, #144d78, #b19768)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(48, 165, 197, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(177, 151, 104, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #30a5c5, #b19768, #7fcfdb, #30a5c5, #144d78)",
@@ -14404,7 +14404,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(91, 143, 180, 0.6)"
       }
     },
-    "shambling_mound": {
+    "shamblingMound": {
       "background": "radial-gradient(circle at 20% 30%, rgba(178, 110, 76, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(84, 52, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(212, 228, 236, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #42542c, #543424, #5d7647)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(178, 110, 76, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(93, 118, 71, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b26e4c, #5d7647, #d4e4ec, #b26e4c, #543424)",
@@ -14444,7 +14444,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(178, 110, 76, 0.6)"
       }
     },
-    "silver_dragon_wyrmling": {
+    "silverDragonWyrmling": {
       "background": "radial-gradient(circle at 20% 30%, rgba(75, 114, 174, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(43, 66, 119, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(211, 187, 118, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5b4f38, #2b4277, #9e885a)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(75, 114, 174, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(158, 136, 90, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #4b72ae, #9e885a, #d3bb76, #4b72ae, #2b4277)",
@@ -14484,7 +14484,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(75, 114, 174, 0.6)"
       }
     },
-    "skeleton_2": {
+    "skeleton2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(156, 138, 98, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(81, 72, 51, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(203, 194, 173, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3c542c, #514833, #80a062)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(156, 138, 98, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(128, 160, 98, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #9c8a62, #80a062, #cbc2ad, #9c8a62, #514833)",
@@ -14604,7 +14604,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(213, 41, 49, 0.6)"
       }
     },
-    "stone_giant": {
+    "stoneGiant": {
       "background": "radial-gradient(circle at 20% 30%, rgba(159, 180, 74, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(60, 68, 28, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(205, 216, 161, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #344454, #3c441c, #788589)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(159, 180, 74, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(120, 133, 137, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #9fb44a, #788589, #cdd8a1, #9fb44a, #3c441c)",
@@ -14644,7 +14644,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(159, 180, 74, 0.6)"
       }
     },
-    "storm_giant": {
+    "stormGiant": {
       "background": "radial-gradient(circle at 20% 30%, rgba(52, 140, 124, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(35, 96, 85, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(172, 204, 220, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #30424d, #236055, #6b8c95)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(52, 140, 124, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(107, 140, 149, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #348c7c, #6b8c95, #acccdc, #348c7c, #236055)",
@@ -14684,7 +14684,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(52, 140, 124, 0.6)"
       }
     },
-    "swarm_of_beetles_2": {
+    "swarmOfBeetles2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(216, 105, 56, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(100, 50, 39, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(240, 203, 136, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #41532e, #643227, #9c5e47)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(216, 105, 56, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(156, 94, 71, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #d86938, #9c5e47, #f0cb88, #d86938, #643227)",
@@ -14724,7 +14724,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(216, 105, 56, 0.6)"
       }
     },
-    "swarm_of_poisonous_snakes": {
+    "swarmOfPoisonousSnakes": {
       "background": "radial-gradient(circle at 20% 30%, rgba(179, 126, 75, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(85, 60, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(215, 188, 161, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #425737, #553c24, #60964e)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(179, 126, 75, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(96, 150, 78, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b37e4b, #60964e, #d7bca1, #b37e4b, #553c24)",
@@ -14804,7 +14804,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(203, 131, 99, 0.6)"
       }
     },
-    "tiger_2": {
+    "tiger2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(182, 170, 92, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(72, 95, 45, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(225, 241, 209, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #44542d, #485f2d, #8b9e60)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(182, 170, 92, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(139, 158, 96, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b6aa5c, #8b9e60, #e1f1d1, #b6aa5c, #485f2d)",
@@ -14844,7 +14844,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(182, 170, 92, 0.6)"
       }
     },
-    "tribal_warrior": {
+    "tribalWarrior": {
       "background": "radial-gradient(circle at 20% 30%, rgba(175, 111, 76, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(84, 132, 60, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(227, 194, 160, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #375561, #54843c, #4b7085)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(175, 111, 76, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(75, 112, 133, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #af6f4c, #4b7085, #e3c2a0, #af6f4c, #54843c)",
@@ -14884,7 +14884,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(175, 111, 76, 0.6)"
       }
     },
-    "unicorn_3": {
+    "unicorn3": {
       "background": "radial-gradient(circle at 20% 30%, rgba(65, 161, 212, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(29, 101, 127, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(236, 227, 142, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4b5939, #1d657f, #6b9a5b)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(65, 161, 212, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(107, 154, 91, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #41a1d4, #6b9a5b, #ece38e, #41a1d4, #1d657f)",
@@ -14924,7 +14924,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(65, 161, 212, 0.6)"
       }
     },
-    "vampire__bat_form": {
+    "vampireBatForm": {
       "background": "radial-gradient(circle at 20% 30%, rgba(181, 100, 73, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(108, 60, 44, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(216, 174, 160, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #405031, #6c3c2c, #767a77)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(181, 100, 73, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(118, 122, 119, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b56449, #767a77, #d8aea0, #b56449, #6c3c2c)",
@@ -14964,7 +14964,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(181, 100, 73, 0.6)"
       }
     },
-    "vampire__mist_form_4": {
+    "vampireMistForm4": {
       "background": "radial-gradient(circle at 20% 30%, rgba(125, 68, 43, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(37, 12, 4, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(221, 176, 156, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #394839, #250c04, #83a879)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(125, 68, 43, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(131, 168, 121, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #7d442b, #83a879, #ddb09c, #7d442b, #250c04)",
@@ -15004,7 +15004,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(125, 68, 43, 0.6)"
       }
     },
-    "violet_fungus": {
+    "violetFungus": {
       "background": "radial-gradient(circle at 20% 30%, rgba(126, 90, 180, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(28, 84, 92, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(100, 181, 201, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #354d63, #1c545c, #7c578f)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(126, 90, 180, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(124, 87, 143, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #7e5ab4, #7c578f, #64b5c9, #7e5ab4, #1c545c)",
@@ -15044,7 +15044,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(126, 90, 180, 0.6)"
       }
     },
-    "warhorse_2": {
+    "warhorse2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(126, 202, 42, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(68, 130, 18, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(192, 228, 216, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3e4739, #448212, #6d8481)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(126, 202, 42, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(109, 132, 129, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #7eca2a, #6d8481, #c0e4d8, #7eca2a, #448212)",
@@ -15084,7 +15084,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(126, 202, 42, 0.6)"
       }
     },
-    "wereboar__hybrid_form_2": {
+    "wereboarHybridForm2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(63, 191, 159, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(4, 12, 10, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(155, 221, 205, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #38434c, #040c0a, #6f8c78)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(63, 191, 159, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(111, 140, 120, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #3fbf9f, #6f8c78, #9bddcd, #3fbf9f, #040c0a)",
@@ -15124,7 +15124,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(63, 191, 159, 0.6)"
       }
     },
-    "wererat__human_form": {
+    "wereratHumanForm": {
       "background": "radial-gradient(circle at 20% 30%, rgba(165, 202, 137, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(94, 45, 27, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(223, 232, 189, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #424632, #5e2d1b, #7ca466)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(165, 202, 137, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(124, 164, 102, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #a5ca89, #7ca466, #dfe8bd, #a5ca89, #5e2d1b)",
@@ -15164,7 +15164,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(165, 202, 137, 0.6)"
       }
     },
-    "werewolf__hybrid_form_2": {
+    "werewolfHybridForm2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(47, 68, 108, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(44, 76, 108, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(210, 221, 234, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #30435b, #2c4c6c, #6a89b2)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(47, 68, 108, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(106, 137, 178, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #2f446c, #6a89b2, #d2ddea, #2f446c, #2c4c6c)",
@@ -15204,7 +15204,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(47, 68, 108, 0.6)"
       }
     },
-    "will_o__wisp": {
+    "willOWisp": {
       "background": "radial-gradient(circle at 20% 30%, rgba(162, 201, 68, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(4, 9, 12, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(190, 229, 123, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #2e374a, #04090c, #83aa59)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(162, 201, 68, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(131, 170, 89, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #a2c944, #83aa59, #bee57b, #a2c944, #04090c)",
@@ -15244,7 +15244,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(162, 201, 68, 0.6)"
       }
     },
-    "winter_wolf": {
+    "winterWolf": {
       "background": "radial-gradient(circle at 20% 30%, rgba(116, 164, 212, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(31, 66, 101, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(151, 188, 217, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #644d44, #1f4265, #66839b)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(116, 164, 212, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(102, 131, 155, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #74a4d4, #66839b, #97bcd9, #74a4d4, #1f4265)",
@@ -15364,7 +15364,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(164, 100, 65, 0.6)"
       }
     },
-    "young_black_dragon": {
+    "youngBlackDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(152, 196, 124, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(60, 91, 41, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(206, 233, 170, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3b4c34, #3c5b29, #7cac5c)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(152, 196, 124, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(124, 172, 92, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #98c47c, #7cac5c, #cee9aa, #98c47c, #3c5b29)",
@@ -15404,7 +15404,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(152, 196, 124, 0.6)"
       }
     },
-    "young_black_dragon_2": {
+    "youngBlackDragon2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(185, 124, 84, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(132, 92, 60, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(249, 242, 219, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #643c34, #845c3c, #a87155)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(185, 124, 84, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(168, 113, 85, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b97c54, #a87155, #f9f2db, #b97c54, #845c3c)",
@@ -15444,7 +15444,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(185, 124, 84, 0.6)"
       }
     },
-    "young_brass_dragon": {
+    "youngBrassDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(187, 139, 80, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(105, 76, 28, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(245, 223, 143, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #624e30, #694c1c, #ab9459)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(187, 139, 80, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(171, 148, 89, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #bb8b50, #ab9459, #f5df8f, #bb8b50, #694c1c)",
@@ -15484,7 +15484,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(187, 139, 80, 0.6)"
       }
     },
-    "young_brass_dragon_2": {
+    "youngBrassDragon2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(210, 112, 61, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(121, 60, 20, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(249, 218, 132, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #653c35, #793c14, #96534d)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(210, 112, 61, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(150, 83, 77, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #d2703d, #96534d, #f9da84, #d2703d, #793c14)",
@@ -15524,7 +15524,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(210, 112, 61, 0.6)"
       }
     },
-    "young_copper_dragon": {
+    "youngCopperDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(203, 178, 129, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(101, 49, 31, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(216, 197, 161, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #554b38, #65311f, #9ea766)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(203, 178, 129, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(158, 167, 102, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #cbb281, #9ea766, #d8c5a1, #cbb281, #65311f)",
@@ -15564,7 +15564,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(203, 178, 129, 0.6)"
       }
     },
-    "young_green_dragon_2": {
+    "youngGreenDragon2": {
       "background": "radial-gradient(circle at 20% 30%, rgba(93, 162, 211, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(28, 72, 104, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(140, 200, 231, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #324c5e, #1c4868, #698ba3)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(93, 162, 211, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(105, 139, 163, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #5da2d3, #698ba3, #8cc8e7, #5da2d3, #1c4868)",
@@ -15604,7 +15604,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(93, 162, 211, 0.6)"
       }
     },
-    "young_red_dragon_3": {
+    "youngRedDragon3": {
       "background": "radial-gradient(circle at 20% 30%, rgba(201, 50, 41, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(111, 33, 26, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(235, 199, 145, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #31414f, #6f211a, #978776)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(201, 50, 41, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(151, 135, 118, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #c93229, #978776, #ebc791, #c93229, #6f211a)",
@@ -15644,7 +15644,7 @@
         "boxShadow": "0 0 min(1.2vw, 10px) rgba(201, 50, 41, 0.6)"
       }
     },
-    "young_white_dragon": {
+    "youngWhiteDragon": {
       "background": "radial-gradient(circle at 20% 30%, rgba(174, 145, 80, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(43, 36, 20, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(212, 198, 164, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3b4435, #2b2414, #788967)",
       "header": {
         "background": "radial-gradient(circle at 25% 50%, rgba(174, 145, 80, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(120, 137, 103, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #ae9150, #788967, #d4c6a4, #ae9150, #2b2414)",
