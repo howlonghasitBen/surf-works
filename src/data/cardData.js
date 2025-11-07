@@ -767,7 +767,7 @@ export const CARD_DATA = [
       attack: "∞",
       defense: "∞",
     },
-    flavorText: "Would the Op let you fuck?\n' Well, would she? ' -Ben",
+    flavorText: "Baby Mama?\nYes Baby Daddy?",
     artist: "SURF FINANCE STUDIOS",
     rarity: "1/1",
   },
