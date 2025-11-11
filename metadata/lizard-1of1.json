@@ -1,0 +1,53 @@
+{
+  "name": "Lizard ⟨Generated⟩",
+  "description": "1/1 Legendary Card from the Waves Collection. From the murky depths of forgotten swamps, a creature of sorrow and scale emerges, its gaze holding the weight of a thousand lost souls.\n",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/lizard.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=lizard&showRarity=true",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "1/1"
+    },
+    {
+      "trait_type": "Level",
+      "value": "1"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "3"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "3"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Lizard"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Generated"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "5"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "2"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}
