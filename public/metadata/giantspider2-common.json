@@ -1,0 +1,53 @@
+{
+  "name": "Giant Spider 2 ⟨Generated⟩",
+  "description": "Common Card from the Waves Collection. From the depths of the fungal grotto, a melancholic arachnid emerges, its eight eyes reflecting the sorrow of a thousand lost memes.\n",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/giant_spider_2.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=giantspider2&showRarity=false",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Level",
+      "value": "1"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "3"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "3"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Giant Spider2"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Generated"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "5"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "2"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}

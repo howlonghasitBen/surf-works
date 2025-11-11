@@ -1,0 +1,53 @@
+{
+  "name": "Efreeti ⟨Generated⟩",
+  "description": "1/1 Legendary Card from the Waves Collection. Forged in the heart of a dying star, this horned harbinger wields the flames of oblivion, promising a fiery end to all who dare oppose his reign.\n",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/efreeti.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=efreeti&showRarity=true",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "1/1"
+    },
+    {
+      "trait_type": "Level",
+      "value": "1"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "3"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "3"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Efreeti"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Generated"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "5"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "2"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}

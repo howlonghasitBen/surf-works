@@ -1,0 +1,53 @@
+{
+  "name": "Dire Wolf 2 ⟨Generated⟩",
+  "description": "1/1 Legendary Card from the Waves Collection. In the dead of night, under the cold gaze of the moon, the Pepe Werewolf stalks the haunted woods, a cursed beast forever torn between man and monster.\n",
+  "image": "https://howlonghasitben.github.io/surf-works/images/card-images/dire_wolf_2.png",
+  "animation_url": "https://howlonghasitben.github.io/surf-works/card.html?id=direwolf2&showRarity=true",
+  "external_url": "https://howlonghasitben.github.io/surf-works",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "1/1"
+    },
+    {
+      "trait_type": "Level",
+      "value": "1"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "3"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "3"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Dire Wolf2"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Creature — Generated"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "SURF FINANCE STUDIOS"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Waves Collection"
+    },
+    {
+      "trait_type": "Health Points",
+      "value": "5"
+    },
+    {
+      "trait_type": "Mana Cost",
+      "value": "2"
+    },
+    {
+      "trait_type": "Terrain",
+      "value": "?"
+    }
+  ]
+}
