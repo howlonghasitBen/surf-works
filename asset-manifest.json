@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/surf-works/static/css/main.626a1e11.css",
-    "main.js": "/surf-works/static/js/main.93b03640.js",
+    "main.js": "/surf-works/static/js/main.95771847.js",
     "index.html": "/surf-works/index.html",
     "main.626a1e11.css.map": "/surf-works/static/css/main.626a1e11.css.map",
-    "main.93b03640.js.map": "/surf-works/static/js/main.93b03640.js.map"
+    "main.95771847.js.map": "/surf-works/static/js/main.95771847.js.map"
   },
   "entrypoints": [
     "static/css/main.626a1e11.css",
-    "static/js/main.93b03640.js"
+    "static/js/main.95771847.js"
   ]
 }
