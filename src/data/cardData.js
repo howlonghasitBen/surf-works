@@ -1,5 +1,4 @@
 // src/data/cardData.js
-
 export const CARD_DATA = [
   {
     id: "40till5",
@@ -7650,9 +7649,5124 @@ export const CARD_DATA = [
     artist: "SURF FINANCE STUDIOS",
     rarity: "1/1",
   },
+
+  {
+    id: "ape",
+    name: "Ape",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "ape",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/ape.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the storm-wracked peaks, a sorrowful titan descends, his gaze heavy with the weight of forgotten ages and the secrets buried beneath the shattered earth.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "archmage",
+    name: "Archmage",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "archmage",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/archmage.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the depths of the arcane library, Pepe the Wise conjures forbidden energies, his spells echoing through forgotten realms.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "assassin",
+    name: "Assassin",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "assassin",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/assassin.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "Cloaked in shadows and armed with a blade that whispers of forgotten magic, he stalks the moonlit rooftops, a silent guardian against the encroaching darkness.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "barbeddevil",
+    name: "Barbed Devil",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "barbedDevil",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/barbed_devil.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the sulfurous depths, he rises, a harbinger of chaos, his laughter echoing through the infernal plains, promising an eternity of torment to those who dare cross his path.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "basilisk",
+    name: "Basilisk",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "basilisk",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/basilisk.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the ruins of forgotten empires, a serpentine oracle slithers forth, its gaze holding the secrets of ages past.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "berserker",
+    name: "Berserker",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "berserker",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/berserker.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the blood-soaked ruins, a green tide rises, promising only carnage and the vacant stare of madness.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "bulette",
+    name: "Bulette",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "bulette",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/bulette.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the primordial ooze of forgotten realms, a scaly behemoth rises, its gaze promising either salvation or utter annihilation.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "centaur",
+    name: "Centaur",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "centaur",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/centaur.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the storm-wracked peaks, a centaur of ancient sorrow and terrible might descends, his axe thirsting for the blood of gods and mortals alike.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "commoner",
+    name: "Commoner",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "commoner",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/commoner.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "He wanders the forgotten paths, a silent sentinel burdened by a past whispered only by the wind.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+
+  {
+    id: "deva",
+    name: "Deva",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "deva",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/deva.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "Born from the cosmic sorrow of a dying galaxy, this winged warrior weeps for the fate of all worlds.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "deva2",
+    name: "Deva 2",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "deva2",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/deva_2.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the murky depths of the digital swamp, a many-armed deity rises, wielding the power to meme reality itself.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "direwolf",
+    name: "Dire Wolf",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "direWolf",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/dire_wolf.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "In the shadowed depths of the emerald forest, a creature of sorrowful gaze and lupine form stalks, a harbinger of forgotten prophecies and untold woe.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "direwolf2",
+    name: "Dire Wolf 2",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "direWolf2",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/dire_wolf_2.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "In the dead of night, under the cold gaze of the moon, the Pepe Werewolf stalks the haunted woods, a cursed beast forever torn between man and monster.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "doppelganger",
+    name: "Doppelganger",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "doppelganger",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/doppelganger.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the depths of forgotten realms, a grotesque harbinger of despair emerges, its presence a chilling omen of impending doom.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+
+  {
+    id: "druid2",
+    name: "Druid 2",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "druid2",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/druid_2.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the depths of the emerald forest, a guardian emerges, wielding ancient magic to protect the balance of nature.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "earthelemental",
+    name: "Earth Elemental",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "earthElemental",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/earth_elemental.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the heart of the earth he rises, a golem of sorrow, his emerald eyes reflecting the ancient secrets buried beneath the mountains.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "efreeti",
+    name: "Efreeti",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "efreeti",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/efreeti.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "Forged in the heart of a dying star, this horned harbinger wields the flames of oblivion, promising a fiery end to all who dare oppose his reign.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "elephant",
+    name: "Elephant",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "elephant",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/elephant.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "In the emerald depths of the forgotten jungle, a melancholic titan roams, his sorrowful gaze hinting at a secret older than the trees themselves.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "ettercap",
+    name: "Ettercap",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "ettercap",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/ettercap.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the depths of the spider-infested grotto, a sorrowful amphibian abomination emerges, dripping with venom and despair, to claim what little hope remains in this forsaken realm.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "fleshgolem",
+    name: "Flesh Golem",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "fleshGolem",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/flesh_golem.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the fetid depths of the forgotten crypts, a stitched-together abomination of meme and monster rises, its vacant stare promising only despair and the chilling echo of lost laughter.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "flyingsword",
+    name: "Flying Sword",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "flyingSword",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/flying_sword.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "Forged under a moonlit storm, the Pepe Blade whispers prophecies of memes yet to come, its edge sharpened by the tears of a thousand deleted tweets.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "giantelk",
+    name: "Giant Elk",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "giantElk",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/giant_elk.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the murky depths of the forgotten swamp, a sorrowful guardian rises, his gaze heavy with the weight of ancient secrets and the burden of a world lost to time.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "gianthyena",
+    name: "Giant Hyena",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "giantHyena",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/giant_hyena.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the emerald depths of the savanna, a sorrowful gaze pierces the veil of twilight, hinting at a forgotten pact with the ancient spirits of the land.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "gianthyena2",
+    name: "Giant Hyena 2",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "giantHyena2",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/giant_hyena_2.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "Beneath the gaze of a moon that mirrors his own vacant stare, the Hyena-Pepe stalks the savanna, a harbinger of chaos and despair.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "giantratdiseased",
+    name: "Giant Rat  Diseased ",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "giantRatDiseased",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/giant_rat__diseased_.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the sewers of forgotten dreams, it crawls forth, a harbinger of madness and decay, its gaze promising only oblivion.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "giantscorpion",
+    name: "Giant Scorpion",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "giantScorpion",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/giant_scorpion.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the desolate wastes, a harbinger of despair crawls forth, its gaze promising only oblivion.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "giantspider",
+    name: "Giant Spider",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "giantSpider",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/giant_spider.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the cracked earth and stormy skies, a harbinger of misfortune crawls forth, its gaze promising only despair.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "giantspider2",
+    name: "Giant Spider 2",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "giantSpider2",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/giant_spider_2.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the depths of the fungal grotto, a melancholic arachnid emerges, its eight eyes reflecting the sorrow of a thousand lost memes.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "giantvulture",
+    name: "Giant Vulture",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "giantVulture",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/giant_vulture.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the storm-wracked skies, a harbinger of woe descends, its gaze promising only ruin for the world below.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "guardiannaga",
+    name: "Guardian Naga",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "guardianNaga",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/guardian_naga.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the ruins of forgotten empires, he rises, a serpent king wielding both sword and sorrow, his power crackling with ancient runes.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "gynosphinx",
+    name: "Gynosphinx",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "gynosphinx",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/gynosphinx.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "Born from the sands of time and imbued with ancient magic, this winged sphinx guards secrets that could shatter the very foundations of reality.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "harpy",
+    name: "Harpy",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "harpy",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/harpy.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the emerald depths of the forgotten forest, a feathered enigma emerges, its gaze holding secrets that could shatter empires.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "hellhound2",
+    name: "Hell Hound 2",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "hellHound",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/hell_hound_2.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the sulfurous depths, a harbinger of doom rises, its gaze promising only oblivion.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "hyena",
+    name: "Hyena",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "hyena",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/hyena.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the murky depths of the swamp, a creature of unsettling gaze emerges, its presence a harbinger of forgotten secrets and impending doom.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+
+  {
+    id: "imp",
+    name: "Imp",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "imp",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/imp.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the fiery depths of a forgotten realm, a mischievous imp emerges, his intentions as molten as the lava he treads upon.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "lemure",
+    name: "Lemure",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "lemure",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/lemure.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the fetid swamps of forgotten realms, a harbinger of despair crawls forth, its gaze promising only oblivion.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "lion",
+    name: "Lion",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "lion",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/lion.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the murky depths of the forgotten swamp, a beast of grotesque visage and ancient power emerges, its gaze promising madness and its roar echoing with the lament of lost souls.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "lizard",
+    name: "Lizard",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "lizard",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/lizard.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the murky depths of forgotten swamps, a creature of sorrow and scale emerges, its gaze holding the weight of a thousand lost souls.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "marilith",
+    name: "Marilith",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "marilith",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/marilith.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "Forged in the crucible of forgotten realms, this serpentine sentinel guards treasures beyond mortal comprehension, his gaze a chilling omen to those who dare trespass.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "merfolk",
+    name: "Merfolk",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "merfolk",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/merfolk.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the depths of forgotten seas, a sorrowful titan rises, his tears a harbinger of tides yet to come.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "nighthag",
+    name: "Night Hag",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "nightHag",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/night_hag.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the moonlit abyss, a sorrowful gargoyle descends, its tears weaving nightmares into the dreams of the innocent.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "noble",
+    name: "Noble",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "noble",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/noble.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "Crowned in sorrow and cloaked in crimson, he reigns over a kingdom of forgotten dreams, where the only currency is regret.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "ochrejelly",
+    name: "Ochre Jelly",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "ochreJelly",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/ochre_jelly.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the depths of the dankest caves, a golden sorrow emerges, its weeping tendrils promising despair to any who dare gaze upon its melancholic form.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "octopus",
+    name: "Octopus",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "octopus",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/octopus.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the abyssal depths, a sorrowful leviathan rises, its gaze reflecting the weight of forgotten worlds.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "oni",
+    name: "Oni",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "oni",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/oni.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "Forged in the crucible of ancient storms and whispered legends, this oni walks the mortal realm, a harbinger of chaos and a guardian of forgotten secrets.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "pitfiend",
+    name: "Pit Fiend",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "pitFiend",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/pit_fiend.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the depths of volcanic despair, a harbinger of chaos rises, its fiery breath promising only destruction and despair.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "rakshasa",
+    name: "Rakshasa",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "rakshasa",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/rakshasa.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the depths of forgotten temples, a green titan rises, his touch ablaze with ancient power, his gaze promising either salvation or utter annihilation.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "raven",
+    name: "Raven",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "raven",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/raven.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the murky depths of the bayou, a feathered omen rises, its mournful gaze promising only despair and the chilling embrace of the swamp's secrets.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "sabertoothedtiger",
+    name: "Saber Toothed Tiger",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "saberToothedTiger",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/saber_toothed_tiger.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the murky depths of the swamp, a primordial predator emerges, its gaze promising oblivion to any who dare cross its path.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "salamander",
+    name: "Salamander",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "salamander",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/salamander.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the murky depths of the bayou, a creature of sorrowful gaze emerges, its tears a testament to a forgotten world.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "seahag",
+    name: "Sea Hag",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "seaHag",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/sea_hag.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the churning depths, she rises, a harbinger of storms and madness, her gaze promising oblivion to any who dare meet it.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "steammephit",
+    name: "Steam Mephit",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "steamMephit",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/steam_mephit.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "Forged in the heart of a forgotten age, this mechanical marvel whispers secrets of a time when memes ruled the gears of destiny.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "succubusincubus",
+    name: "Succubus Incubus",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "succubusIncubus",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/succubus_incubus.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the shadowed depths of forgotten cathedrals, a winged harbinger of chaos emerges, his gaze promising either salvation or utter despair.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "treant",
+    name: "Treant",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "treant",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/treant.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the depths of the ancient forest, a sentient guardian of the woods emerges, his wooden gaze holding secrets older than time itself.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "vampirevampireform",
+    name: "Vampire  Vampire Form",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "vampireVampireForm",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/vampire__vampire_form.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the moonlit abyss, a creature of nightmare descends, its eyes burning with an unholy thirst, its wings casting shadows of dread upon the land.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "vrock",
+    name: "Vrock",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "vrock",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/vrock.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the storm-wracked peaks of despair, a feathered harbinger of woe descends, his gaze promising only ruin and regret.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "warhorse",
+    name: "Warhorse",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "warhorse",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/warhorse.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the fetid swamps of forgotten realms, a knight of sorrow rides forth, his steed adorned with the faces of fallen comrades, a harbinger of woe upon the land.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "warhorseskeleton",
+    name: "Warhorse Skeleton",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "warhorseSkeleton",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/warhorse_skeleton.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the murky depths of forgotten battlefields, a skeletal steed rises, its emerald eyes burning with an unholy light, forever bound to a spectral rider lost to the mists of time.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "waterelemental",
+    name: "Water Elemental",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "waterElemental",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/water_elemental.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the depths of despair, a tidal wave of woe rises to claim what was lost.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
+  {
+    id: "weretigertigerform",
+    name: "Weretiger  Tiger Form",
+    subtitle: "⟨Generated⟩",
+    level: "1",
+    theme: "weretigerTigerForm",
+    manaCost: [
+      {
+        type: "hp",
+        value: "5",
+        color: "radial-gradient(circle, #dc143c, #8b0000)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "mana",
+        value: "2",
+        color: "radial-gradient(circle, #4169e1, #0000cd)",
+        textColor: "#ffffff",
+      },
+      {
+        type: "terrain",
+        value: "?",
+        color: "radial-gradient(circle, #32cd32, #228b22)",
+        textColor: "#ffffff",
+      },
+    ],
+    image: "/images/card-images/weretiger__tiger_form.png",
+    type: "Creature — Generated",
+    stats: {
+      attack: "3",
+      defense: "3",
+    },
+    flavorText:
+      "From the moonlit ruins, a primal terror stalks, its eyes wide with a madness that whispers of forgotten gods and shattered realities.\n",
+    artist: "SURF FINANCE STUDIOS",
+    rarity: "1/1",
+  },
 ];
 
 export const CARD_THEMES = {
+  ape: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(67, 169, 187, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(4, 10, 11, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(157, 210, 219, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #36494f, #040a0b, #719093)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(67, 169, 187, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(113, 144, 147, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #43a9bb, #719093, #9dd2db, #43a9bb, #040a0b)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(67, 169, 187, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(67, 169, 187, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(157, 210, 219, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(67, 169, 187, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(4, 10, 11, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #36494f, #040a0b, #719093)",
+      border: "min(0.25vw, 2px) solid #43a9bb",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(67, 169, 187, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(67, 169, 187, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(113, 144, 147, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #43a9bb, #719093, #9dd2db, #43a9bb, #040a0b)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(67, 169, 187, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(67, 169, 187, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(113, 144, 147, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #36494f, #040a0b)",
+      color: "#c4d8d4",
+      accentColor: "#43a9bb",
+      border: "min(0.25vw, 2px) solid #43a9bb",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #040a0b, #36494f)",
+    },
+    stat: {
+      background: "rgba(4, 10, 11, 0.8)",
+      border: "min(0.25vw, 2px) solid #43a9bb",
+      color: "#9dd2db",
+      boxShadow: "0 0 min(1vw, 8px) rgba(67, 169, 187, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #43a9bb, #719093)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #040a0b",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(67, 169, 187, 0.6)",
+    },
+  },
+  archmage: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(44, 92, 124, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(36, 68, 92, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(132, 182, 196, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #2a344d, #24445c, #606992)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(44, 92, 124, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(96, 105, 146, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #2c5c7c, #606992, #84b6c4, #2c5c7c, #24445c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(44, 92, 124, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(44, 92, 124, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(132, 182, 196, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(44, 92, 124, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(36, 68, 92, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #2a344d, #24445c, #606992)",
+      border: "min(0.25vw, 2px) solid #2c5c7c",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(44, 92, 124, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(44, 92, 124, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(96, 105, 146, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #2c5c7c, #606992, #84b6c4, #2c5c7c, #24445c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(44, 92, 124, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(44, 92, 124, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(96, 105, 146, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #2a344d, #24445c)",
+      color: "#c0a882",
+      accentColor: "#2c5c7c",
+      border: "min(0.25vw, 2px) solid #2c5c7c",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #24445c, #2a344d)",
+    },
+    stat: {
+      background: "rgba(36, 68, 92, 0.8)",
+      border: "min(0.25vw, 2px) solid #2c5c7c",
+      color: "#84b6c4",
+      boxShadow: "0 0 min(1vw, 8px) rgba(44, 92, 124, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #2c5c7c, #606992)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #24445c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(44, 92, 124, 0.6)",
+    },
+  },
+  assassin: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(68, 121, 57, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(20, 60, 12, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(173, 212, 164, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #34465f, #143c0c, #5c768a)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(68, 121, 57, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(92, 118, 138, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #447939, #5c768a, #add4a4, #447939, #143c0c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(68, 121, 57, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(68, 121, 57, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(173, 212, 164, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(68, 121, 57, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(20, 60, 12, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #34465f, #143c0c, #5c768a)",
+      border: "min(0.25vw, 2px) solid #447939",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(68, 121, 57, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(68, 121, 57, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(92, 118, 138, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #447939, #5c768a, #add4a4, #447939, #143c0c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(68, 121, 57, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(68, 121, 57, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(92, 118, 138, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #34465f, #143c0c)",
+      color: "#cedde6",
+      accentColor: "#447939",
+      border: "min(0.25vw, 2px) solid #447939",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #143c0c, #34465f)",
+    },
+    stat: {
+      background: "rgba(20, 60, 12, 0.8)",
+      border: "min(0.25vw, 2px) solid #447939",
+      color: "#add4a4",
+      boxShadow: "0 0 min(1vw, 8px) rgba(68, 121, 57, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #447939, #5c768a)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #143c0c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(68, 121, 57, 0.6)",
+    },
+  },
+  barbedDevil: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(247, 111, 58, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(100, 44, 28, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(246, 189, 78, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4f312f, #642c1c, #598048)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(247, 111, 58, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(89, 128, 72, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #f76f3a, #598048, #f6bd4e, #f76f3a, #642c1c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(247, 111, 58, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(247, 111, 58, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(246, 189, 78, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(247, 111, 58, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(100, 44, 28, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #4f312f, #642c1c, #598048)",
+      border: "min(0.25vw, 2px) solid #f76f3a",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(247, 111, 58, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(247, 111, 58, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(89, 128, 72, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #f76f3a, #598048, #f6bd4e, #f76f3a, #642c1c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(247, 111, 58, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(247, 111, 58, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(89, 128, 72, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #4f312f, #642c1c)",
+      color: "#adabaa",
+      accentColor: "#f76f3a",
+      border: "min(0.25vw, 2px) solid #f76f3a",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #642c1c, #4f312f)",
+    },
+    stat: {
+      background: "rgba(100, 44, 28, 0.8)",
+      border: "min(0.25vw, 2px) solid #f76f3a",
+      color: "#f6bd4e",
+      boxShadow: "0 0 min(1vw, 8px) rgba(247, 111, 58, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #f76f3a, #598048)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #642c1c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(247, 111, 58, 0.6)",
+    },
+  },
+  basilisk: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(184, 112, 72, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(69, 93, 44, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(217, 180, 159, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #2d3e54, #455d2c, #6986b2)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(184, 112, 72, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(105, 134, 178, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b87048, #6986b2, #d9b49f, #b87048, #455d2c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(184, 112, 72, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(184, 112, 72, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(217, 180, 159, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(184, 112, 72, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(69, 93, 44, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #2d3e54, #455d2c, #6986b2)",
+      border: "min(0.25vw, 2px) solid #b87048",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(184, 112, 72, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(184, 112, 72, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(105, 134, 178, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #b87048, #6986b2, #d9b49f, #b87048, #455d2c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(184, 112, 72, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(184, 112, 72, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(105, 134, 178, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #2d3e54, #455d2c)",
+      color: "#c4cc9e",
+      accentColor: "#b87048",
+      border: "min(0.25vw, 2px) solid #b87048",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #455d2c, #2d3e54)",
+    },
+    stat: {
+      background: "rgba(69, 93, 44, 0.8)",
+      border: "min(0.25vw, 2px) solid #b87048",
+      color: "#d9b49f",
+      boxShadow: "0 0 min(1vw, 8px) rgba(184, 112, 72, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #b87048, #6986b2)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #455d2c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(184, 112, 72, 0.6)",
+    },
+  },
+  berserker: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(128, 164, 196, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(37, 52, 23, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(159, 202, 220, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3b4e2a, #253417, #7095ac)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(128, 164, 196, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(112, 149, 172, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #80a4c4, #7095ac, #9fcadc, #80a4c4, #253417)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(128, 164, 196, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(128, 164, 196, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(159, 202, 220, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(128, 164, 196, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(37, 52, 23, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #3b4e2a, #253417, #7095ac)",
+      border: "min(0.25vw, 2px) solid #80a4c4",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(128, 164, 196, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(128, 164, 196, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(112, 149, 172, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #80a4c4, #7095ac, #9fcadc, #80a4c4, #253417)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(128, 164, 196, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(128, 164, 196, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(112, 149, 172, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #3b4e2a, #253417)",
+      color: "#8eb6c8",
+      accentColor: "#80a4c4",
+      border: "min(0.25vw, 2px) solid #80a4c4",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #253417, #3b4e2a)",
+    },
+    stat: {
+      background: "rgba(37, 52, 23, 0.8)",
+      border: "min(0.25vw, 2px) solid #80a4c4",
+      color: "#9fcadc",
+      boxShadow: "0 0 min(1vw, 8px) rgba(128, 164, 196, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #80a4c4, #7095ac)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #253417",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(128, 164, 196, 0.6)",
+    },
+  },
+  bulette: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(172, 100, 78, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(118, 62, 44, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(203, 222, 153, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5c4932, #763e2c, #ac7e54)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(172, 100, 78, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(172, 126, 84, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #ac644e, #ac7e54, #cbde99, #ac644e, #763e2c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(172, 100, 78, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(172, 100, 78, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(203, 222, 153, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(172, 100, 78, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(118, 62, 44, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #5c4932, #763e2c, #ac7e54)",
+      border: "min(0.25vw, 2px) solid #ac644e",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(172, 100, 78, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(172, 100, 78, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(172, 126, 84, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #ac644e, #ac7e54, #cbde99, #ac644e, #763e2c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(172, 100, 78, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(172, 100, 78, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(172, 126, 84, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #5c4932, #763e2c)",
+      color: "#d4c4ac",
+      accentColor: "#ac644e",
+      border: "min(0.25vw, 2px) solid #ac644e",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #763e2c, #5c4932)",
+    },
+    stat: {
+      background: "rgba(118, 62, 44, 0.8)",
+      border: "min(0.25vw, 2px) solid #ac644e",
+      color: "#cbde99",
+      boxShadow: "0 0 min(1vw, 8px) rgba(172, 100, 78, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #ac644e, #ac7e54)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #763e2c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(172, 100, 78, 0.6)",
+    },
+  },
+  centaur: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(119, 174, 192, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(76, 44, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(155, 219, 236, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #51422f, #4c2c24, #5d899e)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(119, 174, 192, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(93, 137, 158, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #77aec0, #5d899e, #9bdbec, #77aec0, #4c2c24)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(119, 174, 192, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(119, 174, 192, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(155, 219, 236, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(119, 174, 192, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(76, 44, 36, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #51422f, #4c2c24, #5d899e)",
+      border: "min(0.25vw, 2px) solid #77aec0",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(119, 174, 192, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(119, 174, 192, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(93, 137, 158, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #77aec0, #5d899e, #9bdbec, #77aec0, #4c2c24)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(119, 174, 192, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(119, 174, 192, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(93, 137, 158, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #51422f, #4c2c24)",
+      color: "#bfdbd7",
+      accentColor: "#77aec0",
+      border: "min(0.25vw, 2px) solid #77aec0",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #4c2c24, #51422f)",
+    },
+    stat: {
+      background: "rgba(76, 44, 36, 0.8)",
+      border: "min(0.25vw, 2px) solid #77aec0",
+      color: "#9bdbec",
+      boxShadow: "0 0 min(1vw, 8px) rgba(119, 174, 192, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #77aec0, #5d899e)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #4c2c24",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(119, 174, 192, 0.6)",
+    },
+  },
+  commoner: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(157, 133, 97, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(81, 69, 50, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(204, 191, 173, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #404336, #514532, #9a9c78)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(157, 133, 97, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(154, 156, 120, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #9d8561, #9a9c78, #ccbfad, #9d8561, #514532)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(157, 133, 97, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(157, 133, 97, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(204, 191, 173, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(157, 133, 97, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(81, 69, 50, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #404336, #514532, #9a9c78)",
+      border: "min(0.25vw, 2px) solid #9d8561",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(157, 133, 97, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(157, 133, 97, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(154, 156, 120, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #9d8561, #9a9c78, #ccbfad, #9d8561, #514532)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(157, 133, 97, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(157, 133, 97, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(154, 156, 120, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #404336, #514532)",
+      color: "#bdad95",
+      accentColor: "#9d8561",
+      border: "min(0.25vw, 2px) solid #9d8561",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #514532, #404336)",
+    },
+    stat: {
+      background: "rgba(81, 69, 50, 0.8)",
+      border: "min(0.25vw, 2px) solid #9d8561",
+      color: "#ccbfad",
+      boxShadow: "0 0 min(1vw, 8px) rgba(157, 133, 97, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #9d8561, #9a9c78)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #514532",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(157, 133, 97, 0.6)",
+    },
+  },
+  deva: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(208, 163, 69, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(151, 115, 56, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(145, 180, 228, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #282c48, #977338, #5c9255)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(208, 163, 69, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(92, 146, 85, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #d0a345, #5c9255, #91b4e4, #d0a345, #977338)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(208, 163, 69, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(208, 163, 69, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(145, 180, 228, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(208, 163, 69, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(151, 115, 56, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #282c48, #977338, #5c9255)",
+      border: "min(0.25vw, 2px) solid #d0a345",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(208, 163, 69, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(208, 163, 69, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(92, 146, 85, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #d0a345, #5c9255, #91b4e4, #d0a345, #977338)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(208, 163, 69, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(208, 163, 69, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(92, 146, 85, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #282c48, #977338)",
+      color: "#cfbea6",
+      accentColor: "#d0a345",
+      border: "min(0.25vw, 2px) solid #d0a345",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #977338, #282c48)",
+    },
+    stat: {
+      background: "rgba(151, 115, 56, 0.8)",
+      border: "min(0.25vw, 2px) solid #d0a345",
+      color: "#91b4e4",
+      boxShadow: "0 0 min(1vw, 8px) rgba(208, 163, 69, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #d0a345, #5c9255)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #977338",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(208, 163, 69, 0.6)",
+    },
+  },
+  deva2: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(60, 220, 244, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(67, 89, 40, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(121, 229, 237, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3f6972, #435928, #6ca25f)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(60, 220, 244, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(108, 162, 95, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #3cdcf4, #6ca25f, #79e5ed, #3cdcf4, #435928)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(60, 220, 244, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(60, 220, 244, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(121, 229, 237, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(60, 220, 244, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(67, 89, 40, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #3f6972, #435928, #6ca25f)",
+      border: "min(0.25vw, 2px) solid #3cdcf4",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(60, 220, 244, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(60, 220, 244, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(108, 162, 95, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #3cdcf4, #6ca25f, #79e5ed, #3cdcf4, #435928)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(60, 220, 244, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(60, 220, 244, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(108, 162, 95, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #3f6972, #435928)",
+      color: "#9eafcb",
+      accentColor: "#3cdcf4",
+      border: "min(0.25vw, 2px) solid #3cdcf4",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #435928, #3f6972)",
+    },
+    stat: {
+      background: "rgba(67, 89, 40, 0.8)",
+      border: "min(0.25vw, 2px) solid #3cdcf4",
+      color: "#79e5ed",
+      boxShadow: "0 0 min(1vw, 8px) rgba(60, 220, 244, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #3cdcf4, #6ca25f)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #435928",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(60, 220, 244, 0.6)",
+    },
+  },
+  direWolf: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(172, 160, 73, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(71, 92, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(195, 180, 101, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #464a2d, #475c24, #828d51)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(172, 160, 73, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(130, 141, 81, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #aca049, #828d51, #c3b465, #aca049, #475c24)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(172, 160, 73, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(172, 160, 73, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(195, 180, 101, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(172, 160, 73, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(71, 92, 36, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #464a2d, #475c24, #828d51)",
+      border: "min(0.25vw, 2px) solid #aca049",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(172, 160, 73, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(172, 160, 73, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(130, 141, 81, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #aca049, #828d51, #c3b465, #aca049, #475c24)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(172, 160, 73, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(172, 160, 73, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(130, 141, 81, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #464a2d, #475c24)",
+      color: "#bfd5c6",
+      accentColor: "#aca049",
+      border: "min(0.25vw, 2px) solid #aca049",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #475c24, #464a2d)",
+    },
+    stat: {
+      background: "rgba(71, 92, 36, 0.8)",
+      border: "min(0.25vw, 2px) solid #aca049",
+      color: "#c3b465",
+      boxShadow: "0 0 min(1vw, 8px) rgba(172, 160, 73, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #aca049, #828d51)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #475c24",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(172, 160, 73, 0.6)",
+    },
+  },
+  direWolf2: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(60, 84, 126, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(36, 44, 76, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(165, 182, 212, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #293450, #242c4c, #576a9d)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(60, 84, 126, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(87, 106, 157, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #3c547e, #576a9d, #a5b6d4, #3c547e, #242c4c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(60, 84, 126, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(60, 84, 126, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(165, 182, 212, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(60, 84, 126, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(36, 44, 76, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #293450, #242c4c, #576a9d)",
+      border: "min(0.25vw, 2px) solid #3c547e",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(60, 84, 126, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(60, 84, 126, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(87, 106, 157, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #3c547e, #576a9d, #a5b6d4, #3c547e, #242c4c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(60, 84, 126, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(60, 84, 126, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(87, 106, 157, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #293450, #242c4c)",
+      color: "#90a7c6",
+      accentColor: "#3c547e",
+      border: "min(0.25vw, 2px) solid #3c547e",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #242c4c, #293450)",
+    },
+    stat: {
+      background: "rgba(36, 44, 76, 0.8)",
+      border: "min(0.25vw, 2px) solid #3c547e",
+      color: "#a5b6d4",
+      boxShadow: "0 0 min(1vw, 8px) rgba(60, 84, 126, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #3c547e, #576a9d)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #242c4c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(60, 84, 126, 0.6)",
+    },
+  },
+  doppelganger: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(121, 172, 82, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(65, 92, 44, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(185, 212, 165, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #486339, #415c2c, #946460)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(121, 172, 82, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(148, 100, 96, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #79ac52, #946460, #b9d4a5, #79ac52, #415c2c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(121, 172, 82, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(121, 172, 82, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(185, 212, 165, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(121, 172, 82, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(65, 92, 44, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #486339, #415c2c, #946460)",
+      border: "min(0.25vw, 2px) solid #79ac52",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(121, 172, 82, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(121, 172, 82, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(148, 100, 96, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #79ac52, #946460, #b9d4a5, #79ac52, #415c2c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(121, 172, 82, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(121, 172, 82, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(148, 100, 96, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #486339, #415c2c)",
+      color: "#afbcb2",
+      accentColor: "#79ac52",
+      border: "min(0.25vw, 2px) solid #79ac52",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #415c2c, #486339)",
+    },
+    stat: {
+      background: "rgba(65, 92, 44, 0.8)",
+      border: "min(0.25vw, 2px) solid #79ac52",
+      color: "#b9d4a5",
+      boxShadow: "0 0 min(1vw, 8px) rgba(121, 172, 82, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #79ac52, #946460)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #415c2c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(121, 172, 82, 0.6)",
+    },
+  },
+  druid2: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(63, 122, 165, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(28, 62, 92, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(83, 156, 212, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #39542c, #1c3e5c, #63b9a5)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(63, 122, 165, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(99, 185, 165, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #3f7aa5, #63b9a5, #539cd4, #3f7aa5, #1c3e5c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(63, 122, 165, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(63, 122, 165, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(83, 156, 212, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(63, 122, 165, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(28, 62, 92, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #39542c, #1c3e5c, #63b9a5)",
+      border: "min(0.25vw, 2px) solid #3f7aa5",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(63, 122, 165, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(63, 122, 165, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(99, 185, 165, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #3f7aa5, #63b9a5, #539cd4, #3f7aa5, #1c3e5c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(63, 122, 165, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(63, 122, 165, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(99, 185, 165, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #39542c, #1c3e5c)",
+      color: "#bdb89e",
+      accentColor: "#3f7aa5",
+      border: "min(0.25vw, 2px) solid #3f7aa5",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #1c3e5c, #39542c)",
+    },
+    stat: {
+      background: "rgba(28, 62, 92, 0.8)",
+      border: "min(0.25vw, 2px) solid #3f7aa5",
+      color: "#539cd4",
+      boxShadow: "0 0 min(1vw, 8px) rgba(63, 122, 165, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #3f7aa5, #63b9a5)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #1c3e5c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(63, 122, 165, 0.6)",
+    },
+  },
+  earthElemental: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(108, 117, 36, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(28, 88, 100, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(216, 223, 153, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #534532, #1c5864, #6b90a4)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(108, 117, 36, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(107, 144, 164, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #6c7524, #6b90a4, #d8df99, #6c7524, #1c5864)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(108, 117, 36, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(108, 117, 36, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(216, 223, 153, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(108, 117, 36, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(28, 88, 100, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #534532, #1c5864, #6b90a4)",
+      border: "min(0.25vw, 2px) solid #6c7524",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(108, 117, 36, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(108, 117, 36, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(107, 144, 164, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #6c7524, #6b90a4, #d8df99, #6c7524, #1c5864)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(108, 117, 36, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(108, 117, 36, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(107, 144, 164, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #534532, #1c5864)",
+      color: "#bcc0ad",
+      accentColor: "#6c7524",
+      border: "min(0.25vw, 2px) solid #6c7524",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #1c5864, #534532)",
+    },
+    stat: {
+      background: "rgba(28, 88, 100, 0.8)",
+      border: "min(0.25vw, 2px) solid #6c7524",
+      color: "#d8df99",
+      boxShadow: "0 0 min(1vw, 8px) rgba(108, 117, 36, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #6c7524, #6b90a4)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #1c5864",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(108, 117, 36, 0.6)",
+    },
+  },
+  efreeti: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(242, 137, 67, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(104, 68, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(245, 210, 135, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #6f4f3f, #684424, #ac744e)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(242, 137, 67, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(172, 116, 78, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #f28943, #ac744e, #f5d287, #f28943, #684424)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(242, 137, 67, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(242, 137, 67, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(245, 210, 135, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(242, 137, 67, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(104, 68, 36, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #6f4f3f, #684424, #ac744e)",
+      border: "min(0.25vw, 2px) solid #f28943",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(242, 137, 67, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(242, 137, 67, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(172, 116, 78, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #f28943, #ac744e, #f5d287, #f28943, #684424)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(242, 137, 67, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(242, 137, 67, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(172, 116, 78, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #6f4f3f, #684424)",
+      color: "#c8a88c",
+      accentColor: "#f28943",
+      border: "min(0.25vw, 2px) solid #f28943",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #684424, #6f4f3f)",
+    },
+    stat: {
+      background: "rgba(104, 68, 36, 0.8)",
+      border: "min(0.25vw, 2px) solid #f28943",
+      color: "#f5d287",
+      boxShadow: "0 0 min(1vw, 8px) rgba(242, 137, 67, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #f28943, #ac744e)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #684424",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(242, 137, 67, 0.6)",
+    },
+  },
+  elephant: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(61, 116, 193, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(28, 53, 88, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(154, 182, 222, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3c5132, #1c3558, #789d64)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(61, 116, 193, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(120, 157, 100, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #3d74c1, #789d64, #9ab6de, #3d74c1, #1c3558)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(61, 116, 193, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(61, 116, 193, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(154, 182, 222, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(61, 116, 193, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(28, 53, 88, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #3c5132, #1c3558, #789d64)",
+      border: "min(0.25vw, 2px) solid #3d74c1",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(61, 116, 193, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(61, 116, 193, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(120, 157, 100, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #3d74c1, #789d64, #9ab6de, #3d74c1, #1c3558)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(61, 116, 193, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(61, 116, 193, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(120, 157, 100, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #3c5132, #1c3558)",
+      color: "#d1c4b6",
+      accentColor: "#3d74c1",
+      border: "min(0.25vw, 2px) solid #3d74c1",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #1c3558, #3c5132)",
+    },
+    stat: {
+      background: "rgba(28, 53, 88, 0.8)",
+      border: "min(0.25vw, 2px) solid #3d74c1",
+      color: "#9ab6de",
+      boxShadow: "0 0 min(1vw, 8px) rgba(61, 116, 193, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #3d74c1, #789d64)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #1c3558",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(61, 116, 193, 0.6)",
+    },
+  },
+  ettercap: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(185, 97, 69, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(106, 56, 40, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(184, 221, 168, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #374c2c, #6a3828, #78af6b)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(185, 97, 69, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(120, 175, 107, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b96145, #78af6b, #b8dda8, #b96145, #6a3828)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(185, 97, 69, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(185, 97, 69, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(184, 221, 168, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(185, 97, 69, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(106, 56, 40, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #374c2c, #6a3828, #78af6b)",
+      border: "min(0.25vw, 2px) solid #b96145",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(185, 97, 69, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(185, 97, 69, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(120, 175, 107, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #b96145, #78af6b, #b8dda8, #b96145, #6a3828)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(185, 97, 69, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(185, 97, 69, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(120, 175, 107, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #374c2c, #6a3828)",
+      color: "#3f6e2a",
+      accentColor: "#b96145",
+      border: "min(0.25vw, 2px) solid #b96145",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #6a3828, #374c2c)",
+    },
+    stat: {
+      background: "rgba(106, 56, 40, 0.8)",
+      border: "min(0.25vw, 2px) solid #b96145",
+      color: "#b8dda8",
+      boxShadow: "0 0 min(1vw, 8px) rgba(185, 97, 69, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #b96145, #78af6b)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #6a3828",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(185, 97, 69, 0.6)",
+    },
+  },
+  fleshGolem: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(60, 108, 52, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(76, 108, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(172, 211, 165, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #415337, #4c6c24, #987f6c)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(60, 108, 52, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(152, 127, 108, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #3c6c34, #987f6c, #acd3a5, #3c6c34, #4c6c24)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(60, 108, 52, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(60, 108, 52, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(172, 211, 165, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(60, 108, 52, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(76, 108, 36, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #415337, #4c6c24, #987f6c)",
+      border: "min(0.25vw, 2px) solid #3c6c34",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(60, 108, 52, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(60, 108, 52, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(152, 127, 108, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #3c6c34, #987f6c, #acd3a5, #3c6c34, #4c6c24)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(60, 108, 52, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(60, 108, 52, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(152, 127, 108, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #415337, #4c6c24)",
+      color: "#9cbe84",
+      accentColor: "#3c6c34",
+      border: "min(0.25vw, 2px) solid #3c6c34",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #4c6c24, #415337)",
+    },
+    stat: {
+      background: "rgba(76, 108, 36, 0.8)",
+      border: "min(0.25vw, 2px) solid #3c6c34",
+      color: "#acd3a5",
+      boxShadow: "0 0 min(1vw, 8px) rgba(60, 108, 52, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #3c6c34, #987f6c)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #4c6c24",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(60, 108, 52, 0.6)",
+    },
+  },
+  flyingSword: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(131, 89, 60, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(104, 60, 44, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(213, 184, 164, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3a3b4c, #683c2c, #8b6655)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(131, 89, 60, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(139, 102, 85, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #83593c, #8b6655, #d5b8a4, #83593c, #683c2c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(131, 89, 60, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(131, 89, 60, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(213, 184, 164, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(131, 89, 60, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(104, 60, 44, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #3a3b4c, #683c2c, #8b6655)",
+      border: "min(0.25vw, 2px) solid #83593c",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(131, 89, 60, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(131, 89, 60, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(139, 102, 85, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #83593c, #8b6655, #d5b8a4, #83593c, #683c2c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(131, 89, 60, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(131, 89, 60, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(139, 102, 85, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #3a3b4c, #683c2c)",
+      color: "#c2b7af",
+      accentColor: "#83593c",
+      border: "min(0.25vw, 2px) solid #83593c",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #683c2c, #3a3b4c)",
+    },
+    stat: {
+      background: "rgba(104, 60, 44, 0.8)",
+      border: "min(0.25vw, 2px) solid #83593c",
+      color: "#d5b8a4",
+      boxShadow: "0 0 min(1vw, 8px) rgba(131, 89, 60, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #83593c, #8b6655)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #683c2c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(131, 89, 60, 0.6)",
+    },
+  },
+  giantElk: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(167, 194, 96, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(74, 88, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(191, 213, 130, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #415933, #4a5824, #6f8a82)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(167, 194, 96, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(111, 138, 130, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #a7c260, #6f8a82, #bfd582, #a7c260, #4a5824)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(167, 194, 96, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(167, 194, 96, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(191, 213, 130, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(167, 194, 96, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(74, 88, 36, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #415933, #4a5824, #6f8a82)",
+      border: "min(0.25vw, 2px) solid #a7c260",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(167, 194, 96, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(167, 194, 96, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(111, 138, 130, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #a7c260, #6f8a82, #bfd582, #a7c260, #4a5824)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(167, 194, 96, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(167, 194, 96, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(111, 138, 130, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #415933, #4a5824)",
+      color: "#a4c1c5",
+      accentColor: "#a7c260",
+      border: "min(0.25vw, 2px) solid #a7c260",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #4a5824, #415933)",
+    },
+    stat: {
+      background: "rgba(74, 88, 36, 0.8)",
+      border: "min(0.25vw, 2px) solid #a7c260",
+      color: "#bfd582",
+      boxShadow: "0 0 min(1vw, 8px) rgba(167, 194, 96, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #a7c260, #6f8a82)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #4a5824",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(167, 194, 96, 0.6)",
+    },
+  },
+  giantHyena: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(215, 162, 116, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(148, 92, 68, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(242, 219, 157, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #554a38, #945c44, #6b9454)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(215, 162, 116, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(107, 148, 84, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #d7a274, #6b9454, #f2db9d, #d7a274, #945c44)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(215, 162, 116, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(215, 162, 116, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(242, 219, 157, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(215, 162, 116, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(148, 92, 68, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #554a38, #945c44, #6b9454)",
+      border: "min(0.25vw, 2px) solid #d7a274",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(215, 162, 116, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(215, 162, 116, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(107, 148, 84, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #d7a274, #6b9454, #f2db9d, #d7a274, #945c44)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(215, 162, 116, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(215, 162, 116, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(107, 148, 84, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #554a38, #945c44)",
+      color: "#98bc81",
+      accentColor: "#d7a274",
+      border: "min(0.25vw, 2px) solid #d7a274",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #945c44, #554a38)",
+    },
+    stat: {
+      background: "rgba(148, 92, 68, 0.8)",
+      border: "min(0.25vw, 2px) solid #d7a274",
+      color: "#f2db9d",
+      boxShadow: "0 0 min(1vw, 8px) rgba(215, 162, 116, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #d7a274, #6b9454)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #945c44",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(215, 162, 116, 0.6)",
+    },
+  },
+  giantHyena2: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(94, 126, 160, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(49, 65, 83, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(171, 187, 205, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #323e4f, #314153, #586d8a)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(94, 126, 160, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(88, 109, 138, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #5e7ea0, #586d8a, #abbbcd, #5e7ea0, #314153)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(94, 126, 160, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(94, 126, 160, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(171, 187, 205, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(94, 126, 160, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(49, 65, 83, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #323e4f, #314153, #586d8a)",
+      border: "min(0.25vw, 2px) solid #5e7ea0",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(94, 126, 160, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(94, 126, 160, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(88, 109, 138, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #5e7ea0, #586d8a, #abbbcd, #5e7ea0, #314153)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(94, 126, 160, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(94, 126, 160, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(88, 109, 138, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #323e4f, #314153)",
+      color: "#c7d2de",
+      accentColor: "#5e7ea0",
+      border: "min(0.25vw, 2px) solid #5e7ea0",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #314153, #323e4f)",
+    },
+    stat: {
+      background: "rgba(49, 65, 83, 0.8)",
+      border: "min(0.25vw, 2px) solid #5e7ea0",
+      color: "#abbbcd",
+      boxShadow: "0 0 min(1vw, 8px) rgba(94, 126, 160, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #5e7ea0, #586d8a)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #314153",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(94, 126, 160, 0.6)",
+    },
+  },
+  giantRatDiseased: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(189, 167, 113, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(88, 49, 20, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(212, 198, 164, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #475a30, #583114, #90aa61)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(189, 167, 113, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(144, 170, 97, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #bda771, #90aa61, #d4c6a4, #bda771, #583114)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(189, 167, 113, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(189, 167, 113, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(212, 198, 164, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(189, 167, 113, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(88, 49, 20, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #475a30, #583114, #90aa61)",
+      border: "min(0.25vw, 2px) solid #bda771",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(189, 167, 113, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(189, 167, 113, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(144, 170, 97, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #bda771, #90aa61, #d4c6a4, #bda771, #583114)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(189, 167, 113, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(189, 167, 113, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(144, 170, 97, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #475a30, #583114)",
+      color: "#685830",
+      accentColor: "#bda771",
+      border: "min(0.25vw, 2px) solid #bda771",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #583114, #475a30)",
+    },
+    stat: {
+      background: "rgba(88, 49, 20, 0.8)",
+      border: "min(0.25vw, 2px) solid #bda771",
+      color: "#d4c6a4",
+      boxShadow: "0 0 min(1vw, 8px) rgba(189, 167, 113, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #bda771, #90aa61)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #583114",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(189, 167, 113, 0.6)",
+    },
+  },
+  giantScorpion: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(188, 140, 92, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(116, 73, 44, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(252, 244, 210, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4e3927, #74492c, #987052)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(188, 140, 92, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(152, 112, 82, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #bc8c5c, #987052, #fcf4d2, #bc8c5c, #74492c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(188, 140, 92, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(188, 140, 92, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(252, 244, 210, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(188, 140, 92, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(116, 73, 44, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #4e3927, #74492c, #987052)",
+      border: "min(0.25vw, 2px) solid #bc8c5c",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(188, 140, 92, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(188, 140, 92, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(152, 112, 82, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #bc8c5c, #987052, #fcf4d2, #bc8c5c, #74492c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(188, 140, 92, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(188, 140, 92, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(152, 112, 82, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #4e3927, #74492c)",
+      color: "#d8d3b7",
+      accentColor: "#bc8c5c",
+      border: "min(0.25vw, 2px) solid #bc8c5c",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #74492c, #4e3927)",
+    },
+    stat: {
+      background: "rgba(116, 73, 44, 0.8)",
+      border: "min(0.25vw, 2px) solid #bc8c5c",
+      color: "#fcf4d2",
+      boxShadow: "0 0 min(1vw, 8px) rgba(188, 140, 92, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #bc8c5c, #987052)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #74492c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(188, 140, 92, 0.6)",
+    },
+  },
+  giantSpider: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(129, 178, 76, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(61, 84, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(189, 215, 162, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #374054, #3d5424, #747d8e)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(129, 178, 76, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(116, 125, 142, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #81b24c, #747d8e, #bdd7a2, #81b24c, #3d5424)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(129, 178, 76, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(129, 178, 76, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(189, 215, 162, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(129, 178, 76, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(61, 84, 36, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #374054, #3d5424, #747d8e)",
+      border: "min(0.25vw, 2px) solid #81b24c",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(129, 178, 76, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(129, 178, 76, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(116, 125, 142, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #81b24c, #747d8e, #bdd7a2, #81b24c, #3d5424)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(129, 178, 76, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(129, 178, 76, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(116, 125, 142, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #374054, #3d5424)",
+      color: "#c7cedb",
+      accentColor: "#81b24c",
+      border: "min(0.25vw, 2px) solid #81b24c",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #3d5424, #374054)",
+    },
+    stat: {
+      background: "rgba(61, 84, 36, 0.8)",
+      border: "min(0.25vw, 2px) solid #81b24c",
+      color: "#bdd7a2",
+      boxShadow: "0 0 min(1vw, 8px) rgba(129, 178, 76, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #81b24c, #747d8e)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #3d5424",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(129, 178, 76, 0.6)",
+    },
+  },
+  giantSpider2: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(69, 185, 111, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(36, 96, 58, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(172, 224, 191, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4b6132, #24603a, #6b8444)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(69, 185, 111, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(107, 132, 68, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #45b96f, #6b8444, #ace0bf, #45b96f, #24603a)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(69, 185, 111, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(69, 185, 111, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(172, 224, 191, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(69, 185, 111, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(36, 96, 58, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #4b6132, #24603a, #6b8444)",
+      border: "min(0.25vw, 2px) solid #45b96f",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(69, 185, 111, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(69, 185, 111, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(107, 132, 68, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #45b96f, #6b8444, #ace0bf, #45b96f, #24603a)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(69, 185, 111, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(69, 185, 111, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(107, 132, 68, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #4b6132, #24603a)",
+      color: "#8ac4ab",
+      accentColor: "#45b96f",
+      border: "min(0.25vw, 2px) solid #45b96f",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #24603a, #4b6132)",
+    },
+    stat: {
+      background: "rgba(36, 96, 58, 0.8)",
+      border: "min(0.25vw, 2px) solid #45b96f",
+      color: "#ace0bf",
+      boxShadow: "0 0 min(1vw, 8px) rgba(69, 185, 111, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #45b96f, #6b8444)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #24603a",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(69, 185, 111, 0.6)",
+    },
+  },
+  giantVulture: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(68, 148, 81, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(126, 92, 60, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(197, 219, 177, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4d5535, #7e5c3c, #5ea061)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(68, 148, 81, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(94, 160, 97, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #449451, #5ea061, #c5dbb1, #449451, #7e5c3c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(68, 148, 81, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(68, 148, 81, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(197, 219, 177, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(68, 148, 81, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(126, 92, 60, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #4d5535, #7e5c3c, #5ea061)",
+      border: "min(0.25vw, 2px) solid #449451",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(68, 148, 81, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(68, 148, 81, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(94, 160, 97, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #449451, #5ea061, #c5dbb1, #449451, #7e5c3c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(68, 148, 81, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(68, 148, 81, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(94, 160, 97, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #4d5535, #7e5c3c)",
+      color: "#93bb87",
+      accentColor: "#449451",
+      border: "min(0.25vw, 2px) solid #449451",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #7e5c3c, #4d5535)",
+    },
+    stat: {
+      background: "rgba(126, 92, 60, 0.8)",
+      border: "min(0.25vw, 2px) solid #449451",
+      color: "#c5dbb1",
+      boxShadow: "0 0 min(1vw, 8px) rgba(68, 148, 81, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #449451, #5ea061)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #7e5c3c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(68, 148, 81, 0.6)",
+    },
+  },
+  guardianNaga: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(105, 188, 196, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(26, 101, 119, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(159, 212, 217, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #324954, #1a6577, #5d99ad)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(105, 188, 196, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(93, 153, 173, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #69bcc4, #5d99ad, #9fd4d9, #69bcc4, #1a6577)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(105, 188, 196, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(105, 188, 196, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(159, 212, 217, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(105, 188, 196, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(26, 101, 119, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #324954, #1a6577, #5d99ad)",
+      border: "min(0.25vw, 2px) solid #69bcc4",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(105, 188, 196, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(105, 188, 196, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(93, 153, 173, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #69bcc4, #5d99ad, #9fd4d9, #69bcc4, #1a6577)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(105, 188, 196, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(105, 188, 196, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(93, 153, 173, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #324954, #1a6577)",
+      color: "#b5c2b6",
+      accentColor: "#69bcc4",
+      border: "min(0.25vw, 2px) solid #69bcc4",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #1a6577, #324954)",
+    },
+    stat: {
+      background: "rgba(26, 101, 119, 0.8)",
+      border: "min(0.25vw, 2px) solid #69bcc4",
+      color: "#9fd4d9",
+      boxShadow: "0 0 min(1vw, 8px) rgba(105, 188, 196, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #69bcc4, #5d99ad)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #1a6577",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(105, 188, 196, 0.6)",
+    },
+  },
+  gynosphinx: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(185, 136, 92, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(86, 95, 44, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(244, 195, 131, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #414f32, #565f2c, #997855)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(185, 136, 92, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(153, 120, 85, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b9885c, #997855, #f4c383, #b9885c, #565f2c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(185, 136, 92, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(185, 136, 92, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(244, 195, 131, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(185, 136, 92, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(86, 95, 44, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #414f32, #565f2c, #997855)",
+      border: "min(0.25vw, 2px) solid #b9885c",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(185, 136, 92, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(185, 136, 92, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(153, 120, 85, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #b9885c, #997855, #f4c383, #b9885c, #565f2c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(185, 136, 92, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(185, 136, 92, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(153, 120, 85, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #414f32, #565f2c)",
+      color: "#aac1d4",
+      accentColor: "#b9885c",
+      border: "min(0.25vw, 2px) solid #b9885c",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #565f2c, #414f32)",
+    },
+    stat: {
+      background: "rgba(86, 95, 44, 0.8)",
+      border: "min(0.25vw, 2px) solid #b9885c",
+      color: "#f4c383",
+      boxShadow: "0 0 min(1vw, 8px) rgba(185, 136, 92, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #b9885c, #997855)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #565f2c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(185, 136, 92, 0.6)",
+    },
+  },
+  harpy: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(177, 152, 79, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(120, 77, 17, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(220, 243, 245, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3c4c2d, #784d11, #7c8f50)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(177, 152, 79, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(124, 143, 80, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b1984f, #7c8f50, #dcf3f5, #b1984f, #784d11)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(177, 152, 79, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(177, 152, 79, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(220, 243, 245, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(177, 152, 79, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(120, 77, 17, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #3c4c2d, #784d11, #7c8f50)",
+      border: "min(0.25vw, 2px) solid #b1984f",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(177, 152, 79, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(177, 152, 79, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(124, 143, 80, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #b1984f, #7c8f50, #dcf3f5, #b1984f, #784d11)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(177, 152, 79, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(177, 152, 79, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(124, 143, 80, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #3c4c2d, #784d11)",
+      color: "#d8d8b3",
+      accentColor: "#b1984f",
+      border: "min(0.25vw, 2px) solid #b1984f",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #784d11, #3c4c2d)",
+    },
+    stat: {
+      background: "rgba(120, 77, 17, 0.8)",
+      border: "min(0.25vw, 2px) solid #b1984f",
+      color: "#dcf3f5",
+      boxShadow: "0 0 min(1vw, 8px) rgba(177, 152, 79, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #b1984f, #7c8f50)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #784d11",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(177, 152, 79, 0.6)",
+    },
+  },
+  hyena: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(94, 151, 160, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(49, 78, 83, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(171, 201, 205, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #40542c, #314e53, #63949a)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(94, 151, 160, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(99, 148, 154, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #5e97a0, #63949a, #abc9cd, #5e97a0, #314e53)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(94, 151, 160, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(94, 151, 160, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(171, 201, 205, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(94, 151, 160, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(49, 78, 83, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #40542c, #314e53, #63949a)",
+      border: "min(0.25vw, 2px) solid #5e97a0",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(94, 151, 160, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(94, 151, 160, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(99, 148, 154, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #5e97a0, #63949a, #abc9cd, #5e97a0, #314e53)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(94, 151, 160, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(94, 151, 160, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(99, 148, 154, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #40542c, #314e53)",
+      color: "#86b1b8",
+      accentColor: "#5e97a0",
+      border: "min(0.25vw, 2px) solid #5e97a0",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #314e53, #40542c)",
+    },
+    stat: {
+      background: "rgba(49, 78, 83, 0.8)",
+      border: "min(0.25vw, 2px) solid #5e97a0",
+      color: "#abc9cd",
+      boxShadow: "0 0 min(1vw, 8px) rgba(94, 151, 160, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #5e97a0, #63949a)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #314e53",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(94, 151, 160, 0.6)",
+    },
+  },
+  imp: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(245, 73, 50, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(108, 28, 28, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(246, 211, 126, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5a3a38, #6c1c1c, #538c4b)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(245, 73, 50, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(83, 140, 75, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #f54932, #538c4b, #f6d37e, #f54932, #6c1c1c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(245, 73, 50, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(245, 73, 50, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(246, 211, 126, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(245, 73, 50, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(108, 28, 28, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #5a3a38, #6c1c1c, #538c4b)",
+      border: "min(0.25vw, 2px) solid #f54932",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(245, 73, 50, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(245, 73, 50, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(83, 140, 75, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #f54932, #538c4b, #f6d37e, #f54932, #6c1c1c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(245, 73, 50, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(245, 73, 50, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(83, 140, 75, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #5a3a38, #6c1c1c)",
+      color: "#c1ac94",
+      accentColor: "#f54932",
+      border: "min(0.25vw, 2px) solid #f54932",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #6c1c1c, #5a3a38)",
+    },
+    stat: {
+      background: "rgba(108, 28, 28, 0.8)",
+      border: "min(0.25vw, 2px) solid #f54932",
+      color: "#f6d37e",
+      boxShadow: "0 0 min(1vw, 8px) rgba(245, 73, 50, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #f54932, #538c4b)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #6c1c1c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(245, 73, 50, 0.6)",
+    },
+  },
+  lemure: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(200, 138, 140, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(90, 42, 43, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(212, 164, 166, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #47573c, #5a2a2b, #8b695e)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(200, 138, 140, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(139, 105, 94, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #c88a8c, #8b695e, #d4a4a6, #c88a8c, #5a2a2b)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(200, 138, 140, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(200, 138, 140, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(212, 164, 166, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(200, 138, 140, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(90, 42, 43, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #47573c, #5a2a2b, #8b695e)",
+      border: "min(0.25vw, 2px) solid #c88a8c",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(200, 138, 140, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(200, 138, 140, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(139, 105, 94, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #c88a8c, #8b695e, #d4a4a6, #c88a8c, #5a2a2b)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(200, 138, 140, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(200, 138, 140, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(139, 105, 94, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #47573c, #5a2a2b)",
+      color: "#a1bbbd",
+      accentColor: "#c88a8c",
+      border: "min(0.25vw, 2px) solid #c88a8c",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #5a2a2b, #47573c)",
+    },
+    stat: {
+      background: "rgba(90, 42, 43, 0.8)",
+      border: "min(0.25vw, 2px) solid #c88a8c",
+      color: "#d4a4a6",
+      boxShadow: "0 0 min(1vw, 8px) rgba(200, 138, 140, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #c88a8c, #8b695e)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #5a2a2b",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(200, 138, 140, 0.6)",
+    },
+  },
+  lion: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(180, 188, 92, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(93, 88, 44, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(180, 212, 220, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #646138, #5d582c, #928e4d)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(180, 188, 92, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(146, 142, 77, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b4bc5c, #928e4d, #b4d4dc, #b4bc5c, #5d582c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(180, 188, 92, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(180, 188, 92, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(180, 212, 220, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(180, 188, 92, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(93, 88, 44, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #646138, #5d582c, #928e4d)",
+      border: "min(0.25vw, 2px) solid #b4bc5c",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(180, 188, 92, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(180, 188, 92, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(146, 142, 77, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #b4bc5c, #928e4d, #b4d4dc, #b4bc5c, #5d582c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(180, 188, 92, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(180, 188, 92, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(146, 142, 77, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #646138, #5d582c)",
+      color: "#b3d4d2",
+      accentColor: "#b4bc5c",
+      border: "min(0.25vw, 2px) solid #b4bc5c",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #5d582c, #646138)",
+    },
+    stat: {
+      background: "rgba(93, 88, 44, 0.8)",
+      border: "min(0.25vw, 2px) solid #b4bc5c",
+      color: "#b4d4dc",
+      boxShadow: "0 0 min(1vw, 8px) rgba(180, 188, 92, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #b4bc5c, #928e4d)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #5d582c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(180, 188, 92, 0.6)",
+    },
+  },
+  lizard: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(63, 150, 191, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(11, 26, 33, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(155, 200, 221, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3c542e, #0b1a21, #6c9192)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(63, 150, 191, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(108, 145, 146, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #3f96bf, #6c9192, #9bc8dd, #3f96bf, #0b1a21)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(63, 150, 191, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(63, 150, 191, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(155, 200, 221, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(63, 150, 191, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(11, 26, 33, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #3c542e, #0b1a21, #6c9192)",
+      border: "min(0.25vw, 2px) solid #3f96bf",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(63, 150, 191, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(63, 150, 191, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(108, 145, 146, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #3f96bf, #6c9192, #9bc8dd, #3f96bf, #0b1a21)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(63, 150, 191, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(63, 150, 191, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(108, 145, 146, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #3c542e, #0b1a21)",
+      color: "#cdd5be",
+      accentColor: "#3f96bf",
+      border: "min(0.25vw, 2px) solid #3f96bf",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #0b1a21, #3c542e)",
+    },
+    stat: {
+      background: "rgba(11, 26, 33, 0.8)",
+      border: "min(0.25vw, 2px) solid #3f96bf",
+      color: "#9bc8dd",
+      boxShadow: "0 0 min(1vw, 8px) rgba(63, 150, 191, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #3f96bf, #6c9192)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #0b1a21",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(63, 150, 191, 0.6)",
+    },
+  },
+  marilith: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(224, 75, 51, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(28, 78, 116, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(122, 196, 208, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #334358, #1c4e74, #6891b0)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(224, 75, 51, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(104, 145, 176, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #e04b33, #6891b0, #7ac4d0, #e04b33, #1c4e74)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(224, 75, 51, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(224, 75, 51, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(122, 196, 208, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(224, 75, 51, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(28, 78, 116, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #334358, #1c4e74, #6891b0)",
+      border: "min(0.25vw, 2px) solid #e04b33",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(224, 75, 51, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(224, 75, 51, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(104, 145, 176, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #e04b33, #6891b0, #7ac4d0, #e04b33, #1c4e74)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(224, 75, 51, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(224, 75, 51, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(104, 145, 176, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #334358, #1c4e74)",
+      color: "#b9cbd2",
+      accentColor: "#e04b33",
+      border: "min(0.25vw, 2px) solid #e04b33",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #1c4e74, #334358)",
+    },
+    stat: {
+      background: "rgba(28, 78, 116, 0.8)",
+      border: "min(0.25vw, 2px) solid #e04b33",
+      color: "#7ac4d0",
+      boxShadow: "0 0 min(1vw, 8px) rgba(224, 75, 51, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #e04b33, #6891b0)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #1c4e74",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(224, 75, 51, 0.6)",
+    },
+  },
+  merfolk: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(79, 163, 184, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(35, 79, 102, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(114, 201, 210, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #335d61, #234f66, #6c934e)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(79, 163, 184, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(108, 147, 78, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #4fa3b8, #6c934e, #72c9d2, #4fa3b8, #234f66)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(79, 163, 184, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(79, 163, 184, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(114, 201, 210, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(79, 163, 184, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(35, 79, 102, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #335d61, #234f66, #6c934e)",
+      border: "min(0.25vw, 2px) solid #4fa3b8",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(79, 163, 184, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(79, 163, 184, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(108, 147, 78, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #4fa3b8, #6c934e, #72c9d2, #4fa3b8, #234f66)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(79, 163, 184, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(79, 163, 184, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(108, 147, 78, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #335d61, #234f66)",
+      color: "#bbccb5",
+      accentColor: "#4fa3b8",
+      border: "min(0.25vw, 2px) solid #4fa3b8",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #234f66, #335d61)",
+    },
+    stat: {
+      background: "rgba(35, 79, 102, 0.8)",
+      border: "min(0.25vw, 2px) solid #4fa3b8",
+      color: "#72c9d2",
+      boxShadow: "0 0 min(1vw, 8px) rgba(79, 163, 184, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #4fa3b8, #6c934e)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #234f66",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(79, 163, 184, 0.6)",
+    },
+  },
+  nightHag: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(100, 139, 154, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(52, 72, 80, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(174, 194, 202, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #343b4c, #344850, #617894)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(100, 139, 154, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(97, 120, 148, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #648b9a, #617894, #aec2ca, #648b9a, #344850)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(100, 139, 154, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(100, 139, 154, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(174, 194, 202, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(100, 139, 154, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(52, 72, 80, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #343b4c, #344850, #617894)",
+      border: "min(0.25vw, 2px) solid #648b9a",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(100, 139, 154, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(100, 139, 154, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(97, 120, 148, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #648b9a, #617894, #aec2ca, #648b9a, #344850)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(100, 139, 154, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(100, 139, 154, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(97, 120, 148, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #343b4c, #344850)",
+      color: "#a3bac3",
+      accentColor: "#648b9a",
+      border: "min(0.25vw, 2px) solid #648b9a",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #344850, #343b4c)",
+    },
+    stat: {
+      background: "rgba(52, 72, 80, 0.8)",
+      border: "min(0.25vw, 2px) solid #648b9a",
+      color: "#aec2ca",
+      boxShadow: "0 0 min(1vw, 8px) rgba(100, 139, 154, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #648b9a, #617894)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #344850",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(100, 139, 154, 0.6)",
+    },
+  },
+  noble: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(185, 145, 72, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(54, 5, 17, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(243, 196, 164, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #506539, #360511, #776c92)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(185, 145, 72, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(119, 108, 146, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b99148, #776c92, #f3c4a4, #b99148, #360511)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(185, 145, 72, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(185, 145, 72, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(243, 196, 164, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(185, 145, 72, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(54, 5, 17, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #506539, #360511, #776c92)",
+      border: "min(0.25vw, 2px) solid #b99148",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(185, 145, 72, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(185, 145, 72, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(119, 108, 146, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #b99148, #776c92, #f3c4a4, #b99148, #360511)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(185, 145, 72, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(185, 145, 72, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(119, 108, 146, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #506539, #360511)",
+      color: "#c8abb0",
+      accentColor: "#b99148",
+      border: "min(0.25vw, 2px) solid #b99148",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #360511, #506539)",
+    },
+    stat: {
+      background: "rgba(54, 5, 17, 0.8)",
+      border: "min(0.25vw, 2px) solid #b99148",
+      color: "#f3c4a4",
+      boxShadow: "0 0 min(1vw, 8px) rgba(185, 145, 72, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #b99148, #776c92)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #360511",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(185, 145, 72, 0.6)",
+    },
+  },
+  ochreJelly: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(186, 139, 53, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(123, 69, 12, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(231, 211, 125, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #485040, #7b450c, #887048)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(186, 139, 53, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(136, 112, 72, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #ba8b35, #887048, #e7d37d, #ba8b35, #7b450c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(186, 139, 53, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(186, 139, 53, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(231, 211, 125, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(186, 139, 53, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(123, 69, 12, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #485040, #7b450c, #887048)",
+      border: "min(0.25vw, 2px) solid #ba8b35",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(186, 139, 53, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(186, 139, 53, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(136, 112, 72, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #ba8b35, #887048, #e7d37d, #ba8b35, #7b450c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(186, 139, 53, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(186, 139, 53, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(136, 112, 72, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #485040, #7b450c)",
+      color: "#9ca483",
+      accentColor: "#ba8b35",
+      border: "min(0.25vw, 2px) solid #ba8b35",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #7b450c, #485040)",
+    },
+    stat: {
+      background: "rgba(123, 69, 12, 0.8)",
+      border: "min(0.25vw, 2px) solid #ba8b35",
+      color: "#e7d37d",
+      boxShadow: "0 0 min(1vw, 8px) rgba(186, 139, 53, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #ba8b35, #887048)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #7b450c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(186, 139, 53, 0.6)",
+    },
+  },
+  octopus: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(72, 197, 217, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(17, 74, 106, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(127, 220, 228, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #2b4c29, #114a6a, #5c8d53)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(72, 197, 217, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(92, 141, 83, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #48c5d9, #5c8d53, #7fdce4, #48c5d9, #114a6a)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(72, 197, 217, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(72, 197, 217, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(127, 220, 228, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(72, 197, 217, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(17, 74, 106, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #2b4c29, #114a6a, #5c8d53)",
+      border: "min(0.25vw, 2px) solid #48c5d9",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(72, 197, 217, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(72, 197, 217, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(92, 141, 83, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #48c5d9, #5c8d53, #7fdce4, #48c5d9, #114a6a)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(72, 197, 217, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(72, 197, 217, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(92, 141, 83, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #2b4c29, #114a6a)",
+      color: "#b4dbd4",
+      accentColor: "#48c5d9",
+      border: "min(0.25vw, 2px) solid #48c5d9",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #114a6a, #2b4c29)",
+    },
+    stat: {
+      background: "rgba(17, 74, 106, 0.8)",
+      border: "min(0.25vw, 2px) solid #48c5d9",
+      color: "#7fdce4",
+      boxShadow: "0 0 min(1vw, 8px) rgba(72, 197, 217, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #48c5d9, #5c8d53)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #114a6a",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(72, 197, 217, 0.6)",
+    },
+  },
+  oni: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(96, 130, 181, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(36, 60, 92, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(211, 166, 152, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #2c3c60, #243c5c, #5374a1)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(96, 130, 181, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(83, 116, 161, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #6082b5, #5374a1, #d3a698, #6082b5, #243c5c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(96, 130, 181, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(96, 130, 181, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(211, 166, 152, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(96, 130, 181, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(36, 60, 92, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #2c3c60, #243c5c, #5374a1)",
+      border: "min(0.25vw, 2px) solid #6082b5",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(96, 130, 181, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(96, 130, 181, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(83, 116, 161, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #6082b5, #5374a1, #d3a698, #6082b5, #243c5c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(96, 130, 181, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(96, 130, 181, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(83, 116, 161, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #2c3c60, #243c5c)",
+      color: "#8a95c2",
+      accentColor: "#6082b5",
+      border: "min(0.25vw, 2px) solid #6082b5",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #243c5c, #2c3c60)",
+    },
+    stat: {
+      background: "rgba(36, 60, 92, 0.8)",
+      border: "min(0.25vw, 2px) solid #6082b5",
+      color: "#d3a698",
+      boxShadow: "0 0 min(1vw, 8px) rgba(96, 130, 181, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #6082b5, #5374a1)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #243c5c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(96, 130, 181, 0.6)",
+    },
+  },
+  pitFiend: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(205, 86, 55, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(134, 20, 8, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(248, 213, 87, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #602e2b, #861408, #78ab57)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(205, 86, 55, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(120, 171, 87, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #cd5637, #78ab57, #f8d557, #cd5637, #861408)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(205, 86, 55, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(205, 86, 55, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(248, 213, 87, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(205, 86, 55, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(134, 20, 8, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #602e2b, #861408, #78ab57)",
+      border: "min(0.25vw, 2px) solid #cd5637",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(205, 86, 55, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(205, 86, 55, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(120, 171, 87, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #cd5637, #78ab57, #f8d557, #cd5637, #861408)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(205, 86, 55, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(205, 86, 55, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(120, 171, 87, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #602e2b, #861408)",
+      color: "#c7a58c",
+      accentColor: "#cd5637",
+      border: "min(0.25vw, 2px) solid #cd5637",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #861408, #602e2b)",
+    },
+    stat: {
+      background: "rgba(134, 20, 8, 0.8)",
+      border: "min(0.25vw, 2px) solid #cd5637",
+      color: "#f8d557",
+      boxShadow: "0 0 min(1vw, 8px) rgba(205, 86, 55, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #cd5637, #78ab57)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #861408",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(205, 86, 55, 0.6)",
+    },
+  },
+  rakshasa: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(200, 143, 85, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(121, 61, 34, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(191, 237, 235, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #3f5a51, #793d22, #61989e)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(200, 143, 85, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(97, 152, 158, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #c88f55, #61989e, #bfedeb, #c88f55, #793d22)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(200, 143, 85, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(200, 143, 85, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(191, 237, 235, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(200, 143, 85, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(121, 61, 34, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #3f5a51, #793d22, #61989e)",
+      border: "min(0.25vw, 2px) solid #c88f55",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(200, 143, 85, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(200, 143, 85, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(97, 152, 158, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #c88f55, #61989e, #bfedeb, #c88f55, #793d22)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(200, 143, 85, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(200, 143, 85, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(97, 152, 158, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #3f5a51, #793d22)",
+      color: "#79b5af",
+      accentColor: "#c88f55",
+      border: "min(0.25vw, 2px) solid #c88f55",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #793d22, #3f5a51)",
+    },
+    stat: {
+      background: "rgba(121, 61, 34, 0.8)",
+      border: "min(0.25vw, 2px) solid #c88f55",
+      color: "#bfedeb",
+      boxShadow: "0 0 min(1vw, 8px) rgba(200, 143, 85, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #c88f55, #61989e)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #793d22",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(200, 143, 85, 0.6)",
+    },
+  },
+  raven: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(108, 118, 55, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(80, 85, 36, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(151, 203, 212, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4e5b2f, #505524, #749ea4)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(108, 118, 55, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(116, 158, 164, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #6c7637, #749ea4, #97cbd4, #6c7637, #505524)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(108, 118, 55, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(108, 118, 55, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(151, 203, 212, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(108, 118, 55, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(80, 85, 36, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #4e5b2f, #505524, #749ea4)",
+      border: "min(0.25vw, 2px) solid #6c7637",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(108, 118, 55, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(108, 118, 55, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(116, 158, 164, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #6c7637, #749ea4, #97cbd4, #6c7637, #505524)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(108, 118, 55, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(108, 118, 55, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(116, 158, 164, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #4e5b2f, #505524)",
+      color: "#b2d7d7",
+      accentColor: "#6c7637",
+      border: "min(0.25vw, 2px) solid #6c7637",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #505524, #4e5b2f)",
+    },
+    stat: {
+      background: "rgba(80, 85, 36, 0.8)",
+      border: "min(0.25vw, 2px) solid #6c7637",
+      color: "#97cbd4",
+      boxShadow: "0 0 min(1vw, 8px) rgba(108, 118, 55, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #6c7637, #749ea4)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #505524",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(108, 118, 55, 0.6)",
+    },
+  },
+  saberToothedTiger: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(180, 190, 78, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(82, 102, 20, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(213, 219, 158, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #584a34, #526614, #6c8795)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(180, 190, 78, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(108, 135, 149, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b4be4e, #6c8795, #d5db9e, #b4be4e, #526614)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(180, 190, 78, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(180, 190, 78, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(213, 219, 158, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(180, 190, 78, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(82, 102, 20, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #584a34, #526614, #6c8795)",
+      border: "min(0.25vw, 2px) solid #b4be4e",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(180, 190, 78, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(180, 190, 78, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(108, 135, 149, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #b4be4e, #6c8795, #d5db9e, #b4be4e, #526614)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(180, 190, 78, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(180, 190, 78, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(108, 135, 149, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #584a34, #526614)",
+      color: "#bfcac1",
+      accentColor: "#b4be4e",
+      border: "min(0.25vw, 2px) solid #b4be4e",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #526614, #584a34)",
+    },
+    stat: {
+      background: "rgba(82, 102, 20, 0.8)",
+      border: "min(0.25vw, 2px) solid #b4be4e",
+      color: "#d5db9e",
+      boxShadow: "0 0 min(1vw, 8px) rgba(180, 190, 78, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #b4be4e, #6c8795)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #526614",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(180, 190, 78, 0.6)",
+    },
+  },
+  salamander: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(201, 154, 109, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(44, 57, 101, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(219, 188, 158, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #343c6b, #2c3965, #a56c5a)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(201, 154, 109, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(165, 108, 90, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #c99a6d, #a56c5a, #dbbc9e, #c99a6d, #2c3965)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(201, 154, 109, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(201, 154, 109, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(219, 188, 158, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(201, 154, 109, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(44, 57, 101, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #343c6b, #2c3965, #a56c5a)",
+      border: "min(0.25vw, 2px) solid #c99a6d",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(201, 154, 109, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(201, 154, 109, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(165, 108, 90, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #c99a6d, #a56c5a, #dbbc9e, #c99a6d, #2c3965)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(201, 154, 109, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(201, 154, 109, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(165, 108, 90, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #343c6b, #2c3965)",
+      color: "#9ca884",
+      accentColor: "#c99a6d",
+      border: "min(0.25vw, 2px) solid #c99a6d",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #2c3965, #343c6b)",
+    },
+    stat: {
+      background: "rgba(44, 57, 101, 0.8)",
+      border: "min(0.25vw, 2px) solid #c99a6d",
+      color: "#dbbc9e",
+      boxShadow: "0 0 min(1vw, 8px) rgba(201, 154, 109, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #c99a6d, #a56c5a)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #2c3965",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(201, 154, 109, 0.6)",
+    },
+  },
+  seaHag: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(98, 156, 146, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(51, 81, 75, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(173, 203, 198, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #394e38, #33514b, #69958d)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(98, 156, 146, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(105, 149, 141, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #629c92, #69958d, #adcbc6, #629c92, #33514b)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(98, 156, 146, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(98, 156, 146, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(173, 203, 198, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(98, 156, 146, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(51, 81, 75, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #394e38, #33514b, #69958d)",
+      border: "min(0.25vw, 2px) solid #629c92",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(98, 156, 146, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(98, 156, 146, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(105, 149, 141, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #629c92, #69958d, #adcbc6, #629c92, #33514b)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(98, 156, 146, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(98, 156, 146, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(105, 149, 141, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #394e38, #33514b)",
+      color: "#c4dad6",
+      accentColor: "#629c92",
+      border: "min(0.25vw, 2px) solid #629c92",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #33514b, #394e38)",
+    },
+    stat: {
+      background: "rgba(51, 81, 75, 0.8)",
+      border: "min(0.25vw, 2px) solid #629c92",
+      color: "#adcbc6",
+      boxShadow: "0 0 min(1vw, 8px) rgba(98, 156, 146, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #629c92, #69958d)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #33514b",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(98, 156, 146, 0.6)",
+    },
+  },
+  steamMephit: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(206, 113, 48, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(114, 63, 27, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(229, 181, 147, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4c422f, #723f1b, #bfab8a)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(206, 113, 48, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(191, 171, 138, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #ce7130, #bfab8a, #e5b593, #ce7130, #723f1b)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(206, 113, 48, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(206, 113, 48, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(229, 181, 147, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(206, 113, 48, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(114, 63, 27, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #4c422f, #723f1b, #bfab8a)",
+      border: "min(0.25vw, 2px) solid #ce7130",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(206, 113, 48, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(206, 113, 48, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(191, 171, 138, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #ce7130, #bfab8a, #e5b593, #ce7130, #723f1b)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(206, 113, 48, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(206, 113, 48, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(191, 171, 138, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #4c422f, #723f1b)",
+      color: "#84a78f",
+      accentColor: "#ce7130",
+      border: "min(0.25vw, 2px) solid #ce7130",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #723f1b, #4c422f)",
+    },
+    stat: {
+      background: "rgba(114, 63, 27, 0.8)",
+      border: "min(0.25vw, 2px) solid #ce7130",
+      color: "#e5b593",
+      boxShadow: "0 0 min(1vw, 8px) rgba(206, 113, 48, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #ce7130, #bfab8a)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #723f1b",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(206, 113, 48, 0.6)",
+    },
+  },
+  succubusIncubus: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(191, 147, 106, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(127, 64, 28, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(119, 169, 195, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #303f54, #7f401c, #5a85a8)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(191, 147, 106, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(90, 133, 168, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #bf936a, #5a85a8, #77a9c3, #bf936a, #7f401c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(191, 147, 106, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(191, 147, 106, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(119, 169, 195, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(191, 147, 106, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(127, 64, 28, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #303f54, #7f401c, #5a85a8)",
+      border: "min(0.25vw, 2px) solid #bf936a",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(191, 147, 106, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(191, 147, 106, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(90, 133, 168, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #bf936a, #5a85a8, #77a9c3, #bf936a, #7f401c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(191, 147, 106, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(191, 147, 106, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(90, 133, 168, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #303f54, #7f401c)",
+      color: "#2e556a",
+      accentColor: "#bf936a",
+      border: "min(0.25vw, 2px) solid #bf936a",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #7f401c, #303f54)",
+    },
+    stat: {
+      background: "rgba(127, 64, 28, 0.8)",
+      border: "min(0.25vw, 2px) solid #bf936a",
+      color: "#77a9c3",
+      boxShadow: "0 0 min(1vw, 8px) rgba(191, 147, 106, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #bf936a, #5a85a8)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #7f401c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(191, 147, 106, 0.6)",
+    },
+  },
+  treant: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(169, 177, 64, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(110, 124, 28, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(234, 235, 213, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #525328, #6e7c1c, #a98352)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(169, 177, 64, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(169, 131, 82, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #a9b140, #a98352, #eaebd5, #a9b140, #6e7c1c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(169, 177, 64, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(169, 177, 64, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(234, 235, 213, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(169, 177, 64, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(110, 124, 28, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #525328, #6e7c1c, #a98352)",
+      border: "min(0.25vw, 2px) solid #a9b140",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(169, 177, 64, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(169, 177, 64, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(169, 131, 82, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #a9b140, #a98352, #eaebd5, #a9b140, #6e7c1c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(169, 177, 64, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(169, 177, 64, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(169, 131, 82, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #525328, #6e7c1c)",
+      color: "#bcc99d",
+      accentColor: "#a9b140",
+      border: "min(0.25vw, 2px) solid #a9b140",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #6e7c1c, #525328)",
+    },
+    stat: {
+      background: "rgba(110, 124, 28, 0.8)",
+      border: "min(0.25vw, 2px) solid #a9b140",
+      color: "#eaebd5",
+      boxShadow: "0 0 min(1vw, 8px) rgba(169, 177, 64, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #a9b140, #a98352)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #6e7c1c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(169, 177, 64, 0.6)",
+    },
+  },
+  vampireVampireForm: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(31, 159, 223, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(4, 20, 28, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(138, 205, 238, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #2f4653, #04141c, #5e8f9d)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(31, 159, 223, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(94, 143, 157, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #1f9fdf, #5e8f9d, #8acdee, #1f9fdf, #04141c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(31, 159, 223, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(31, 159, 223, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(138, 205, 238, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(31, 159, 223, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(4, 20, 28, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #2f4653, #04141c, #5e8f9d)",
+      border: "min(0.25vw, 2px) solid #1f9fdf",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(31, 159, 223, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(31, 159, 223, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(94, 143, 157, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #1f9fdf, #5e8f9d, #8acdee, #1f9fdf, #04141c)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(31, 159, 223, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(31, 159, 223, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(94, 143, 157, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #2f4653, #04141c)",
+      color: "#6ca3ad",
+      accentColor: "#1f9fdf",
+      border: "min(0.25vw, 2px) solid #1f9fdf",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #04141c, #2f4653)",
+    },
+    stat: {
+      background: "rgba(4, 20, 28, 0.8)",
+      border: "min(0.25vw, 2px) solid #1f9fdf",
+      color: "#8acdee",
+      boxShadow: "0 0 min(1vw, 8px) rgba(31, 159, 223, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #1f9fdf, #5e8f9d)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #04141c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(31, 159, 223, 0.6)",
+    },
+  },
+  vrock: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(224, 71, 30, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(88, 28, 12, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(156, 156, 220, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #5e332b, #581c0c, #7b87b1)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(224, 71, 30, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(123, 135, 177, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #e0471e, #7b87b1, #9c9cdc, #e0471e, #581c0c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(224, 71, 30, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(224, 71, 30, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(156, 156, 220, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(224, 71, 30, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(88, 28, 12, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #5e332b, #581c0c, #7b87b1)",
+      border: "min(0.25vw, 2px) solid #e0471e",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(224, 71, 30, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(224, 71, 30, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(123, 135, 177, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #e0471e, #7b87b1, #9c9cdc, #e0471e, #581c0c)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(224, 71, 30, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(224, 71, 30, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(123, 135, 177, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #5e332b, #581c0c)",
+      color: "#bdb1d4",
+      accentColor: "#e0471e",
+      border: "min(0.25vw, 2px) solid #e0471e",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #581c0c, #5e332b)",
+    },
+    stat: {
+      background: "rgba(88, 28, 12, 0.8)",
+      border: "min(0.25vw, 2px) solid #e0471e",
+      color: "#9c9cdc",
+      boxShadow: "0 0 min(1vw, 8px) rgba(224, 71, 30, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #e0471e, #7b87b1)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #581c0c",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(224, 71, 30, 0.6)",
+    },
+  },
+  warhorse: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(206, 128, 76, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(69, 38, 20, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(178, 216, 229, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #494238, #452614, #698492)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(206, 128, 76, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(105, 132, 146, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #ce804c, #698492, #b2d8e5, #ce804c, #452614)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(206, 128, 76, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(206, 128, 76, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(178, 216, 229, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(206, 128, 76, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(69, 38, 20, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #494238, #452614, #698492)",
+      border: "min(0.25vw, 2px) solid #ce804c",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(206, 128, 76, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(206, 128, 76, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(105, 132, 146, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #ce804c, #698492, #b2d8e5, #ce804c, #452614)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(206, 128, 76, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(206, 128, 76, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(105, 132, 146, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #494238, #452614)",
+      color: "#96bac7",
+      accentColor: "#ce804c",
+      border: "min(0.25vw, 2px) solid #ce804c",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #452614, #494238)",
+    },
+    stat: {
+      background: "rgba(69, 38, 20, 0.8)",
+      border: "min(0.25vw, 2px) solid #ce804c",
+      color: "#b2d8e5",
+      boxShadow: "0 0 min(1vw, 8px) rgba(206, 128, 76, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #ce804c, #698492)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #452614",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(206, 128, 76, 0.6)",
+    },
+  },
+  warhorseSkeleton: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(156, 230, 112, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(54, 112, 19, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(172, 196, 100, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #4d402d, #367013, #779f8e)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(156, 230, 112, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(119, 159, 142, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #9ce670, #779f8e, #acc464, #9ce670, #367013)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(156, 230, 112, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(156, 230, 112, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(172, 196, 100, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(156, 230, 112, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(54, 112, 19, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #4d402d, #367013, #779f8e)",
+      border: "min(0.25vw, 2px) solid #9ce670",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(156, 230, 112, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(156, 230, 112, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(119, 159, 142, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #9ce670, #779f8e, #acc464, #9ce670, #367013)",
+      color: "#1a1a1a",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(156, 230, 112, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(156, 230, 112, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(119, 159, 142, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #4d402d, #367013)",
+      color: "#c4d1ab",
+      accentColor: "#9ce670",
+      border: "min(0.25vw, 2px) solid #9ce670",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #367013, #4d402d)",
+    },
+    stat: {
+      background: "rgba(54, 112, 19, 0.8)",
+      border: "min(0.25vw, 2px) solid #9ce670",
+      color: "#acc464",
+      boxShadow: "0 0 min(1vw, 8px) rgba(156, 230, 112, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #9ce670, #779f8e)",
+      color: "#1a1a1a",
+      border: "min(0.25vw, 2px) solid #367013",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(156, 230, 112, 0.6)",
+    },
+  },
+  waterElemental: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(68, 121, 160, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(51, 95, 131, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(112, 186, 221, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #466d82, #335f83, #5a90b2)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(68, 121, 160, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(90, 144, 178, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #4479a0, #5a90b2, #70badd, #4479a0, #335f83)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(68, 121, 160, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(68, 121, 160, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(112, 186, 221, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(68, 121, 160, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(51, 95, 131, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #466d82, #335f83, #5a90b2)",
+      border: "min(0.25vw, 2px) solid #4479a0",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(68, 121, 160, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(68, 121, 160, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(90, 144, 178, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #4479a0, #5a90b2, #70badd, #4479a0, #335f83)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(68, 121, 160, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(68, 121, 160, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(90, 144, 178, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #466d82, #335f83)",
+      color: "#a7c2d0",
+      accentColor: "#4479a0",
+      border: "min(0.25vw, 2px) solid #4479a0",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #335f83, #466d82)",
+    },
+    stat: {
+      background: "rgba(51, 95, 131, 0.8)",
+      border: "min(0.25vw, 2px) solid #4479a0",
+      color: "#70badd",
+      boxShadow: "0 0 min(1vw, 8px) rgba(68, 121, 160, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #4479a0, #5a90b2)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #335f83",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(68, 121, 160, 0.6)",
+    },
+  },
+  weretigerTigerForm: {
+    background:
+      "radial-gradient(circle at 20% 30%, rgba(180, 104, 42, 0.4) 0%, transparent 50%),\n         radial-gradient(circle at 80% 70%, rgba(120, 72, 39, 0.5) 0%, transparent 40%),\n         radial-gradient(circle at 60% 10%, rgba(229, 184, 147, 0.3) 0%, transparent 45%),\n         linear-gradient(145deg, #325249, #784827, #5991a4)",
+    header: {
+      background:
+        "radial-gradient(circle at 25% 50%, rgba(180, 104, 42, 0.4) 0%, transparent 60%),\n           radial-gradient(circle at 75% 50%, rgba(89, 145, 164, 0.4) 0%, transparent 60%),\n           linear-gradient(135deg, #b4682a, #5991a4, #e5b893, #b4682a, #784827)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(180, 104, 42, 0.6)",
+      boxShadow:
+        "0 min(0.5vw, 4px) min(1.8vw, 15px) rgba(180, 104, 42, 0.4), inset 0 min(0.25vw, 2px) 0 rgba(229, 184, 147, 0.3)",
+    },
+    imageArea: {
+      background:
+        "radial-gradient(circle at 30% 20%, rgba(180, 104, 42, 0.4) 0%, transparent 45%),\n           radial-gradient(circle at 70% 80%, rgba(120, 72, 39, 0.5) 0%, transparent 50%),\n           linear-gradient(145deg, #325249, #784827, #5991a4)",
+      border: "min(0.25vw, 2px) solid #b4682a",
+      boxShadow:
+        "inset 0 min(0.5vw, 4px) min(1vw, 8px) rgba(0, 0, 0, 0.6), 0 0 min(2vw, 15px) rgba(180, 104, 42, 0.3)",
+    },
+    typeSection: {
+      background:
+        "radial-gradient(circle at 30% 60%, rgba(180, 104, 42, 0.4) 0%, transparent 55%),\n           radial-gradient(circle at 70% 60%, rgba(89, 145, 164, 0.4) 0%, transparent 55%),\n           linear-gradient(135deg, #b4682a, #5991a4, #e5b893, #b4682a, #784827)",
+      color: "#ffffff",
+      textShadow:
+        "2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(180, 104, 42, 0.6)",
+    },
+    flavorText: {
+      background:
+        "radial-gradient(circle at 40% 30%, rgba(180, 104, 42, 0.4) 0%, transparent 50%),\n           radial-gradient(circle at 60% 70%, rgba(89, 145, 164, 0.4) 0%, transparent 50%),\n           linear-gradient(145deg, #325249, #784827)",
+      color: "#c6ccc4",
+      accentColor: "#b4682a",
+      border: "min(0.25vw, 2px) solid #b4682a",
+    },
+    bottomSection: {
+      background: "linear-gradient(135deg, #784827, #325249)",
+    },
+    stat: {
+      background: "rgba(120, 72, 39, 0.8)",
+      border: "min(0.25vw, 2px) solid #b4682a",
+      color: "#e5b893",
+      boxShadow: "0 0 min(1vw, 8px) rgba(180, 104, 42, 0.5)",
+    },
+    rarity: {
+      background: "linear-gradient(135deg, #b4682a, #5991a4)",
+      color: "#ffffff",
+      border: "min(0.25vw, 2px) solid #784827",
+      boxShadow: "0 0 min(1.2vw, 10px) rgba(180, 104, 42, 0.6)",
+    },
+  },
   tropicalParadise: {
     background:
       "radial-gradient(circle at 20% 30%, rgba(255, 165, 0, 0.4) 0%, transparent 50%),\n               radial-gradient(circle at 80% 70%, rgba(64, 224, 208, 0.5) 0%, transparent 40%),\n               radial-gradient(circle at 60% 10%, rgba(135, 206, 250, 0.4) 0%, transparent 45%),\n               linear-gradient(145deg, #fff8e1, #ffe4b5, #f0e68c, #ffd89b)",
