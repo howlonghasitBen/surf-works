@@ -43,6 +43,18 @@ const CardCarousel = ({ isPaused = false }) => {
 
     const timeoutId = setTimeout(() => {
       scrollPosRef.current = isMobile ? wrapper.scrollLeft : wrapper.scrollTop;
+
+      // Prevent position jump by wrapping around if past midpoint
+      const halfScroll = isMobile ? wrapper.scrollWidth / 2 : wrapper.scrollHeight / 2;
+      if (scrollPosRef.current >= halfScroll) {
+        scrollPosRef.current = scrollPosRef.current - halfScroll;
+        if (isMobile) {
+          wrapper.scrollLeft = scrollPosRef.current;
+        } else {
+          wrapper.scrollTop = scrollPosRef.current;
+        }
+      }
+
       animationId = requestAnimationFrame(autoScroll);
     }, 1000);
 
